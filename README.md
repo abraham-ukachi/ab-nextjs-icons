@@ -23,16 +23,16 @@
 
 
 <p align="center">
-    <a href="https://ab-elements.vercel.app/docs/template" target="_blank"><b>Checkout abElements &rarr;</b></a>
+    <a href="https://ab-elements.vercel.app/docs/icons" target="_blank"><b>Checkout abElements &rarr;</b></a>
 </p>
 
 
-# `ab-nextjs-template`
+# `ab-nextjs-icons`
 
 > IMPORTANT: This is a work in progress and subject to major changes until version 1.0.
 
 
-✏️ This is a lightweight collection of React template created by [Abraham Ukachi](https://github.com/abraham-ukachi), and optimized for [Next.js](https://nextjs.org/docs) applications 😎. 
+⭐️ This is a lightweight collection of icons for abElements created by [Abraham Ukachi](https://github.com/abraham-ukachi), and optimized for [Next.js](https://nextjs.org/docs) applications 😎. 
 
 
 
@@ -43,38 +43,28 @@
 #### npm
 
 ```bash
-npm i ab-nextjs-template 
+npm i ab-nextjs-icons 
 ```
 
 #### pnpm
 
 ```bash
-pnpm install ab-nextjs-template 
+pnpm install ab-nextjs-icons 
 ```
 
 ---
 
 
-## [Template]
+## Icons
 
-A list of all the supported **template** and their current status:
+A list of all the supported **icons** and their current status:
 
 | No. | Name | Status |
 |:----|:-----|:-------|
-| 1 | *`?`* | Pending |
-| 2 | *`?`* | Pending |
-| 3 | *`?`* | Pending |
+| 1 | *`Material Icons`* | Pending |
+| 2 | *`Ant Design Icons`* | Pending |
 
-Or
-
-| No. | Name | File | Status |
-|:----|:-----|:-----|:-------|
-| 1 | *`?`* | **-** | Pending |
-| 2 | *`?`* | **-** | Pending |
-| 3 | *`?`* | **-** | Pending |
-
-
-> NOTE:
+> NOTE: See google's [material icons/symbols](https://fonts.google.com/icons) for more details.
 
 
 
@@ -97,7 +87,7 @@ You can check out [the abElements GitHub repository](https://github.com/abraham-
 
 ## License
 
-This **`ab-nextjs-template`** project is [MIT Licensed](./LICENSE) ;)
+This **`ab-nextjs-icons`** project is [MIT Licensed](./LICENSE) ;)
 
 
 

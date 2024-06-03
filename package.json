@@ -1,19 +1,19 @@
 {
-  "name": "ab-nextjs-template",
+  "name": "ab-nextjs-icons",
   "version": "0.1.0",
-  "description": "✏️  A lightweight collection of React template created by Abraham Ukachi, and optimized for Next.js applications 😎.",
+  "description": "⭐️ A lightweight collection of icons for abElements created by Abraham Ukachi, and optimized for Next.js applications 😎.",
   "main": "index.ts",
   "types": "types/index.d.ts",
 
-  "homepage": "https://github.com/abraham-ukachi/ab-nextjs-template",
+  "homepage": "https://github.com/abraham-ukachi/ab-nextjs-icons",
 
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abraham-ukachi/ab-nextjs-template.git"
+    "url": "git+https://github.com/abraham-ukachi/ab-nextjs-icons.git"
   },
 
   "bugs": {
-    "url": "https://github.com/abraham-ukachi/ab-nextjs-template/issues"
+    "url": "https://github.com/abraham-ukachi/ab-nextjs-icons/issues"
   },
 
   "scripts": {
@@ -23,10 +23,11 @@
   "keywords": [
     "react",
     "nextjs",
-    "template",
+    "icons",
     "abraham",
     "ukachi",
-    "ab-nextjs-template"
+    "ab-nextjs-icons",
+    "ab-elements"
   ],
 
   "author": {
