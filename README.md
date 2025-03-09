@@ -59,10 +59,11 @@ pnpm install ab-nextjs-icons
 
 A list of all the supported **icons** and their current status:
 
-| No. | Name | Status |
-|:----|:-----|:-------|
-| 1 | *`Material Icons`* | Pending |
-| 2 | *`Ant Design Icons`* | Pending |
+| No. | Name | File | Status |
+|:----|:-----|:-----|:-------|
+| 1 | *`Material Icons`* | **`css/material-icons.css`** | [Done](./css/material-icons.css) |
+| 2 | *`Ant Design Icons`* | **`css/ant-design-icons.css`** | Pending |
+| 3 | *`Logos`* | **`css/logos.css`** | Pending |
 
 > NOTE: See google's [material icons/symbols](https://fonts.google.com/icons) for more details.
 
