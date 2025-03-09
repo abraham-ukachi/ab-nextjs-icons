@@ -4,22 +4,17 @@
   "description": "⭐️ A lightweight collection of icons for abElements created by Abraham Ukachi, and optimized for Next.js applications 😎.",
   "main": "index.ts",
   "types": "types/index.d.ts",
-
   "homepage": "https://github.com/abraham-ukachi/ab-nextjs-icons",
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/abraham-ukachi/ab-nextjs-icons.git"
   },
-
   "bugs": {
     "url": "https://github.com/abraham-ukachi/ab-nextjs-icons/issues"
   },
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-
   "keywords": [
     "react",
     "nextjs",
@@ -29,12 +24,13 @@
     "ab-nextjs-icons",
     "ab-elements"
   ],
-
   "author": {
     "name": "Abraham Ukachi",
     "url": "https://github.com/abraham-ukachi",
     "email": "abraham.ukachi@laplateforme.io"
   },
-
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "material-symbols": "^0.29.0"
+  }
 }
