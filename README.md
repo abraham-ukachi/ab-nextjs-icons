@@ -55,6 +55,15 @@ pnpm install ab-nextjs-icons
 ---
 
 
+## Usage
+
+#### ts
+```ts
+import { AbElementsLogo } from "ab-nextjs-icons/logos"
+ 
+```
+
+
 ## Icons
 
 A list of all the supported **icons** and their current status:
@@ -63,7 +72,17 @@ A list of all the supported **icons** and their current status:
 |:----|:-----|:-----|:-------|
 | 1 | *`Material Icons`* | **`css/material-icons.css`** | [Done](./css/material-icons.css) |
 | 2 | *`Ant Design Icons`* | **`css/ant-design-icons.css`** | Pending |
-| 3 | *`Logos`* | **`css/logos.css`** | Pending |
+| 3 | *`AbElementsLogo`* | **`logos/ab-elements-logo.svg`** | *In progress* |
+| 4 | *`AbLogoDark`* | **`logos/ab-logo-dark.svg`** | Pending |
+| 5 | *`AbLogoLight`* | **`logos/ab-logo-light.svg`** | Pending |
+| 6 | *`AbLogo`* | **`logos/ab-logo.svg`** | Pending |
+| 7 | *`AbrahamUkachiLogo`* | **`logos/abraham-ukachi-logo.svg`** | Pending |
+| 8 | *`GithubLogo`* | **`logos/github-logo.svg`** | Pending |
+| 9 | *`MePic`* | **`pics/me.svg`** | Pending |
+| 10 | *`MePicNobg`* | **`pics/me-nobg.svg`** | Pending |
+| 11 | *`NextLogo`* | **`logos/next-logo.svg`** | Pending |
+| 12 | *`VercelLogo`* | **`logos/vercel-logo.svg`** | Pending |
+| 13 | *`Launchers`* | **`launchers/`** | Pending |
 
 > NOTE: See google's [material icons/symbols](https://fonts.google.com/icons) for more details.
 
