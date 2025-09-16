@@ -2,8 +2,9 @@
   "name": "ab-nextjs-icons",
   "version": "0.1.1",
   "description": "⭐️ A lightweight collection of icons for abElements created by Abraham Ukachi, and optimized for Next.js applications 😎.",
-  "main": "index.ts",
-  "types": "types/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "homepage": "https://github.com/abraham-ukachi/ab-nextjs-icons",
   "repository": {
     "type": "git",
@@ -13,7 +14,15 @@
     "url": "https://github.com/abraham-ukachi/ab-nextjs-icons/issues"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup --clean",
+    "dev": "tsup --watch",
+    "lint": "eslint . --ext .ts,.tsx,.js,.cjs,.mjs",
+    "lint:fix": "eslint . --ext .ts,.tsx,.js,.cjs,.mjs --fix",
+    "format": "prettier --write .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:file": "vitest run",
+    "test:name": "vitest run -t"
   },
   "keywords": [
     "react",
@@ -30,7 +39,27 @@
     "email": "abraham.ukachi@laplateforme.io"
   },
   "license": "MIT",
+  "files": [
+    "dist",
+    "css",
+    "material-icons",
+    "logos",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
   "dependencies": {
     "material-symbols": "^0.29.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.3",
+    "tsup": "^8.0.2",
+    "typescript": "^5.5.4",
+    "vitest": "^1.6.0"
   }
 }
