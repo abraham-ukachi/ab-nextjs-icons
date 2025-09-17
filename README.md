@@ -70,21 +70,57 @@ A list of all the supported **icons** and their current status:
 
 | No. | Name | File | Status |
 |:----|:-----|:-----|:-------|
-| 1 | *`Material Icons`* | **`css/material-icons.css`** | [Done](./css/material-icons.css) |
-| 2 | *`Ant Design Icons`* | **`css/ant-design-icons.css`** | Pending |
-| 3 | *`AbElementsLogo`* | **`logos/ab-elements-logo.svg`** | [Done](/.logos/ab-nextjs-icons) |
-| 4 | *`AbLogoDark`* | **`logos/ab-logo-dark.svg`** | *In progress* |
-| 5 | *`AbLogoLight`* | **`logos/ab-logo-light.svg`** | *In progress* |
-| 6 | *`AbLogo`* | **`logos/ab-logo.svg`** | *In progress* |
-| 7 | *`AbrahamUkachiLogo`* | **`logos/abraham-ukachi-logo.svg`** | *In progress* |
-| 8 | *`GithubLogo`* | **`logos/github-logo.svg`** | *In progress* |
-| 9 | *`MePic`* | **`pics/me.svg`** | *In progress* |
-| 10 | *`MePicNobg`* | **`pics/me-nobg.svg`** | *In progress* |
-| 11 | *`NextLogo`* | **`logos/next-logo.svg`** | *In progress* |
-| 12 | *`VercelLogo`* | **`logos/vercel-logo.svg`** | *In progress* |
-| 13 | *`Launchers`* | **`launchers/`** | Pending |
+| 1 | *`Material Icons`* | **`material-icons/index.css`** | [Done](./material-icons/index.css) |
+| 2 | *`Ant Design Icons`* | **`ant-design-icons/index.css`** | Pending |
 
 > NOTE: See google's [material icons/symbols](https://fonts.google.com/icons) for more details.
+
+
+
+## Logos 
+
+A list of all the supported **logos** and their current status:
+
+| No. | Name | File | Status |
+|:----|:-----|:-----|:-------|
+| 1 | *`AbElementsLogo`* | **`logos/ab-elements-logo.svg`** | [Done](./logos/ab-elements-logo.svg) |
+| 2 | *`AbLogoDark`* | **`logos/ab-logo-dark.svg`** | [Done](./logos/ab-logo-dark.svg) |
+| 3 | *`AbLogoLight`* | **`logos/ab-logo-light.svg`** | [Done](./logos/ab-logo-light.svg) |
+| 4 | *`AbLogo`* | **`logos/ab-logo.svg`** | [Done](./logos/ab-logo.svg) |
+| 5 | *`AbrahamUkachiLogo`* | **`logos/abraham-ukachi-logo.svg`** | [Done](./logos/abraham-ukachi-logo.svg) |
+| 6 | *`GithubLogo`* | **`logos/github-logo.svg`** | [Done](./logos/github-logo.svg) |
+| 7 | *`NextLogo`* | **`logos/next-logo.svg`** | [Done](./logos/next-logo.svg) |
+| 8 | *`VercelLogo`* | **`logos/vercel-logo.svg`** | [Done](./logos/vercel-logo.svg) |
+
+> NOTE:
+
+
+
+## Pics 
+
+A list of all the supported **pics** and their current status:
+
+| No. | Name | File | Status |
+|:----|:-----|:-----|:-------|
+| 1 | *`MePic`* | **`pics/me.svg`** | *In progress* |
+| 2 | *`MePicNobg`* | **`pics/me-nobg.svg`** | *In progress* |
+
+> NOTE:
+
+
+
+
+## Launchers 
+
+A list of all the supported **launchers** and their current status:
+
+| No. | Name | File | Status |
+|:----|:-----|:-----|:-------|
+| 1 | *`AbContainedLauncher`* | **`launchers/ab-contained-launcher.svg`** | Pending |
+
+> NOTE:
+
+
 
 
 
