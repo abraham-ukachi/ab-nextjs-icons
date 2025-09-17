@@ -38,3 +38,14 @@
 
 
 
+export { AbElementsLogo } from "./ab-elements-logo.svg";
+export { AbLogoDark } from "./ab-logo-dark.svg";
+export { AbLogoLight } from "./ab-logo-light.svg";
+export { AbLogo } from "./ab-logo.svg";
+
+export { AbrahamUkachiLogo } from "./abraham-ukachi-logo.svg";
+
+export { GithubLogo } from "./github-logo.svg";
+export { NextLogo } from "./next-logo.svg";
+export { VercelLogo } from "./vercel-logo.svg";
+
