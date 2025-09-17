@@ -38,14 +38,29 @@
 
 
 
-export { AbElementsLogo } from "./ab-elements-logo.svg";
-export { AbLogoDark } from "./ab-logo-dark.svg";
-export { AbLogoLight } from "./ab-logo-light.svg";
-export { AbLogo } from "./ab-logo.svg";
+import AbElementsLogo from "./ab-elements-logo.svg";
+import AbLogoDark from "./ab-logo-dark.svg";
+import AbLogoLight from "./ab-logo-light.svg";
+import AbLogo from "./ab-logo.svg";
 
-export { AbrahamUkachiLogo } from "./abraham-ukachi-logo.svg";
+import AbrahamUkachiLogo from "./abraham-ukachi-logo.svg";
 
-export { GithubLogo } from "./github-logo.svg";
-export { NextLogo } from "./next-logo.svg";
-export { VercelLogo } from "./vercel-logo.svg";
+import GithubLogo from "./github-logo.svg";
+import NextLogo from "./next-logo.svg";
+import VercelLogo from "./vercel-logo.svg";
 
+
+
+export {
+  AbElementsLogo,
+  AbLogoDark,
+  AbLogoLight,
+  AbLogo,
+
+  AbrahamUkachiLogo,
+  
+  GithubLogo,
+  NextLogo,
+  VercelLogo
+  
+}
