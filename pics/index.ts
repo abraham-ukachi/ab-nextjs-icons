@@ -1,4 +1,3 @@
-import MePic from './me.svg';
-import MePicNobg from './me-nobg.svg';
-
-export { MePic, MePicNobg };
+/** MePic assets — JPEG likenesses from ab-nextjs-app/public */
+export const MePic = './me.jpg';
+export const MePicNobg = './me-nobg.jpg';

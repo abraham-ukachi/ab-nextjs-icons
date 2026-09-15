@@ -102,8 +102,8 @@ A list of all the supported **pics** and their current status:
 
 | No. | Name | File | Status |
 |:----|:-----|:-----|:-------|
-| 1 | *`MePic`* | **`pics/me.svg`** | [Done](./pics/me.svg) |
-| 2 | *`MePicNobg`* | **`pics/me-nobg.svg`** | [Done](./pics/me-nobg.svg) |
+| 1 | *`MePic`* | **`pics/me.jpg`** | [Done](./pics/me.jpg) |
+| 2 | *`MePicNobg`* | **`pics/me-nobg.jpg`** | [Done](./pics/me-nobg.jpg) |
 
 > NOTE:
 

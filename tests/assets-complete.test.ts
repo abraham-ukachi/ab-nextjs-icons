@@ -13,8 +13,8 @@ describe('finished icon asset sets', () => {
   });
 
   it('ships MePic and MePicNobg', () => {
-    expect(existsSync(join(root, 'pics/me.svg'))).toBe(true);
-    expect(existsSync(join(root, 'pics/me-nobg.svg'))).toBe(true);
+    expect(existsSync(join(root, 'pics/me.jpg'))).toBe(true);
+    expect(existsSync(join(root, 'pics/me-nobg.jpg'))).toBe(true);
   });
 
   it('ships AbContainedLauncher', () => {
