@@ -1,6 +1,4 @@
 {
-  "id": "ant-design-icons",
-  "source": "@ant-design/icons-svg@4.6.0 inline-svg",
   "outlined": [
     "account-book",
     "aim",

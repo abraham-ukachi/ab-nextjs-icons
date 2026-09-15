@@ -71,14 +71,14 @@ A list of all the supported **icons** and their current status:
 | No. | Name | File | Status |
 |:----|:-----|:-----|:-------|
 | 1 | *`Material Icons`* | **`material-icons/index.css`** | [Done](./material-icons/index.css) |
-| 2 | *`Ant Design Icons`* | **`ant-design-icons/index.css`** | [Done](./ant-design-icons/index.css) |
-
-> NOTE: Full catalog from `@ant-design/icons-svg` (outlined + filled). Prefer public `<img src="/ant-design-icons/outlined/home.svg">` in Next.
-| 3 | *`AbIcons`* | **`ab-icons/index.css`** | [Done](./ab-icons/index.css) |
+| 2 | *`Ant Design Icons`* | **`ant-design-icons/index.css`** | [Done](./ant-design-icons/index.css)* |
+| 3 | *`AbIcons`* (Material) | **`ab-icons/index.css`** | [Done](./ab-icons/index.css) |
 
 > NOTE: See google's [material icons/symbols](https://fonts.google.com/icons) for more details.
-
-> NOTE: Ant Design + AbIcons (`abicons/`, Material snake_case) support **filled** and **outlined** variants for the demo state toggle. The older kebab SVG set remains under `ab-icons/` for reference.
+>
+> \* Ant Design Icons ships **full** filled + outlined catalogs from `@ant-design/icons-svg` (`ant-design-icons/outlined|filled`, `index.css` + `catalog.css`). TwoTone omitted.
+>
+> AbIcons (Material) uses Material snake_case names (`home`, `arrow_back`, …) with **original AbIcons geometry** (not Google Material path data). See [`ab-icons/README.md`](./ab-icons/README.md).
 
 
 
@@ -91,9 +91,9 @@ A list of all the supported **logos** and their current status:
 | 1 | *`AbElementsLogo`* | **`logos/ab-elements-logo.svg`** | [Done](./logos/ab-elements-logo.svg) |
 | 2 | *`AbElementsLogoDark`* | **`logos/ab-elements-logo-dark.svg`** | [Done](./logos/ab-elements-logo-dark.svg) |
 | 3 | *`AbElementsLogoLight`* | **`logos/ab-elements-logo-light.svg`** | [Done](./logos/ab-elements-logo-light.svg) |
-| 4 | *`AbLogo`* | **`logos/ab-logo.svg`** | [Done](./logos/ab-logo.svg) |
-| 5 | *`AbLogoDark`* | **`logos/ab-logo-dark.svg`** | [Done](./logos/ab-logo-dark.svg) |
-| 6 | *`AbLogoLight`* | **`logos/ab-logo-light.svg`** | [Done](./logos/ab-logo-light.svg) |
+| 4 | *`AbLogoDark`* | **`logos/ab-logo-dark.svg`** | [Done](./logos/ab-logo-dark.svg) |
+| 5 | *`AbLogoLight`* | **`logos/ab-logo-light.svg`** | [Done](./logos/ab-logo-light.svg) |
+| 6 | *`AbLogo`* | **`logos/ab-logo.svg`** | [Done](./logos/ab-logo.svg) |
 | 7 | *`AbrahamUkachiLogo`* | **`logos/abraham-ukachi-logo.svg`** | [Done](./logos/abraham-ukachi-logo.svg) |
 | 8 | *`AbrahamUkachiLogoDark`* | **`logos/abraham-ukachi-logo-dark.svg`** | [Done](./logos/abraham-ukachi-logo-dark.svg) |
 | 9 | *`AbrahamUkachiLogoLight`* | **`logos/abraham-ukachi-logo-light.svg`** | [Done](./logos/abraham-ukachi-logo-light.svg) |
@@ -107,7 +107,7 @@ A list of all the supported **logos** and their current status:
 | 17 | *`VercelLogoDark`* | **`logos/vercel-logo-dark.svg`** | [Done](./logos/vercel-logo-dark.svg) |
 | 18 | *`VercelLogoLight`* | **`logos/vercel-logo-light.svg`** | [Done](./logos/vercel-logo-light.svg) |
 
-> NOTE: Default/original logo fills use brand copper **`#a67c52`** (same as `AbLogo`). Use `*Dark` / `*Light` variants for themed surfaces.
+> NOTE:
 
 
 
@@ -120,7 +120,7 @@ A list of all the supported **pics** and their current status:
 | 1 | *`MePic`* | **`pics/me.jpg`** | [Done](./pics/me.jpg) |
 | 2 | *`MePicNobg`* | **`pics/me-nobg.jpg`** | [Done](./pics/me-nobg.jpg) |
 
-> NOTE:
+> NOTE: Sourced from `ab-nextjs-app/public` (`me.jpg`; `me-nobg` was PNG-only upstream — packaged as `me-nobg.jpg`).
 
 
 
