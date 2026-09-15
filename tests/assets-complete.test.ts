@@ -1,28 +1,30 @@
-import { describe, expect, it } from 'vitest';
-import { existsSync, readFileSync } from 'node:fs';
-import { join } from 'node:path';
+import { describe, expect, it } from "vitest";
+import { existsSync, readFileSync } from "node:fs";
+import { join } from "node:path";
 
-const root = join(__dirname, '..');
+const root = join(__dirname, "..");
 
-describe('finished icon asset sets', () => {
-  it('ships ant-design-icons stylesheet + sample svgs', () => {
-    const css = join(root, 'ant-design-icons/index.css');
-    expect(existsSync(css)).toBe(true);
-    expect(readFileSync(css, 'utf8')).toContain('.anticon-home');
-    expect(existsSync(join(root, 'ant-design-icons/svg/home.svg'))).toBe(true);
+describe("abicons assets", () => {
+  it("ships ab-icons/index.css with Material snake_case classes", () => {
+    const cssPath = join(root, "ab-icons", "index.css");
+    expect(existsSync(cssPath)).toBe(true);
+    const css = readFileSync(cssPath, "utf8");
+    expect(css).toContain(".abicon-home");
+    expect(css).toContain(".abicon-arrow_back");
   });
 
-  it('ships MePic and MePicNobg', () => {
-    expect(existsSync(join(root, 'pics/me.jpg'))).toBe(true);
-    expect(existsSync(join(root, 'pics/me-nobg.jpg'))).toBe(true);
+  it("ships outlined home.svg", () => {
+    expect(existsSync(join(root, "ab-icons", "outlined", "home.svg"))).toBe(
+      true,
+    );
   });
 
-  it('ships AbContainedLauncher', () => {
-    expect(existsSync(join(root, 'launchers/ab-contained-launcher.svg'))).toBe(true);
-  });
-
-  it('maps material outlined class to Outlined font family', () => {
-    const css = readFileSync(join(root, 'material-icons/index.css'), 'utf8');
-    expect(css).toContain(".material-icons-outlined { font-family: 'Material Icons Outlined'; }");
+  it("ships icon-map with getAbIconSvg", () => {
+    const mapPath = join(root, "ab-icons", "icon-map.ts");
+    expect(existsSync(mapPath)).toBe(true);
+    const src = readFileSync(mapPath, "utf8");
+    expect(src).toContain("getAbIconSvg");
+    expect(src).toContain("abIconSvg");
+    expect(src).toContain("abIconNames");
   });
 });

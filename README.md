@@ -72,7 +72,9 @@ A list of all the supported **icons** and their current status:
 |:----|:-----|:-----|:-------|
 | 1 | *`Material Icons`* | **`material-icons/index.css`** | [Done](./material-icons/index.css) |
 | 2 | *`Ant Design Icons`* | **`ant-design-icons/index.css`** | [Done](./ant-design-icons/index.css) |
-| 3 | *`AbIcons`* | **`abicons/index.css`** | [Done](./abicons/index.css) |
+
+> NOTE: Full catalog from `@ant-design/icons-svg` (outlined + filled). Prefer public `<img src="/ant-design-icons/outlined/home.svg">` in Next.
+| 3 | *`AbIcons`* | **`ab-icons/index.css`** | [Done](./ab-icons/index.css) |
 
 > NOTE: See google's [material icons/symbols](https://fonts.google.com/icons) for more details.
 

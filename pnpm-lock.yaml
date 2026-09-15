@@ -12,6 +12,9 @@ importers:
         specifier: ^0.29.0
         version: 0.29.0
     devDependencies:
+      '@ant-design/icons-svg':
+        specifier: ^4.6.0
+        version: 4.6.0
       '@eslint/eslintrc':
         specifier: ^3
         version: 3.3.7
@@ -50,6 +53,9 @@ importers:
         version: 3.2.7(@types/node@20.19.16)
 
 packages:
+
+  '@ant-design/icons-svg@4.6.0':
+    resolution: {integrity: sha512-PRomU725ABMf/lnQp5HiB7my1kjEbFY0D10N4lXYxK6TIB1gKjIVD5MRThpDaezLgw1D774J8eOeeDB0M6wHrQ==}
 
   '@babel/code-frame@7.29.7':
     resolution: {integrity: sha512-Aup7aUOfpbAUg2ROOJN6Iw5f9DMBlzu0mIkm/malLQFN/YQgO48wCj0Kxa3sEHJvPVFg7siR+qRInwXd2qhQKw==}
@@ -2690,6 +2696,8 @@ packages:
     resolution: {integrity: sha512-v5l/aFXZQeai4awLbOpSoHecE9UiMrnfx75tEXLjNonXVARxQ5mOeipTjROUchszUNCqnE+hqAMujRsRHsut2Q==}
 
 snapshots:
+
+  '@ant-design/icons-svg@4.6.0': {}
 
   '@babel/code-frame@7.29.7':
     dependencies:
