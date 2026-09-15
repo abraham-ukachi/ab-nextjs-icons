@@ -89,15 +89,25 @@ A list of all the supported **logos** and their current status:
 | No. | Name | File | Status |
 |:----|:-----|:-----|:-------|
 | 1 | *`AbElementsLogo`* | **`logos/ab-elements-logo.svg`** | [Done](./logos/ab-elements-logo.svg) |
-| 2 | *`AbLogoDark`* | **`logos/ab-logo-dark.svg`** | [Done](./logos/ab-logo-dark.svg) |
-| 3 | *`AbLogoLight`* | **`logos/ab-logo-light.svg`** | [Done](./logos/ab-logo-light.svg) |
+| 2 | *`AbElementsLogoDark`* | **`logos/ab-elements-logo-dark.svg`** | [Done](./logos/ab-elements-logo-dark.svg) |
+| 3 | *`AbElementsLogoLight`* | **`logos/ab-elements-logo-light.svg`** | [Done](./logos/ab-elements-logo-light.svg) |
 | 4 | *`AbLogo`* | **`logos/ab-logo.svg`** | [Done](./logos/ab-logo.svg) |
-| 5 | *`AbrahamUkachiLogo`* | **`logos/abraham-ukachi-logo.svg`** | [Done](./logos/abraham-ukachi-logo.svg) |
-| 6 | *`GithubLogo`* | **`logos/github-logo.svg`** | [Done](./logos/github-logo.svg) |
-| 7 | *`NextLogo`* | **`logos/next-logo.svg`** | [Done](./logos/next-logo.svg) |
-| 8 | *`VercelLogo`* | **`logos/vercel-logo.svg`** | [Done](./logos/vercel-logo.svg) |
+| 5 | *`AbLogoDark`* | **`logos/ab-logo-dark.svg`** | [Done](./logos/ab-logo-dark.svg) |
+| 6 | *`AbLogoLight`* | **`logos/ab-logo-light.svg`** | [Done](./logos/ab-logo-light.svg) |
+| 7 | *`AbrahamUkachiLogo`* | **`logos/abraham-ukachi-logo.svg`** | [Done](./logos/abraham-ukachi-logo.svg) |
+| 8 | *`AbrahamUkachiLogoDark`* | **`logos/abraham-ukachi-logo-dark.svg`** | [Done](./logos/abraham-ukachi-logo-dark.svg) |
+| 9 | *`AbrahamUkachiLogoLight`* | **`logos/abraham-ukachi-logo-light.svg`** | [Done](./logos/abraham-ukachi-logo-light.svg) |
+| 10 | *`GithubLogo`* | **`logos/github-logo.svg`** | [Done](./logos/github-logo.svg) |
+| 11 | *`GithubLogoDark`* | **`logos/github-logo-dark.svg`** | [Done](./logos/github-logo-dark.svg) |
+| 12 | *`GithubLogoLight`* | **`logos/github-logo-light.svg`** | [Done](./logos/github-logo-light.svg) |
+| 13 | *`NextLogo`* | **`logos/next-logo.svg`** | [Done](./logos/next-logo.svg) |
+| 14 | *`NextLogoDark`* | **`logos/next-logo-dark.svg`** | [Done](./logos/next-logo-dark.svg) |
+| 15 | *`NextLogoLight`* | **`logos/next-logo-light.svg`** | [Done](./logos/next-logo-light.svg) |
+| 16 | *`VercelLogo`* | **`logos/vercel-logo.svg`** | [Done](./logos/vercel-logo.svg) |
+| 17 | *`VercelLogoDark`* | **`logos/vercel-logo-dark.svg`** | [Done](./logos/vercel-logo-dark.svg) |
+| 18 | *`VercelLogoLight`* | **`logos/vercel-logo-light.svg`** | [Done](./logos/vercel-logo-light.svg) |
 
-> NOTE:
+> NOTE: Default/original logo fills use brand copper **`#a67c52`** (same as `AbLogo`). Use `*Dark` / `*Light` variants for themed surfaces.
 
 
 

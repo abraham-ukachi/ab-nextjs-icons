@@ -1,0 +1,43 @@
+{
+  "brandFill": "#a67c52",
+  "antPublic": {
+    "outlined": "/ant-design-icons/outlined/{name}.svg",
+    "filled": "/ant-design-icons/filled/{name}.svg"
+  },
+  "abPublic": {
+    "outlined": "/ab-icons/outlined/{name}.svg",
+    "filled": "/ab-icons/filled/{name}.svg"
+  },
+  "snippets": [
+    {
+      "id": "material",
+      "title": "Material Icons",
+      "code": "import \"ab-nextjs-icons/material-icons/index.css\";\n<span className=\"material-icons-outlined\">home</span>"
+    },
+    {
+      "id": "ant-design",
+      "title": "Ant Design Icons",
+      "code": "import \"ab-nextjs-icons/ant-design-icons/index.css\";\n<span className=\"anticon anticon-home\" />\n<span className=\"anticon anticon-filled anticon-home\" />"
+    },
+    {
+      "id": "ab-icons",
+      "title": "AbIcons",
+      "code": "import \"ab-nextjs-icons/ab-icons/index.css\";\n<span className=\"abicon abicon-home\" />\n<span className=\"abicon abicon-filled abicon-home\" />"
+    },
+    {
+      "id": "logos",
+      "title": "Logos",
+      "code": "<img src=\"/ab-nextjs-icons/logos/ab-logo.svg\" alt=\"Ab\" />\n<img src=\"/ab-nextjs-icons/logos/ab-logo-dark.svg\" alt=\"Ab dark\" />"
+    },
+    {
+      "id": "pics",
+      "title": "Pics",
+      "code": "<img src=\"/ab-nextjs-icons/pics/me.jpg\" alt=\"MePic\" />"
+    },
+    {
+      "id": "launchers",
+      "title": "Launchers",
+      "code": "<img src=\"/ab-nextjs-icons/launchers/ab-contained-launcher.svg\" alt=\"Launcher\" />"
+    }
+  ]
+}
