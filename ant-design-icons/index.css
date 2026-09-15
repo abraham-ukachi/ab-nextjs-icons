@@ -1,11 +1,11 @@
 /*
  * @license MIT
- * ab-nextjs-icons — Ant Design Icons (SVG mask utilities)
+ * ab-nextjs-icons — Ant Design Icons (filled + outlined)
  * Motto: We'll always do more 😜!!!
  *
- * Example:
- *   @import 'ab-nextjs-icons/ant-design-icons/index.css';
- *   <span class="anticon anticon-home" aria-hidden="true"></span>
+ *   <span class="anticon anticon-outlined-home"></span>
+ *   <span class="anticon anticon-filled-home"></span>
+ *   Legacy: <span class="anticon anticon-home"></span> (= outlined)
  */
 
 .anticon {
@@ -23,51 +23,122 @@
   mask-size: contain;
 }
 
-.anticon-home {
-  -webkit-mask-image: url('./svg/home.svg');
-  mask-image: url('./svg/home.svg');
+.anticon-bell, .anticon-outlined-bell {
+  -webkit-mask-image: url('./svg/outlined-bell.svg');
+  mask-image: url('./svg/outlined-bell.svg');
 }
-.anticon-user {
-  -webkit-mask-image: url('./svg/user.svg');
-  mask-image: url('./svg/user.svg');
+
+.anticon-filled-bell {
+  -webkit-mask-image: url('./svg/filled-bell.svg');
+  mask-image: url('./svg/filled-bell.svg');
 }
-.anticon-setting {
-  -webkit-mask-image: url('./svg/setting.svg');
-  mask-image: url('./svg/setting.svg');
+
+.anticon-check, .anticon-outlined-check {
+  -webkit-mask-image: url('./svg/outlined-check.svg');
+  mask-image: url('./svg/outlined-check.svg');
 }
-.anticon-search {
-  -webkit-mask-image: url('./svg/search.svg');
-  mask-image: url('./svg/search.svg');
+
+.anticon-filled-check {
+  -webkit-mask-image: url('./svg/filled-check.svg');
+  mask-image: url('./svg/filled-check.svg');
 }
-.anticon-heart {
-  -webkit-mask-image: url('./svg/heart.svg');
-  mask-image: url('./svg/heart.svg');
+
+.anticon-close, .anticon-outlined-close {
+  -webkit-mask-image: url('./svg/outlined-close.svg');
+  mask-image: url('./svg/outlined-close.svg');
 }
-.anticon-star {
-  -webkit-mask-image: url('./svg/star.svg');
-  mask-image: url('./svg/star.svg');
+
+.anticon-filled-close {
+  -webkit-mask-image: url('./svg/filled-close.svg');
+  mask-image: url('./svg/filled-close.svg');
 }
-.anticon-bell {
-  -webkit-mask-image: url('./svg/bell.svg');
-  mask-image: url('./svg/bell.svg');
+
+.anticon-edit, .anticon-outlined-edit {
+  -webkit-mask-image: url('./svg/outlined-edit.svg');
+  mask-image: url('./svg/outlined-edit.svg');
 }
-.anticon-mail {
-  -webkit-mask-image: url('./svg/mail.svg');
-  mask-image: url('./svg/mail.svg');
+
+.anticon-filled-edit {
+  -webkit-mask-image: url('./svg/filled-edit.svg');
+  mask-image: url('./svg/filled-edit.svg');
 }
-.anticon-check {
-  -webkit-mask-image: url('./svg/check.svg');
-  mask-image: url('./svg/check.svg');
+
+.anticon-heart, .anticon-outlined-heart {
+  -webkit-mask-image: url('./svg/outlined-heart.svg');
+  mask-image: url('./svg/outlined-heart.svg');
 }
-.anticon-close {
-  -webkit-mask-image: url('./svg/close.svg');
-  mask-image: url('./svg/close.svg');
+
+.anticon-filled-heart {
+  -webkit-mask-image: url('./svg/filled-heart.svg');
+  mask-image: url('./svg/filled-heart.svg');
 }
-.anticon-plus {
-  -webkit-mask-image: url('./svg/plus.svg');
-  mask-image: url('./svg/plus.svg');
+
+.anticon-home, .anticon-outlined-home {
+  -webkit-mask-image: url('./svg/outlined-home.svg');
+  mask-image: url('./svg/outlined-home.svg');
 }
-.anticon-edit {
-  -webkit-mask-image: url('./svg/edit.svg');
-  mask-image: url('./svg/edit.svg');
+
+.anticon-filled-home {
+  -webkit-mask-image: url('./svg/filled-home.svg');
+  mask-image: url('./svg/filled-home.svg');
+}
+
+.anticon-mail, .anticon-outlined-mail {
+  -webkit-mask-image: url('./svg/outlined-mail.svg');
+  mask-image: url('./svg/outlined-mail.svg');
+}
+
+.anticon-filled-mail {
+  -webkit-mask-image: url('./svg/filled-mail.svg');
+  mask-image: url('./svg/filled-mail.svg');
+}
+
+.anticon-plus, .anticon-outlined-plus {
+  -webkit-mask-image: url('./svg/outlined-plus.svg');
+  mask-image: url('./svg/outlined-plus.svg');
+}
+
+.anticon-filled-plus {
+  -webkit-mask-image: url('./svg/filled-plus.svg');
+  mask-image: url('./svg/filled-plus.svg');
+}
+
+.anticon-search, .anticon-outlined-search {
+  -webkit-mask-image: url('./svg/outlined-search.svg');
+  mask-image: url('./svg/outlined-search.svg');
+}
+
+.anticon-filled-search {
+  -webkit-mask-image: url('./svg/filled-search.svg');
+  mask-image: url('./svg/filled-search.svg');
+}
+
+.anticon-setting, .anticon-outlined-setting {
+  -webkit-mask-image: url('./svg/outlined-setting.svg');
+  mask-image: url('./svg/outlined-setting.svg');
+}
+
+.anticon-filled-setting {
+  -webkit-mask-image: url('./svg/filled-setting.svg');
+  mask-image: url('./svg/filled-setting.svg');
+}
+
+.anticon-star, .anticon-outlined-star {
+  -webkit-mask-image: url('./svg/outlined-star.svg');
+  mask-image: url('./svg/outlined-star.svg');
+}
+
+.anticon-filled-star {
+  -webkit-mask-image: url('./svg/filled-star.svg');
+  mask-image: url('./svg/filled-star.svg');
+}
+
+.anticon-user, .anticon-outlined-user {
+  -webkit-mask-image: url('./svg/outlined-user.svg');
+  mask-image: url('./svg/outlined-user.svg');
+}
+
+.anticon-filled-user {
+  -webkit-mask-image: url('./svg/filled-user.svg');
+  mask-image: url('./svg/filled-user.svg');
 }
