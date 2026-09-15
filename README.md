@@ -72,11 +72,11 @@ A list of all the supported **icons** and their current status:
 |:----|:-----|:-----|:-------|
 | 1 | *`Material Icons`* | **`material-icons/index.css`** | [Done](./material-icons/index.css) |
 | 2 | *`Ant Design Icons`* | **`ant-design-icons/index.css`** | [Done](./ant-design-icons/index.css) |
-| 3 | *`AbIcons`* | **`ab-icons/index.css`** | [Done](./ab-icons/index.css) |
+| 3 | *`AbIcons`* | **`abicons/index.css`** | [Done](./abicons/index.css) |
 
 > NOTE: See google's [material icons/symbols](https://fonts.google.com/icons) for more details.
 
-> NOTE: Ant Design + AbIcons support **filled** and **outlined** variants for the demo state toggle.
+> NOTE: Ant Design + AbIcons (`abicons/`, Material snake_case) support **filled** and **outlined** variants for the demo state toggle. The older kebab SVG set remains under `ab-icons/` for reference.
 
 
 

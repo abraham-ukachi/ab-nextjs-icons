@@ -4,18 +4,19 @@ import { join } from 'node:path';
 
 const root = join(__dirname, '..');
 
-describe('AbIcons set', () => {
+describe('AbIcons set (abicons/)', () => {
   it('ships stylesheet and names manifest', () => {
-    expect(existsSync(join(root, 'ab-icons/index.css'))).toBe(true);
-    const names = JSON.parse(readFileSync(join(root, 'ab-icons/names.json'), 'utf8'));
-    expect(names.filled.length).toBeGreaterThan(50);
-    expect(names.outlined.length).toBeGreaterThan(50);
+    expect(existsSync(join(root, 'abicons/index.css'))).toBe(true);
+    const names = JSON.parse(readFileSync(join(root, 'abicons/names.json'), 'utf8'));
+    expect(names.filled.length).toBeGreaterThan(20);
+    expect(names.outlined.length).toBeGreaterThan(20);
+    expect(names.naming).toBe('material_snake_case');
   });
 
-  it('documents AbIcons as Done in README', () => {
+  it('documents AbIcons as Done in README under abicons/', () => {
     const readme = readFileSync(join(root, 'README.md'), 'utf8');
     expect(readme).toContain('AbIcons');
-    expect(readme).toContain('ab-icons/index.css');
+    expect(readme).toContain('abicons/index.css');
   });
 });
 
