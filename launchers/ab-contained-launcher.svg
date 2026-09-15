@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" role="img" aria-label="AbContainedLauncher">
+  <title>AbContainedLauncher</title>
+  <!-- Contained launcher plate -->
+  <rect x="6" y="6" width="96" height="96" rx="22" ry="22" fill="#066D37"/>
+  <!-- Ab mark (scaled from 24x24 logo into plate) -->
+  <g transform="translate(30 30) scale(2)">
+    <polygon fill="#9DF6B1" points="1.8,20.5 11.1,3.5 11.1,20.5"/>
+    <polygon fill="#FFFFFF" points="22.2,7.7 12.9,3.5 12.9,7.8 12.9,7.7 12.9,20.5 22.2,16.3 17.5,12"/>
+    <polygon fill="#FFFFFF" opacity="0.2" points="12.9,20.5 22.2,16.3 12.9,11.9"/>
+  </g>
+</svg>

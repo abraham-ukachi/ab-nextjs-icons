@@ -71,7 +71,7 @@ A list of all the supported **icons** and their current status:
 | No. | Name | File | Status |
 |:----|:-----|:-----|:-------|
 | 1 | *`Material Icons`* | **`material-icons/index.css`** | [Done](./material-icons/index.css) |
-| 2 | *`Ant Design Icons`* | **`ant-design-icons/index.css`** | Pending |
+| 2 | *`Ant Design Icons`* | **`ant-design-icons/index.css`** | [Done](./ant-design-icons/index.css) |
 
 > NOTE: See google's [material icons/symbols](https://fonts.google.com/icons) for more details.
 
@@ -102,8 +102,8 @@ A list of all the supported **pics** and their current status:
 
 | No. | Name | File | Status |
 |:----|:-----|:-----|:-------|
-| 1 | *`MePic`* | **`pics/me.svg`** | *In progress* |
-| 2 | *`MePicNobg`* | **`pics/me-nobg.svg`** | *In progress* |
+| 1 | *`MePic`* | **`pics/me.svg`** | [Done](./pics/me.svg) |
+| 2 | *`MePicNobg`* | **`pics/me-nobg.svg`** | [Done](./pics/me-nobg.svg) |
 
 > NOTE:
 
@@ -116,7 +116,7 @@ A list of all the supported **launchers** and their current status:
 
 | No. | Name | File | Status |
 |:----|:-----|:-----|:-------|
-| 1 | *`AbContainedLauncher`* | **`launchers/ab-contained-launcher.svg`** | Pending |
+| 1 | *`AbContainedLauncher`* | **`launchers/ab-contained-launcher.svg`** | [Done](./launchers/ab-contained-launcher.svg) |
 
 > NOTE:
 

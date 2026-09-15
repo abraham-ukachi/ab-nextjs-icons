@@ -1,0 +1,73 @@
+/*
+ * @license MIT
+ * ab-nextjs-icons — Ant Design Icons (SVG mask utilities)
+ * Motto: We'll always do more 😜!!!
+ *
+ * Example:
+ *   @import 'ab-nextjs-icons/ant-design-icons/index.css';
+ *   <span class="anticon anticon-home" aria-hidden="true"></span>
+ */
+
+.anticon {
+  display: inline-block;
+  width: var(--anticon-size, 24px);
+  height: var(--anticon-size, 24px);
+  background-color: currentColor;
+  vertical-align: middle;
+  flex-shrink: 0;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+.anticon-home {
+  -webkit-mask-image: url('./svg/home.svg');
+  mask-image: url('./svg/home.svg');
+}
+.anticon-user {
+  -webkit-mask-image: url('./svg/user.svg');
+  mask-image: url('./svg/user.svg');
+}
+.anticon-setting {
+  -webkit-mask-image: url('./svg/setting.svg');
+  mask-image: url('./svg/setting.svg');
+}
+.anticon-search {
+  -webkit-mask-image: url('./svg/search.svg');
+  mask-image: url('./svg/search.svg');
+}
+.anticon-heart {
+  -webkit-mask-image: url('./svg/heart.svg');
+  mask-image: url('./svg/heart.svg');
+}
+.anticon-star {
+  -webkit-mask-image: url('./svg/star.svg');
+  mask-image: url('./svg/star.svg');
+}
+.anticon-bell {
+  -webkit-mask-image: url('./svg/bell.svg');
+  mask-image: url('./svg/bell.svg');
+}
+.anticon-mail {
+  -webkit-mask-image: url('./svg/mail.svg');
+  mask-image: url('./svg/mail.svg');
+}
+.anticon-check {
+  -webkit-mask-image: url('./svg/check.svg');
+  mask-image: url('./svg/check.svg');
+}
+.anticon-close {
+  -webkit-mask-image: url('./svg/close.svg');
+  mask-image: url('./svg/close.svg');
+}
+.anticon-plus {
+  -webkit-mask-image: url('./svg/plus.svg');
+  mask-image: url('./svg/plus.svg');
+}
+.anticon-edit {
+  -webkit-mask-image: url('./svg/edit.svg');
+  mask-image: url('./svg/edit.svg');
+}
