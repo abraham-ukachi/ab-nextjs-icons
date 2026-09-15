@@ -5,62 +5,54 @@
 * ~~~~~~~~~~~~
 * Copyright (c) 2024 Abraham Ukachi. The abElements Contributors.
 *
-* Permission is hereby granted, free of charge, to any person obtaining a copy
-* of this software and associated documentation files (the 'Software'), to deal
-* in the Software without restriction, including without limitation the rights
-* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-* copies of the Software, and to permit persons to whom the Software is
-* furnished to do so, subject to the following conditions:
-*
-* The above copyright notice and this permission notice shall be included in all
-* copies or substantial portions of the Software.
-*
-* THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-* SOFTWARE.
-*
 * @project: ab-nextjs-icons
 * @name: Logos - Icons - abElements
 * @file: index.ts
-* @type: Javascript
-* @authors: Abraham Ukachi <abraham.ukachi@laplateforme.io>
-*
-* Example usage:
-*   1+|> 
-*    -|>
-*
 */
 
-
-
-
 import AbElementsLogo from "./ab-elements-logo.svg";
+import AbElementsLogoDark from "./ab-elements-logo-dark.svg";
+import AbElementsLogoLight from "./ab-elements-logo-light.svg";
 import AbLogoDark from "./ab-logo-dark.svg";
 import AbLogoLight from "./ab-logo-light.svg";
 import AbLogo from "./ab-logo.svg";
 
 import AbrahamUkachiLogo from "./abraham-ukachi-logo.svg";
+import AbrahamUkachiLogoDark from "./abraham-ukachi-logo-dark.svg";
+import AbrahamUkachiLogoLight from "./abraham-ukachi-logo-light.svg";
 
 import GithubLogo from "./github-logo.svg";
+import GithubLogoDark from "./github-logo-dark.svg";
+import GithubLogoLight from "./github-logo-light.svg";
 import NextLogo from "./next-logo.svg";
+import NextLogoDark from "./next-logo-dark.svg";
+import NextLogoLight from "./next-logo-light.svg";
 import VercelLogo from "./vercel-logo.svg";
+import VercelLogoDark from "./vercel-logo-dark.svg";
+import VercelLogoLight from "./vercel-logo-light.svg";
 
 
 
 export {
   AbElementsLogo,
+  AbElementsLogoDark,
+  AbElementsLogoLight,
   AbLogoDark,
   AbLogoLight,
   AbLogo,
 
   AbrahamUkachiLogo,
+  AbrahamUkachiLogoDark,
+  AbrahamUkachiLogoLight,
   
   GithubLogo,
+  GithubLogoDark,
+  GithubLogoLight,
   NextLogo,
-  VercelLogo
+  NextLogoDark,
+  NextLogoLight,
+  VercelLogo,
+  VercelLogoDark,
+  VercelLogoLight
   
 }

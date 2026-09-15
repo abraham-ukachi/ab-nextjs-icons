@@ -71,9 +71,14 @@ A list of all the supported **icons** and their current status:
 | No. | Name | File | Status |
 |:----|:-----|:-----|:-------|
 | 1 | *`Material Icons`* | **`material-icons/index.css`** | [Done](./material-icons/index.css) |
-| 2 | *`Ant Design Icons`* | **`ant-design-icons/index.css`** | Pending |
+| 2 | *`Ant Design Icons`* | **`ant-design-icons/index.css`** | [Done](./ant-design-icons/index.css)* |
+| 3 | *`AbIcons`* (Material) | **`ab-icons/index.css`** | [Done](./ab-icons/index.css) |
 
 > NOTE: See google's [material icons/symbols](https://fonts.google.com/icons) for more details.
+>
+> \* Ant Design Icons ships **full** filled + outlined catalogs from `@ant-design/icons-svg` (`ant-design-icons/outlined|filled`, `index.css` + `catalog.css`). TwoTone omitted.
+>
+> AbIcons (Material) uses Material snake_case names (`home`, `arrow_back`, …) with **original AbIcons geometry** (not Google Material path data). See [`ab-icons/README.md`](./ab-icons/README.md).
 
 
 
@@ -84,13 +89,23 @@ A list of all the supported **logos** and their current status:
 | No. | Name | File | Status |
 |:----|:-----|:-----|:-------|
 | 1 | *`AbElementsLogo`* | **`logos/ab-elements-logo.svg`** | [Done](./logos/ab-elements-logo.svg) |
-| 2 | *`AbLogoDark`* | **`logos/ab-logo-dark.svg`** | [Done](./logos/ab-logo-dark.svg) |
-| 3 | *`AbLogoLight`* | **`logos/ab-logo-light.svg`** | [Done](./logos/ab-logo-light.svg) |
-| 4 | *`AbLogo`* | **`logos/ab-logo.svg`** | [Done](./logos/ab-logo.svg) |
-| 5 | *`AbrahamUkachiLogo`* | **`logos/abraham-ukachi-logo.svg`** | [Done](./logos/abraham-ukachi-logo.svg) |
-| 6 | *`GithubLogo`* | **`logos/github-logo.svg`** | [Done](./logos/github-logo.svg) |
-| 7 | *`NextLogo`* | **`logos/next-logo.svg`** | [Done](./logos/next-logo.svg) |
-| 8 | *`VercelLogo`* | **`logos/vercel-logo.svg`** | [Done](./logos/vercel-logo.svg) |
+| 2 | *`AbElementsLogoDark`* | **`logos/ab-elements-logo-dark.svg`** | [Done](./logos/ab-elements-logo-dark.svg) |
+| 3 | *`AbElementsLogoLight`* | **`logos/ab-elements-logo-light.svg`** | [Done](./logos/ab-elements-logo-light.svg) |
+| 4 | *`AbLogoDark`* | **`logos/ab-logo-dark.svg`** | [Done](./logos/ab-logo-dark.svg) |
+| 5 | *`AbLogoLight`* | **`logos/ab-logo-light.svg`** | [Done](./logos/ab-logo-light.svg) |
+| 6 | *`AbLogo`* | **`logos/ab-logo.svg`** | [Done](./logos/ab-logo.svg) |
+| 7 | *`AbrahamUkachiLogo`* | **`logos/abraham-ukachi-logo.svg`** | [Done](./logos/abraham-ukachi-logo.svg) |
+| 8 | *`AbrahamUkachiLogoDark`* | **`logos/abraham-ukachi-logo-dark.svg`** | [Done](./logos/abraham-ukachi-logo-dark.svg) |
+| 9 | *`AbrahamUkachiLogoLight`* | **`logos/abraham-ukachi-logo-light.svg`** | [Done](./logos/abraham-ukachi-logo-light.svg) |
+| 10 | *`GithubLogo`* | **`logos/github-logo.svg`** | [Done](./logos/github-logo.svg) |
+| 11 | *`GithubLogoDark`* | **`logos/github-logo-dark.svg`** | [Done](./logos/github-logo-dark.svg) |
+| 12 | *`GithubLogoLight`* | **`logos/github-logo-light.svg`** | [Done](./logos/github-logo-light.svg) |
+| 13 | *`NextLogo`* | **`logos/next-logo.svg`** | [Done](./logos/next-logo.svg) |
+| 14 | *`NextLogoDark`* | **`logos/next-logo-dark.svg`** | [Done](./logos/next-logo-dark.svg) |
+| 15 | *`NextLogoLight`* | **`logos/next-logo-light.svg`** | [Done](./logos/next-logo-light.svg) |
+| 16 | *`VercelLogo`* | **`logos/vercel-logo.svg`** | [Done](./logos/vercel-logo.svg) |
+| 17 | *`VercelLogoDark`* | **`logos/vercel-logo-dark.svg`** | [Done](./logos/vercel-logo-dark.svg) |
+| 18 | *`VercelLogoLight`* | **`logos/vercel-logo-light.svg`** | [Done](./logos/vercel-logo-light.svg) |
 
 > NOTE:
 
@@ -102,10 +117,10 @@ A list of all the supported **pics** and their current status:
 
 | No. | Name | File | Status |
 |:----|:-----|:-----|:-------|
-| 1 | *`MePic`* | **`pics/me.svg`** | *In progress* |
-| 2 | *`MePicNobg`* | **`pics/me-nobg.svg`** | *In progress* |
+| 1 | *`MePic`* | **`pics/me.jpg`** | [Done](./pics/me.jpg) |
+| 2 | *`MePicNobg`* | **`pics/me-nobg.jpg`** | [Done](./pics/me-nobg.jpg) |
 
-> NOTE:
+> NOTE: Sourced from `ab-nextjs-app/public` (`me.jpg`; `me-nobg` was PNG-only upstream — packaged as `me-nobg.jpg`).
 
 
 
@@ -116,7 +131,7 @@ A list of all the supported **launchers** and their current status:
 
 | No. | Name | File | Status |
 |:----|:-----|:-----|:-------|
-| 1 | *`AbContainedLauncher`* | **`launchers/ab-contained-launcher.svg`** | Pending |
+| 1 | *`AbContainedLauncher`* | **`launchers/ab-contained-launcher.svg`** | [Done](./launchers/ab-contained-launcher.svg) |
 
 > NOTE:
 
