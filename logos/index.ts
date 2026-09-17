@@ -3,7 +3,7 @@
 * ~~~~~~~~~~~~
 * ab-nextjs-icons
 * ~~~~~~~~~~~~
-* Copyright (c) 2024 Abraham Ukachi. The abElements Contributors.
+* Copyright (c) 2026 Abraham Ukachi. The abElements Contributors.
 *
 * @project: ab-nextjs-icons
 * @name: Logos - Icons - abElements
