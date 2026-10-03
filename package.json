@@ -1,6 +1,6 @@
 {
   "name": "ab-nextjs-icons",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "\u2b50\ufe0f A lightweight collection of icons for abElements created by Abraham Ukachi, and optimized for Next.js applications \ud83d\ude0e.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -22,7 +22,9 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:file": "vitest run",
-    "test:name": "vitest run -t"
+    "test:name": "vitest run -t",
+    "check:publish": "node scripts/check-publish-deps.mjs",
+    "prepublishOnly": "node scripts/check-publish-deps.mjs"
   },
   "keywords": [
     "react",
@@ -73,7 +75,7 @@
     "vitest": "^3"
   },
   "peerDependencies": {
-    "next": "16.3.4",
+    "next": "^16.3.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
