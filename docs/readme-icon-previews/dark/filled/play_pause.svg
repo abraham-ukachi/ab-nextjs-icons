@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="play_pauseMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <path d="M4.5 7.0 L11.5 12.0 L4.5 17.0 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M13.55 7.0 H15.45 V17.0 H13.55 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M17.55 7.0 H19.45 V17.0 H17.55 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="#e6edf3" mask="url(#play_pauseMask)"/>
+</svg>

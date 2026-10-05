@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="shapesMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <path d="M5.2 4 H12.8 A1.2 1.2 0 0 1 14.0 5.2 V12.8 A1.2 1.2 0 0 1 12.8 14 H5.2 A1.2 1.2 0 0 1 4.0 12.8 V5.2 A1.2 1.2 0 0 1 5.2 4 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <circle cx="15.0" cy="15.0" r="5.0" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <circle cx="15.0" cy="15.0" r="3.0" fill="#000"/>
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="#e6edf3" mask="url(#shapesMask)"/>
+</svg>

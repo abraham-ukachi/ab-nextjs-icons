@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="droneMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <path d="M9.0 11.0 H15.0 V14.0 H9.0 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <line x1="9.0" y1="11.5" x2="5.5" y2="8.0" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
+      <line x1="15.0" y1="11.5" x2="18.5" y2="8.0" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
+      <line x1="9.0" y1="13.5" x2="5.5" y2="17.0" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
+      <line x1="15.0" y1="13.5" x2="18.5" y2="17.0" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
+      <circle cx="5.5" cy="8.0" r="2.0" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <circle cx="18.5" cy="8.0" r="2.0" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <circle cx="5.5" cy="17.0" r="2.0" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <circle cx="18.5" cy="17.0" r="2.0" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <circle cx="5.5" cy="8.0" r="0.85" fill="#000"/>
+      <circle cx="18.5" cy="8.0" r="0.85" fill="#000"/>
+      <circle cx="5.5" cy="17.0" r="0.85" fill="#000"/>
+      <circle cx="18.5" cy="17.0" r="0.85" fill="#000"/>
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="#e6edf3" mask="url(#droneMask)"/>
+</svg>

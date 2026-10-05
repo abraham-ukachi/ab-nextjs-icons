@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="scanMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <path d="M5.0 5.0 H7.5 V6.9 H6.9 V7.5 H5.0 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M16.5 5.0 H19.0 V7.5 H17.1 V6.9 H16.5 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M5.0 16.5 H6.9 V17.1 H7.5 V19.0 H5.0 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M17.1 16.5 H19.0 V19.0 H16.5 V17.1 H17.1 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <line x1="7.0" y1="12.0" x2="17.0" y2="12.0" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
+
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="#e6edf3" mask="url(#scanMask)"/>
+</svg>

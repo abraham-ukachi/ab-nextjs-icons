@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="timerMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <circle cx="12" cy="13.0" r="7.0" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <line x1="10.0" y1="4.5" x2="14.0" y2="4.5" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
+      <line x1="12.0" y1="4.5" x2="12.0" y2="6.0" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
+      <circle cx="12" cy="13.0" r="4.8" fill="#000"/>
+      <line x1="12.0" y1="13.0" x2="12.0" y2="9.5" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
+      <line x1="12.0" y1="13.0" x2="14.5" y2="14.3" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="#e6edf3" mask="url(#timerMask)"/>
+</svg>

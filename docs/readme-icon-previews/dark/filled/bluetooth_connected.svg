@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="bluetooth_connectedMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <path d="M12 4.0 V20.0 M12 4.0 L17.0 7.6 L12 12 M12 20 L17 16.4 L12 12 M7 7.6 L12 12 M7 16.4 L12 12" fill="none" stroke="#fff" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M4.5 10.5 L6.0 12.0 L4.5 13.5" fill="none" stroke="#fff" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M19.5 10.5 L21.0 12.0 L19.5 13.5" fill="none" stroke="#fff" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round"/>
+
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="#e6edf3" mask="url(#bluetooth_connectedMask)"/>
+</svg>

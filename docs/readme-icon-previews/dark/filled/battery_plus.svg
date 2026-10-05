@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="battery_plusMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <path d="M6.5 8.0 H15.5 A1.5 1.5 0 0 1 17 9.5 V14.5 A1.5 1.5 0 0 1 15.5 16 H6.5 A1.5 1.5 0 0 1 5 14.5 V9.5 A1.5 1.5 0 0 1 6.5 8.0 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M17 10.5 H19.2 V13.5 H17 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <rect x="11.0" y="10.15" width="2.0" height="3.7" fill="#000"/>
+      <rect x="9.15" y="11.0" width="5.7" height="2.0" fill="#000"/>
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="#e6edf3" mask="url(#battery_plusMask)"/>
+</svg>

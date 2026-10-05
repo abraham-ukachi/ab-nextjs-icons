@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="crownMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <path d="M4.5 16.5 L6.2 8.5 L9.5 12.5 L12 6.5 L14.5 12.5 L17.8 8.5 L19.5 16.5 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <line x1="5.0" y1="18.5" x2="19.0" y2="18.5" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
+
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="#e6edf3" mask="url(#crownMask)"/>
+</svg>

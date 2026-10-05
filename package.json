@@ -24,7 +24,9 @@
     "test:file": "vitest run",
     "test:name": "vitest run -t",
     "check:publish": "node scripts/check-publish-deps.mjs",
-    "prepublishOnly": "node scripts/check-publish-deps.mjs"
+    "prepublishOnly": "node scripts/check-publish-deps.mjs",
+    "readme:icons": "node scripts/readme-icons.mjs",
+    "readme:icons:check": "node scripts/readme-icons.mjs --check"
   },
   "keywords": [
     "react",
