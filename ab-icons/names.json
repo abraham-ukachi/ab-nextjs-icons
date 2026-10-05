@@ -481,10 +481,29 @@
     "zoom_in",
     "zoom_out"
   ],
+  "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700
+  ],
+  "weightStroke": {
+    "100": 1.0,
+    "200": 1.25,
+    "300": 1.5,
+    "400": 1.85,
+    "500": 2.2,
+    "600": 2.5,
+    "700": 2.85
+  },
   "publicBase": "/ab-icons",
   "cssImport": "ab-nextjs-icons/ab-icons/index.css",
+  "weightCssImport": "ab-nextjs-icons/ab-icons/weight.css",
   "classBase": "abicon",
-  "classPattern": ".abicon.abicon-<name> (+ optional .abicon-filled)",
+  "classPattern": ".abicon.abicon-<name> (+ optional .abicon-filled, .abicon-w100\u2026w700)",
   "description": "AbIcons Material snake_case names (original AbIcons geometry)",
   "packageDir": "ab-icons"
 }

@@ -1,0 +1,40 @@
+/*
+ * @license MIT
+ * ab-nextjs-icons — AbIcons weight helper for INLINE SVG
+ * @file: ab-icons/weight.css
+ *
+ * Wrap or mark inline SVG with .abicon-svg and set --abicon-weight (px stroke).
+ * Example:
+ *   <span class="abicon-svg" style="--abicon-weight:1.25" dangerouslySetInnerHTML={{__html: getAbIconSvg('home')}} />
+ *
+ * For CSS-mask icons use index.css + .abicon-w100…w700 / --abicon-wght instead.
+ * Filled icons are solid; stroke weight usually has no effect unless the glyph
+ * includes stroke details.
+ */
+
+.abicon-svg,
+.abicon-svg svg {
+  display: inline-block;
+  color: inherit;
+  line-height: 0;
+  vertical-align: -0.125em;
+  width: var(--abicon-size, 1em);
+  height: var(--abicon-size, 1em);
+}
+
+.abicon-svg svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Presentation attribute stroke-width loses to this CSS property */
+.abicon-svg [stroke-width],
+.abicon-svg [stroke-width="1.85"],
+.abicon-svg path[stroke],
+.abicon-svg line[stroke],
+.abicon-svg circle[stroke],
+.abicon-svg rect[stroke],
+.abicon-svg polyline[stroke],
+.abicon-svg polygon[stroke] {
+  stroke-width: var(--abicon-weight, 1.85);
+}
