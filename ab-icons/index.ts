@@ -17,7 +17,7 @@
  *    Serve node_modules/ab-nextjs-icons/ab-icons/... OR copy abicons
  *    into public/ab-icons (or public/ab-nextjs-icons/ab-icons) for <img> / next/image.
  *
- * 4) Weight (outlined, Material Symbols-style 100-700, 400 = default 1.85 stroke):
+ * 4) Weight (outlined, Material Symbols-style 100-700, 200 = default 1.25 stroke):
  *    getAbIconSvg("home", "outlined", { weight: 300 });
  *    @import "ab-nextjs-icons/ab-icons/weight.css"; then <span class="abicon-svg" style="--abicon-weight:1.25">
  *    <span class="abicon abicon-w300 abicon-home"></span> (mask API, pre-rendered weights)
