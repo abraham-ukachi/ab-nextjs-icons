@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="computerMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <path d="M5.3 5 H18.7 A1.8 1.8 0 0 1 20.5 6.8 V14.7 A1.8 1.8 0 0 1 18.7 16.5 H5.3 A1.8 1.8 0 0 1 3.5 14.7 V6.8 A1.8 1.8 0 0 1 5.3 5 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M11.05 16.5 H12.95 V19.0 H11.05 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <line x1="8" y1="19.0" x2="16" y2="19.0" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
+      <rect x="5.5" y="7.0" width="13.0" height="7.2" rx="0.5" fill="#000"/>
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="#e6edf3" mask="url(#computerMask)"/>
+</svg>

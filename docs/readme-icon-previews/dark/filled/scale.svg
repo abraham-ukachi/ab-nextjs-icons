@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="scaleMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <path d="M11.05 4.5 H12.95 V19.0 H11.05 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <line x1="6.0" y1="19.0" x2="18.0" y2="19.0" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
+      <line x1="5.0" y1="8.0" x2="19.0" y2="8.0" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
+      <path d="M5.0 8.0 L7.5 13.5 H2.5 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M19.0 8.0 L21.5 13.5 H16.5 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="#e6edf3" mask="url(#scaleMask)"/>
+</svg>

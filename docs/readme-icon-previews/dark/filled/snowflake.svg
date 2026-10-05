@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="snowflakeMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <path d="M12 4.5 V19.5 M5.5 8.0 L18.5 16.0 M18.5 8.0 L5.5 16.0" fill="none" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
+      <path d="M12 7.0 L10.5 5.5 M12 7.0 L13.5 5.5 M12 17.0 L10.5 18.5 M12 17.0 L13.5 18.5" fill="none" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
+
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="#e6edf3" mask="url(#snowflakeMask)"/>
+</svg>

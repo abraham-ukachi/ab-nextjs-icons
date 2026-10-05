@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="cropMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <path d="M6.05 4.5 H7.95 V7 H6.05 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M4.5 6.05 H7 V7.95 H4.5 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M6.05 7 H7.95 V16.5 A1.5 1.5 0 0 0 8.5 18 H17 V16.1 H9.0 V7 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M16.05 17 H17.95 V19.5 H16.05 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M17 16.05 H19.5 V17.95 H17 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M8 6 H15.5 A1.5 1.5 0 0 1 17 7.5 V17 H15.1 V8.0 H8 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="#e6edf3" mask="url(#cropMask)"/>
+</svg>

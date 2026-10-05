@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="archiveMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <path d="M4.5 7.8 H19.5 V9.6 A1.3 1.3 0 0 1 18.2 10.9 H5.8 A1.3 1.3 0 0 1 4.5 9.6 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M6.2 10.9 H17.8 V18.0 A1.6 1.6 0 0 1 16.2 19.6 H7.8 A1.6 1.6 0 0 1 6.2 18.0 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <rect x="5.2" y="10.0" width="13.6" height="2.0" fill="#000"/>
+      <rect x="9.2" y="13.0" width="5.6" height="2.0" rx="0.5" fill="#000"/>
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="#e6edf3" mask="url(#archiveMask)"/>
+</svg>

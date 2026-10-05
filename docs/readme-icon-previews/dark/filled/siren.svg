@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="sirenMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <path d="M7.0 14.0 H17.0 V19.0 H7.0 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M8.0 14.0 C8.0 9.5 10.0 6.5 12.0 5.5 C14.0 6.5 16.0 9.5 16.0 14.0 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <line x1="12.0" y1="3.5" x2="12.0" y2="5.5" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
+      <line x1="5.5" y1="7.0" x2="7.5" y2="8.5" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
+      <line x1="18.5" y1="7.0" x2="16.5" y2="8.5" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
+      <ellipse cx="12" cy="11.5" rx="2.8" ry="2.2" fill="#000"/>
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="#e6edf3" mask="url(#sirenMask)"/>
+</svg>
