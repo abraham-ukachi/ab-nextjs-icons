@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="shopping_bagMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <path d="M6.0 8.5 H18.0 L17.0 19.5 H7.0 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M9.0 8.5 V7.0 A3 3 0 0 1 15.0 7.0 V8.5 H13.2 V7.2 A1.2 1.2 0 0 0 10.8 7.2 V8.5 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="currentColor" mask="url(#shopping_bagMask)"/>
+</svg>
