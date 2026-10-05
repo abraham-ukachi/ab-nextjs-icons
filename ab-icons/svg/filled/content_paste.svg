@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="content_pasteMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <path d="M8.5 5.5 H7.0 A1.5 1.5 0 0 0 5.5 7 V18.5 A1.5 1.5 0 0 0 7.0 20 H17.0 A1.5 1.5 0 0 0 18.5 18.5 V7 A1.5 1.5 0 0 0 17.0 5.5 H15.5 V7.2 H8.5 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M9.0 3.8 H15.0 V6.8 H9.0 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <rect x="8.0" y="9.5" width="8.0" height="1.7" fill="#000"/>
+      <rect x="8.0" y="12.5" width="8.0" height="1.7" fill="#000"/>
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="currentColor" mask="url(#content_pasteMask)"/>
+</svg>

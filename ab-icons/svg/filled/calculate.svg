@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="calculateMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <path d="M7 3.8 H17 A2 2 0 0 1 19 5.8 V18.2 A2 2 0 0 1 17 20.2 H7 A2 2 0 0 1 5 18.2 V5.8 A2 2 0 0 1 7 3.8 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <rect x="7.5" y="6.5" width="9.0" height="3.0" rx="0.4" fill="#000"/>
+      <line x1="8" y1="12.5" x2="10.5" y2="12.5" stroke="#000" stroke-width="1.85" stroke-linecap="round"/>
+      <line x1="13.5" y1="12.5" x2="16" y2="12.5" stroke="#000" stroke-width="1.85" stroke-linecap="round"/>
+      <line x1="8" y1="15.5" x2="10.5" y2="15.5" stroke="#000" stroke-width="1.85" stroke-linecap="round"/>
+      <path d="M13.5 14.2 L16 16.8 M16 14.2 L13.5 16.8" stroke="#000" stroke-width="1.85" stroke-linecap="round" fill="none"/>
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="currentColor" mask="url(#calculateMask)"/>
+</svg>
