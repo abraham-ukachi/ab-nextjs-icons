@@ -1,6 +1,6 @@
 {
   "name": "ab-nextjs-icons",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "\u2b50\ufe0f A lightweight collection of icons for abElements created by Abraham Ukachi, and optimized for Next.js applications \ud83d\ude0e.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

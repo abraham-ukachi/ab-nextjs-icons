@@ -29,7 +29,7 @@
 
 # `ab-nextjs-icons`
 
-> Current release: **0.2.0** — AbIcons totals **252** outlined / **223** filled; default outlined weight **200** (stroke 1.25). See [`ab-icons/README.md`](./ab-icons/README.md).
+> Current release: **0.2.1** — AbIcons totals **252** outlined / **223** filled; default outlined weight **200** (stroke 1.25). See the [AbIcons gallery](#abicons-gallery) and [`ab-icons/README.md`](./ab-icons/README.md).
 
 > IMPORTANT: This is a work in progress and subject to major changes until version 1.0.
 
