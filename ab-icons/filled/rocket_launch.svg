@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="rocket_launchMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <path d="M13.5 3.5 C16.5 6.0 17.0 10.0 16.0 13.5 H11.0 C10.0 10.0 10.5 6.0 13.5 3.5 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M11.0 12.0 L8.0 14.5 L11.0 13.5 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M16.0 12.0 L19.0 14.5 L16.0 13.5 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M12.0 13.5 L13.5 17.0 L15.0 13.5 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <line x1="5.0" y1="16.5" x2="8.0" y2="18.0" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
+      <line x1="4.5" y1="18.5" x2="7.0" y2="19.8" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
+      <circle cx="13.5" cy="8.5" r="1.4" fill="#000"/>
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="currentColor" mask="url(#rocket_launchMask)"/>
+</svg>

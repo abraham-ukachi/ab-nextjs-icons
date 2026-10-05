@@ -4,8 +4,8 @@ Material **snake_case** icon names with **original AbIcons geometry** (not Googl
 
 | Variant | Count | Path |
 |--------|------:|------|
-| Outlined | 129 | `outlined/*.svg` |
-| Filled | 100 | `filled/*.svg` |
+| Outlined | 209 | `outlined/*.svg` |
+| Filled | 180 | `filled/*.svg` |
 
 ## Consume (John / Julie)
 

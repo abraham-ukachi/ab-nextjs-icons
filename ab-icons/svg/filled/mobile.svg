@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="mobileMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <path d="M8.8 3.5 H15.2 A1.8 1.8 0 0 1 17.0 5.3 V18.7 A1.8 1.8 0 0 1 15.2 20.5 H8.8 A1.8 1.8 0 0 1 7.0 18.7 V5.3 A1.8 1.8 0 0 1 8.8 3.5 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <rect x="8.6" y="5.5" width="6.8" height="10.5" rx="0.4" fill="#000"/>
+      <line x1="10.0" y1="17.8" x2="14.0" y2="17.8" stroke="#000" stroke-width="1.85" stroke-linecap="round"/>
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="currentColor" mask="url(#mobileMask)"/>
+</svg>
