@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="watchMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <circle cx="12" cy="12" r="5.55" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M9.5 7.0 L9.5 4.5 H14.5 V7.0 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M9.5 17.0 L9.5 19.5 H14.5 V17.0 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <circle cx="12" cy="12" r="3.6" fill="#000"/>
+      <line x1="12.0" y1="12.0" x2="12.0" y2="9.5" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
+      <line x1="12.0" y1="12.0" x2="14.2" y2="12.9" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="currentColor" mask="url(#watchMask)"/>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="local_shippingMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <path d="M3.5 8.0 H14.0 V16.5 H3.5 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M14.0 11.0 H18.5 L20.5 13.5 V16.5 H14.0 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <circle cx="7.0" cy="17.5" r="1.9" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <circle cx="16.5" cy="17.5" r="1.9" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <circle cx="7.0" cy="17.5" r="0.85" fill="#000"/>
+      <circle cx="16.5" cy="17.5" r="0.85" fill="#000"/>
+      <rect x="5.0" y="10.0" width="7.0" height="4.0" rx="0.4" fill="#000"/>
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="currentColor" mask="url(#local_shippingMask)"/>
+</svg>

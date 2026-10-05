@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="keyboardMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <path d="M5.1 7 H18.9 A1.6 1.6 0 0 1 20.5 8.6 V15.4 A1.6 1.6 0 0 1 18.9 17 H5.1 A1.6 1.6 0 0 1 3.5 15.4 V8.6 A1.6 1.6 0 0 1 5.1 7 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <line x1="6.0" y1="10.0" x2="7.5" y2="10.0" stroke="#000" stroke-width="1.85" stroke-linecap="round"/>
+      <line x1="9.0" y1="10.0" x2="10.5" y2="10.0" stroke="#000" stroke-width="1.85" stroke-linecap="round"/>
+      <line x1="12.0" y1="10.0" x2="13.5" y2="10.0" stroke="#000" stroke-width="1.85" stroke-linecap="round"/>
+      <line x1="15.0" y1="10.0" x2="16.5" y2="10.0" stroke="#000" stroke-width="1.85" stroke-linecap="round"/>
+      <line x1="7.5" y1="13.5" x2="16.5" y2="13.5" stroke="#000" stroke-width="1.85" stroke-linecap="round"/>
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="currentColor" mask="url(#keyboardMask)"/>
+</svg>

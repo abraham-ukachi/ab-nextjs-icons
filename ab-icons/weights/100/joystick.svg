@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <!-- wide rounded base -->
+  <path d="M5.0 16.5 H19.0 A1.5 1.5 0 0 1 19.0 19.5 H5.0 A1.5 1.5 0 0 1 5.0 16.5 Z" stroke="currentColor" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- small button on base -->
+  <circle cx="16.5" cy="18.0" r="0.9" fill="currentColor"/>
+  <!-- stick angled slightly right -->
+  <line x1="11.2" y1="16.5" x2="13.5" y2="9.5" stroke="currentColor" stroke-width="1.0" stroke-linecap="round"/>
+  <!-- ball top -->
+  <circle cx="14.2" cy="7.2" r="2.6" stroke="currentColor" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

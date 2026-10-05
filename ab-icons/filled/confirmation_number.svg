@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="confirmation_numberMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <path d="M4.5 8.0 H19.5 V11.0 C18.2 11.0 17.5 12.0 17.5 12.0 C17.5 12.0 18.2 13.0 19.5 13.0 V16.0 H4.5 V13.0 C5.8 13.0 6.5 12.0 6.5 12.0 C6.5 12.0 5.8 11.0 4.5 11.0 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <line x1="10.0" y1="10.0" x2="10.0" y2="14.0" stroke="#000" stroke-width="1.85" stroke-linecap="round"/>
+      <line x1="13.0" y1="10.0" x2="13.0" y2="14.0" stroke="#000" stroke-width="1.85" stroke-linecap="round"/>
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="currentColor" mask="url(#confirmation_numberMask)"/>
+</svg>

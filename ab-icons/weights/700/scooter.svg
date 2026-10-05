@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <!-- wheels -->
+  <circle cx="6.0" cy="18.5" r="2.4" stroke="currentColor" stroke-width="2.85" fill="none"/>
+  <circle cx="17.5" cy="18.5" r="2.4" stroke="currentColor" stroke-width="2.85" fill="none"/>
+  <!-- deck -->
+  <path d="M8.2 18.5 H15.2" stroke="currentColor" stroke-width="2.85" stroke-linecap="round"/>
+  <!-- tall stem angled slightly forward (from front wheel area up-left-of-handle toward top) -->
+  <path d="M15.2 18.5 L17.0 5.5" stroke="currentColor" stroke-width="2.85" stroke-linecap="round"/>
+  <!-- small T-bar near top -->
+  <path d="M14.0 5.5 H20.0" stroke="currentColor" stroke-width="2.85" stroke-linecap="round"/>
+</svg>

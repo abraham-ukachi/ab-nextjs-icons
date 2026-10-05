@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="squareMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <path d="M6.5 5 H17.5 A1.5 1.5 0 0 1 19.0 6.5 V17.5 A1.5 1.5 0 0 1 17.5 19 H6.5 A1.5 1.5 0 0 1 5.0 17.5 V6.5 A1.5 1.5 0 0 1 6.5 5 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="currentColor" mask="url(#squareMask)"/>
+</svg>

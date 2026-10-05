@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="usbMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <path d="M8.6 5 H15.4 A1.6 1.6 0 0 1 17.0 6.6 V14.4 A1.6 1.6 0 0 1 15.4 16 H8.6 A1.6 1.6 0 0 1 7.0 14.4 V6.6 A1.6 1.6 0 0 1 8.6 5 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <rect x="9.0" y="3.0" width="2.4" height="2.6" rx="0.35" fill="#fff" stroke="#fff" stroke-width="1.4"/>
+      <rect x="12.6" y="3.0" width="2.4" height="2.6" rx="0.35" fill="#fff" stroke="#fff" stroke-width="1.4"/>
+      <line x1="12.0" y1="16.0" x2="12.0" y2="20.5" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="currentColor" mask="url(#usbMask)"/>
+</svg>

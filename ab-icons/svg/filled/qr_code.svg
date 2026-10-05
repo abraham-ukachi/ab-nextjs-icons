@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="qr_codeMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <!-- solid finder squares -->
+      <rect x="3.5" y="3.5" width="7.0" height="7.0" rx="0.6" fill="#fff" stroke="#fff" stroke-width="1.85"/>
+      <rect x="13.5" y="3.5" width="7.0" height="7.0" rx="0.6" fill="#fff" stroke="#fff" stroke-width="1.85"/>
+      <rect x="3.5" y="13.5" width="7.0" height="7.0" rx="0.6" fill="#fff" stroke="#fff" stroke-width="1.85"/>
+      <!-- modules -->
+      <rect x="13.5" y="13.5" width="1.6" height="1.6" fill="#fff"/>
+      <rect x="16.0" y="13.5" width="1.6" height="1.6" fill="#fff"/>
+      <rect x="18.9" y="13.5" width="1.6" height="1.6" fill="#fff"/>
+      <rect x="13.5" y="16.0" width="1.6" height="1.6" fill="#fff"/>
+      <rect x="18.9" y="16.0" width="1.6" height="1.6" fill="#fff"/>
+      <rect x="15.0" y="18.5" width="1.6" height="1.6" fill="#fff"/>
+      <rect x="17.5" y="18.5" width="1.6" height="1.6" fill="#fff"/>
+      <rect x="13.5" y="20.5" width="1.6" height="1.6" fill="#fff"/>
+      <rect x="18.9" y="20.5" width="1.6" height="1.6" fill="#fff"/>
+      <rect x="11.2" y="4.5" width="1.4" height="1.4" fill="#fff"/>
+      <rect x="11.2" y="7.2" width="1.4" height="1.4" fill="#fff"/>
+      <rect x="4.5" y="11.2" width="1.4" height="1.4" fill="#fff"/>
+      <rect x="7.2" y="11.2" width="1.4" height="1.4" fill="#fff"/>
+      <!-- knock corners out: ring between outer and inner (black cutout ring via evenodd-ish: black mid square then white center) -->
+      <!-- Actually: knock INNER of finder as black hole, then white center dot -->
+      <rect x="5.0" y="5.0" width="4.0" height="4.0" rx="0.2" fill="#000"/>
+      <rect x="15.0" y="5.0" width="4.0" height="4.0" rx="0.2" fill="#000"/>
+      <rect x="5.0" y="15.0" width="4.0" height="4.0" rx="0.2" fill="#000"/>
+      <!-- inner dots (white back) -->
+      <rect x="5.9" y="5.9" width="2.2" height="2.2" rx="0.15" fill="#fff"/>
+      <rect x="15.9" y="5.9" width="2.2" height="2.2" rx="0.15" fill="#fff"/>
+      <rect x="5.9" y="15.9" width="2.2" height="2.2" rx="0.15" fill="#fff"/>
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="currentColor" mask="url(#qr_codeMask)"/>
+</svg>

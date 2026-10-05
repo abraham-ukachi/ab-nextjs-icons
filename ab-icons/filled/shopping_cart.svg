@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
-  <path d="M4 5.5 H6.2 L7.5 8.5 H18.5 L17 14.5 H8.2 L7 8.5 Z" fill="currentColor"/>
-  <circle cx="9.5" cy="18" r="1.5" fill="currentColor"/>
-  <circle cx="16" cy="18" r="1.5" fill="currentColor"/>
+  <defs>
+    <mask id="shopping_cartMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <path d="M4 5.5 H6.2 L7.5 8.5 H18.5 L17 14.5 H8.2 L7 8.5 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <circle cx="9.5" cy="18" r="1.5" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <circle cx="16" cy="18" r="1.5" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="currentColor" mask="url(#shopping_cartMask)"/>
 </svg>

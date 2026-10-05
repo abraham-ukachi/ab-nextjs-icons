@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
   <defs>
-    <mask id="wn" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-      <rect width="24" height="24" fill="#fff"/>
-      <line x1="12" y1="10" x2="12" y2="14.5" stroke="currentColor" stroke-width="1.85" stroke-linecap="round"/>
-      <circle cx="12" cy="17" r="0.95" fill="currentColor"/>
+    <mask id="warningMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <path d="M12 4.5 L21 19.5 H3 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <line x1="12" y1="10" x2="12" y2="14.5" stroke="#000" stroke-width="1.85" stroke-linecap="round"/>
+      <circle cx="12" cy="17" r="1.1" fill="#000"/>
     </mask>
   </defs>
-  <path d="M12 4.5 L21 19.5 H3 Z" fill="currentColor" mask="url(#wn)"/>
+  <rect width="24" height="24" fill="currentColor" mask="url(#warningMask)"/>
 </svg>

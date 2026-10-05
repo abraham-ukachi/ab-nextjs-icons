@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
-  <rect x="4.5" y="4.5" width="6.5" height="6.5" rx="1.6" fill="currentColor"/>
-  <rect x="13" y="4.5" width="6.5" height="6.5" rx="1.6" fill="currentColor"/>
-  <rect x="4.5" y="13" width="6.5" height="6.5" rx="1.6" fill="currentColor"/>
-  <path d="M13 16.25 H19.5 M16.25 13 V19.5" stroke="currentColor" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <defs>
+    <mask id="widgetsMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <rect x="4.5" y="4.5" width="6.5" height="6.5" rx="1.6" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <rect x="13" y="4.5" width="6.5" height="6.5" rx="1.6" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <rect x="4.5" y="13" width="6.5" height="6.5" rx="1.6" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M13 16.25 H19.5 M16.25 13 V19.5" fill="none" stroke="#fff" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round"/>
+
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="currentColor" mask="url(#widgetsMask)"/>
 </svg>

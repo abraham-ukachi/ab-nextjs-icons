@@ -17,6 +17,11 @@
  *    Serve node_modules/ab-nextjs-icons/ab-icons/... OR copy abicons
  *    into public/ab-icons (or public/ab-nextjs-icons/ab-icons) for <img> / next/image.
  *
+ * 4) Weight (outlined, Material Symbols-style 100-700, 200 = default 1.25 stroke):
+ *    getAbIconSvg("home", "outlined", { weight: 300 });
+ *    @import "ab-nextjs-icons/ab-icons/weight.css"; then <span class="abicon-svg" style="--abicon-weight:1.25">
+ *    <span class="abicon abicon-w300 abicon-home"></span> (mask API, pre-rendered weights)
+ *
  * Names match Material Icons/Symbols snake_case for drop-in rename from Google Material.
  * Path geometry is original AbIcons — not Google Material path data.
  */
@@ -24,7 +29,12 @@
 export {
   type AbIconName,
   type AbIconSvgEntry,
+  type AbIconSvgOptions,
+  type AbIconWeight,
   abIconNames,
   abIconSvg,
+  abIconWeights,
+  abIconDefaultWeight,
+  abIconWeightStroke,
   getAbIconSvg,
 } from "./icon-map";

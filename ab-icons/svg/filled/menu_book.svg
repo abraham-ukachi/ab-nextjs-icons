@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="menu_bookMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <path d="M4.5 6.5 C7.5 5.8 10.2 6.5 12 8.0 C13.8 6.5 16.5 5.8 19.5 6.5 V18.0 C16.5 17.2 13.8 17.8 12 19.0 C10.2 17.8 7.5 17.2 4.5 18.0 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <rect x="11.05" y="8.2" width="1.9" height="10.2" fill="#000"/>
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="currentColor" mask="url(#menu_bookMask)"/>
+</svg>

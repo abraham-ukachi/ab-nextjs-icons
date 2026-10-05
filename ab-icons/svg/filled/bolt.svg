@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="boltMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <path d="M13.2 3.5 L7.2 12.8 H11.2 L10.0 20.5 L17.0 10.5 H13.0 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="currentColor" mask="url(#boltMask)"/>
+</svg>

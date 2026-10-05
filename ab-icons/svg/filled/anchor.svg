@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="anchorMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <circle cx="12" cy="5.8" r="1.9" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M11.05 7.6 H12.95 V18.5 H11.05 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M6.5 14.5 C6.5 17.8 8.8 19.5 12 19.5 C15.2 19.5 17.5 17.8 17.5 14.5" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M6.5 14.5 L4.5 12.8 L6.2 12.0 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M17.5 14.5 L19.5 12.8 L17.8 12.0 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <circle cx="12" cy="5.8" r="0.85" fill="#000"/>
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="currentColor" mask="url(#anchorMask)"/>
+</svg>

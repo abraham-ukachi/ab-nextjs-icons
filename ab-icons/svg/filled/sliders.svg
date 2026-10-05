@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="slidersMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <line x1="5.0" y1="7.0" x2="19.0" y2="7.0" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
+      <circle cx="9.0" cy="7.0" r="1.7" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <line x1="5.0" y1="12.0" x2="19.0" y2="12.0" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
+      <circle cx="14.0" cy="12.0" r="1.7" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <line x1="5.0" y1="17.0" x2="19.0" y2="17.0" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
+      <circle cx="11.0" cy="17.0" r="1.7" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="currentColor" mask="url(#slidersMask)"/>
+</svg>

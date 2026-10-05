@@ -4,24 +4,51 @@ Material **snake_case** icon names with **original AbIcons geometry** (not Googl
 
 | Variant | Count | Path |
 |--------|------:|------|
-| Outlined | 84 | `outlined/*.svg` |
-| Filled | 55 | `filled/*.svg` |
+| Outlined | 252 | `svg/outlined/*.svg` / `outlined/*.svg` (default weight **200**, stroke 1.25) |
+| Filled | 223 | `svg/filled/*.svg` / `filled/*.svg` |
+| Weights | 7 (100–700) | `weights/<w>/*.svg` (outlined only) |
 
-## Consume (John / Julie)
+## Default weight: 200
 
-### 1. Preferred for demos / Next — inline SVG strings
+Outlined art ships at weight **200** (stroke **1.25**). That matches `weights/200/`. Use 300–400 at ≤16px if thin strokes feel faint.
 
-```ts
-import { getAbIconSvg, abIconSvg, abIconNames } from "ab-nextjs-icons/ab-icons";
+### Change weight
 
-const home = getAbIconSvg("home"); // outlined markup
-const homeFilled = getAbIconSvg("home", "filled");
-// or: abIconSvg.home.outlined / abIconSvg.home.filled
+```css
+/* Global (inline SVG helper) */
+:root { --abicon-weight: 400; }
+
+/* Per icon (inline) */
+.abicon-svg { --abicon-weight: 700; }
+
+/* CSS mask API */
+.abicon.abicon-home.abicon-w400 { }
+span.abicon.abicon-home { --abicon-wght: 400; }
 ```
 
-Inline the string (e.g. `dangerouslySetInnerHTML`) so `currentColor` themes work.
+```ts
+getAbIconSvg("home");                          // weight 200
+getAbIconSvg("home", "outlined", { weight: 400 }); // stroke 1.85
+getAbIconSvg("home", "outlined", { weight: 700 }); // stroke 2.85
+```
 
-### 2. CSS mask utilities
+## Consume
+
+### 1. Inline SVG strings
+
+```ts
+import { getAbIconSvg, abIconSvg, abIconNames, abIconDefaultWeight } from "ab-nextjs-icons/ab-icons";
+
+const home = getAbIconSvg("home"); // outlined @ default 200
+const homeFilled = getAbIconSvg("home", "filled");
+const homeBold = getAbIconSvg("home", "outlined", { weight: 400 });
+```
+
+```css
+@import "ab-nextjs-icons/ab-icons/weight.css";
+```
+
+### 2. CSS mask utilities (+ weight)
 
 ```css
 @import "ab-nextjs-icons/ab-icons/index.css";
@@ -29,21 +56,28 @@ Inline the string (e.g. `dangerouslySetInnerHTML`) so `currentColor` themes work
 
 ```html
 <span class="abicon abicon-home" aria-hidden="true"></span>
-<span class="abicon abicon-arrow_back" style="--abicon-size: 24px; color: #333"></span>
+<span class="abicon abicon-home abicon-w400" style="--abicon-size:24px"></span>
 <span class="abicon abicon-filled abicon-favorite"></span>
 ```
 
+Mask URLs are absolute (`/ab-icons/outlined/…`, `/ab-icons/weights/<w>/…`).
+
+| wght | stroke-width |
+|-----:|-------------:|
+| 100 | 1.0 |
+| 200 | 1.25 (**default**) |
+| 300 | 1.5 |
+| 400 | 1.85 |
+| 500 | 2.2 |
+| 600 | 2.5 |
+| 700 | 2.85 |
+
+**Filled icons stay solid.** Weight applies to outlined strokes.
+
 ### 3. Public static files
 
-Serve `node_modules/ab-nextjs-icons/ab-icons/...` **or** copy `ab-icons/svg` into:
-
-- `public/ab-icons/outlined|filled`, or
-- `public/ab-nextjs-icons/ab-icons/outlined|filled`
-
-then use `<img>` / `next/image`.
+Serve / copy into `public/ab-icons/{outlined,filled,weights}`.
 
 ## Naming
 
-Class suffixes and map keys use Material snake_case: `home`, `arrow_back`, `more_vert`.
-
-See `names.json` for the full list and which icons have a filled variant.
+See `names.json` for the full list, `defaultWeight`, filled coverage, and `weights: [100,…,700]`.

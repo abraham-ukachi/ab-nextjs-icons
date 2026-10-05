@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <defs>
+    <mask id="gpp_goodMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <path d="M12 3.5 L19.0 6.5 V12.0 C19.0 16.5 15.5 19.5 12 20.5 C8.5 19.5 5.0 16.5 5.0 12.0 V6.5 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
+      <path d="M8.5 12.0 L11.0 14.5 L15.5 9.5" fill="none" stroke="#000" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round"/>
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="currentColor" mask="url(#gpp_goodMask)"/>
+</svg>
