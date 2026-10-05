@@ -3,13 +3,17 @@
  * ab-nextjs-icons — AbIcons weight helper for INLINE SVG
  * @file: ab-icons/weight.css
  *
- * Wrap or mark inline SVG with .abicon-svg and set --abicon-weight (px stroke).
- * Example:
- *   <span class="abicon-svg" style="--abicon-weight:1.25" dangerouslySetInnerHTML={{__html: getAbIconSvg('home')}} />
+ * --abicon-weight is the Material axis (100–700). Default 200.
+ * Stroke px is --abicon-stroke (default 1.25).
  *
- * For CSS-mask icons use index.css + .abicon-w100…w700 / --abicon-wght instead.
- * Filled icons are solid; stroke weight usually has no effect unless the glyph
- * includes stroke details.
+ * Examples:
+ *   :root { --abicon-weight: 400; }   /* global thicker */
+ *   <span class="abicon-svg" style="--abicon-weight:700">…</span>
+ *   Or set stroke directly: style="--abicon-stroke:1.85"
+ *
+ * Tip: at ≤16px prefer weight 300–400 for clarity.
+ * For CSS-mask icons use index.css + .abicon-w100…w700 / --abicon-wght.
+ * Filled icons are solid; stroke weight usually has no effect.
  */
 
 .abicon-svg,
@@ -20,6 +24,8 @@
   vertical-align: -0.125em;
   width: var(--abicon-size, 1em);
   height: var(--abicon-size, 1em);
+  --abicon-weight: 200;
+  --abicon-stroke: 1.25;
 }
 
 .abicon-svg svg {
@@ -27,8 +33,24 @@
   height: 100%;
 }
 
-/* Presentation attribute stroke-width loses to this CSS property */
+/* Map axis → stroke px */
+.abicon-svg[style*="--abicon-weight:100"],
+.abicon-svg[style*="--abicon-weight: 100"] { --abicon-stroke: 1.0; }
+.abicon-svg[style*="--abicon-weight:200"],
+.abicon-svg[style*="--abicon-weight: 200"] { --abicon-stroke: 1.25; }
+.abicon-svg[style*="--abicon-weight:300"],
+.abicon-svg[style*="--abicon-weight: 300"] { --abicon-stroke: 1.5; }
+.abicon-svg[style*="--abicon-weight:400"],
+.abicon-svg[style*="--abicon-weight: 400"] { --abicon-stroke: 1.85; }
+.abicon-svg[style*="--abicon-weight:500"],
+.abicon-svg[style*="--abicon-weight: 500"] { --abicon-stroke: 2.2; }
+.abicon-svg[style*="--abicon-weight:600"],
+.abicon-svg[style*="--abicon-weight: 600"] { --abicon-stroke: 2.5; }
+.abicon-svg[style*="--abicon-weight:700"],
+.abicon-svg[style*="--abicon-weight: 700"] { --abicon-stroke: 2.85; }
+
 .abicon-svg [stroke-width],
+.abicon-svg [stroke-width="1.25"],
 .abicon-svg [stroke-width="1.85"],
 .abicon-svg path[stroke],
 .abicon-svg line[stroke],
@@ -36,5 +58,5 @@
 .abicon-svg rect[stroke],
 .abicon-svg polyline[stroke],
 .abicon-svg polygon[stroke] {
-  stroke-width: var(--abicon-weight, 1.85);
+  stroke-width: var(--abicon-stroke, 1.25);
 }

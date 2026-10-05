@@ -34,6 +34,7 @@ export {
   abIconNames,
   abIconSvg,
   abIconWeights,
+  abIconDefaultWeight,
   abIconWeightStroke,
   getAbIconSvg,
 } from "./icon-map";

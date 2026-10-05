@@ -490,6 +490,8 @@
     600,
     700
   ],
+  "defaultWeight": 200,
+  "defaultStroke": 1.25,
   "weightStroke": {
     "100": 1.0,
     "200": 1.25,
