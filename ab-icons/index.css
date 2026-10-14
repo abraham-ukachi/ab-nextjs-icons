@@ -8188,6 +8188,82 @@
   mask-image: url("/ab-icons/weights/700/gif.svg");
 }
 
+.abicon-github {
+  -webkit-mask-image: url("/ab-icons/outlined/github.svg");
+  mask-image: url("/ab-icons/outlined/github.svg");
+}
+
+.abicon-filled.abicon-github {
+  -webkit-mask-image: url("/ab-icons/filled/github.svg");
+  mask-image: url("/ab-icons/filled/github.svg");
+}
+
+.abicon-w100.abicon-github:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/100/github.svg");
+  mask-image: url("/ab-icons/weights/100/github.svg");
+}
+
+.abicon-github:not(.abicon-filled)[style*="--abicon-wght: 100"],
+.abicon-github:not(.abicon-filled)[style*="--abicon-wght:100"] {
+  -webkit-mask-image: url("/ab-icons/weights/100/github.svg");
+  mask-image: url("/ab-icons/weights/100/github.svg");
+}
+
+.abicon-w300.abicon-github:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/300/github.svg");
+  mask-image: url("/ab-icons/weights/300/github.svg");
+}
+
+.abicon-github:not(.abicon-filled)[style*="--abicon-wght: 300"],
+.abicon-github:not(.abicon-filled)[style*="--abicon-wght:300"] {
+  -webkit-mask-image: url("/ab-icons/weights/300/github.svg");
+  mask-image: url("/ab-icons/weights/300/github.svg");
+}
+
+.abicon-w400.abicon-github:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/400/github.svg");
+  mask-image: url("/ab-icons/weights/400/github.svg");
+}
+
+.abicon-github:not(.abicon-filled)[style*="--abicon-wght: 400"],
+.abicon-github:not(.abicon-filled)[style*="--abicon-wght:400"] {
+  -webkit-mask-image: url("/ab-icons/weights/400/github.svg");
+  mask-image: url("/ab-icons/weights/400/github.svg");
+}
+
+.abicon-w500.abicon-github:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/500/github.svg");
+  mask-image: url("/ab-icons/weights/500/github.svg");
+}
+
+.abicon-github:not(.abicon-filled)[style*="--abicon-wght: 500"],
+.abicon-github:not(.abicon-filled)[style*="--abicon-wght:500"] {
+  -webkit-mask-image: url("/ab-icons/weights/500/github.svg");
+  mask-image: url("/ab-icons/weights/500/github.svg");
+}
+
+.abicon-w600.abicon-github:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/600/github.svg");
+  mask-image: url("/ab-icons/weights/600/github.svg");
+}
+
+.abicon-github:not(.abicon-filled)[style*="--abicon-wght: 600"],
+.abicon-github:not(.abicon-filled)[style*="--abicon-wght:600"] {
+  -webkit-mask-image: url("/ab-icons/weights/600/github.svg");
+  mask-image: url("/ab-icons/weights/600/github.svg");
+}
+
+.abicon-w700.abicon-github:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/700/github.svg");
+  mask-image: url("/ab-icons/weights/700/github.svg");
+}
+
+.abicon-github:not(.abicon-filled)[style*="--abicon-wght: 700"],
+.abicon-github:not(.abicon-filled)[style*="--abicon-wght:700"] {
+  -webkit-mask-image: url("/ab-icons/weights/700/github.svg");
+  mask-image: url("/ab-icons/weights/700/github.svg");
+}
+
 .abicon-globe {
   -webkit-mask-image: url("/ab-icons/outlined/globe.svg");
   mask-image: url("/ab-icons/outlined/globe.svg");
@@ -17555,6 +17631,77 @@
 .abicon-tornado:not(.abicon-filled)[style*="--abicon-wght:700"] {
   -webkit-mask-image: url("/ab-icons/weights/700/tornado.svg");
   mask-image: url("/ab-icons/weights/700/tornado.svg");
+}
+
+.abicon-translate {
+  -webkit-mask-image: url("/ab-icons/outlined/translate.svg");
+  mask-image: url("/ab-icons/outlined/translate.svg");
+}
+
+.abicon-w100.abicon-translate:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/100/translate.svg");
+  mask-image: url("/ab-icons/weights/100/translate.svg");
+}
+
+.abicon-translate:not(.abicon-filled)[style*="--abicon-wght: 100"],
+.abicon-translate:not(.abicon-filled)[style*="--abicon-wght:100"] {
+  -webkit-mask-image: url("/ab-icons/weights/100/translate.svg");
+  mask-image: url("/ab-icons/weights/100/translate.svg");
+}
+
+.abicon-w300.abicon-translate:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/300/translate.svg");
+  mask-image: url("/ab-icons/weights/300/translate.svg");
+}
+
+.abicon-translate:not(.abicon-filled)[style*="--abicon-wght: 300"],
+.abicon-translate:not(.abicon-filled)[style*="--abicon-wght:300"] {
+  -webkit-mask-image: url("/ab-icons/weights/300/translate.svg");
+  mask-image: url("/ab-icons/weights/300/translate.svg");
+}
+
+.abicon-w400.abicon-translate:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/400/translate.svg");
+  mask-image: url("/ab-icons/weights/400/translate.svg");
+}
+
+.abicon-translate:not(.abicon-filled)[style*="--abicon-wght: 400"],
+.abicon-translate:not(.abicon-filled)[style*="--abicon-wght:400"] {
+  -webkit-mask-image: url("/ab-icons/weights/400/translate.svg");
+  mask-image: url("/ab-icons/weights/400/translate.svg");
+}
+
+.abicon-w500.abicon-translate:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/500/translate.svg");
+  mask-image: url("/ab-icons/weights/500/translate.svg");
+}
+
+.abicon-translate:not(.abicon-filled)[style*="--abicon-wght: 500"],
+.abicon-translate:not(.abicon-filled)[style*="--abicon-wght:500"] {
+  -webkit-mask-image: url("/ab-icons/weights/500/translate.svg");
+  mask-image: url("/ab-icons/weights/500/translate.svg");
+}
+
+.abicon-w600.abicon-translate:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/600/translate.svg");
+  mask-image: url("/ab-icons/weights/600/translate.svg");
+}
+
+.abicon-translate:not(.abicon-filled)[style*="--abicon-wght: 600"],
+.abicon-translate:not(.abicon-filled)[style*="--abicon-wght:600"] {
+  -webkit-mask-image: url("/ab-icons/weights/600/translate.svg");
+  mask-image: url("/ab-icons/weights/600/translate.svg");
+}
+
+.abicon-w700.abicon-translate:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/700/translate.svg");
+  mask-image: url("/ab-icons/weights/700/translate.svg");
+}
+
+.abicon-translate:not(.abicon-filled)[style*="--abicon-wght: 700"],
+.abicon-translate:not(.abicon-filled)[style*="--abicon-wght:700"] {
+  -webkit-mask-image: url("/ab-icons/weights/700/translate.svg");
+  mask-image: url("/ab-icons/weights/700/translate.svg");
 }
 
 .abicon-tune {

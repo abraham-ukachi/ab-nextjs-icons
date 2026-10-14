@@ -4,8 +4,8 @@ Material **snake_case** icon names with **original AbIcons geometry** (not Googl
 
 | Variant | Count | Path |
 |--------|------:|------|
-| Outlined | 252 | `svg/outlined/*.svg` / `outlined/*.svg` (default weight **200**, stroke 1.25) |
-| Filled | 223 | `svg/filled/*.svg` / `filled/*.svg` |
+| Outlined | 254 | `svg/outlined/*.svg` / `outlined/*.svg` (default weight **200**, stroke 1.25) |
+| Filled | 224 | `svg/filled/*.svg` / `filled/*.svg` |
 | Weights | 7 (100–700) | `weights/<w>/*.svg` (outlined only) |
 
 ## Default weight: 200
