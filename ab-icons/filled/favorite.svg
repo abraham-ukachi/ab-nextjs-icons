@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
-  <defs>
-    <mask id="favoriteMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-      <path d="M12 19.2 L5.8 13.4 C3.9 11.6 3.9 8.6 5.8 6.8 C7.6 5.1 10.4 5.3 12 7.2 C13.6 5.3 16.4 5.1 18.2 6.8 C20.1 8.6 20.1 11.6 18.2 13.4 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
-
-    </mask>
-  </defs>
-  <rect width="24" height="24" fill="currentColor" mask="url(#favoriteMask)"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" aria-hidden="true" viewBox="0 0 24 24"><defs><mask id="favoriteMask" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse"><path fill="#fff" stroke="#fff" stroke-linejoin="round" stroke-width="1.85" d="M12 19.2 L5.8 13.4 C3.9 11.6 3.9 8.6 5.8 6.8 C7.6 5.1 10.4 5.3 12 7.2 C13.6 5.3 16.4 5.1 18.2 6.8 C20.1 8.6 20.1 11.6 18.2 13.4 Z"/></mask></defs><rect width="24" height="24" fill="currentColor" mask="url(#favoriteMask)"/></svg>

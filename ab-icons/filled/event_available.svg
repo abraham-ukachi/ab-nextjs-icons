@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
-  <defs>
-    <mask id="event_availableMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-      <path d="M6.3 6 H17.7 A1.8 1.8 0 0 1 19.5 7.8 V10 H4.5 V7.8 A1.8 1.8 0 0 1 6.3 6 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
-      <path d="M4.5 10 H19.5 V18.2 A1.8 1.8 0 0 1 17.7 20 H6.3 A1.8 1.8 0 0 1 4.5 18.2 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
-      <line x1="8" y1="4.5" x2="8" y2="7.5" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
-      <line x1="16" y1="4.5" x2="16" y2="7.5" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
-      <rect x="4.8" y="9.15" width="14.4" height="1.8" fill="#000"/>
-      <path d="M9.0 14.5 L11.0 16.5 L15.5 12.0" stroke="#000" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-    </mask>
-  </defs>
-  <rect width="24" height="24" fill="currentColor" mask="url(#event_availableMask)"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" aria-hidden="true" viewBox="0 0 24 24"><defs><mask id="event_availableMask" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse"><path fill="#fff" stroke="#fff" stroke-linejoin="round" stroke-width="1.85" d="M6.3 6 H17.7 A1.8 1.8 0 0 1 19.5 7.8 V10 H4.5 V7.8 A1.8 1.8 0 0 1 6.3 6 Z"/><path fill="#fff" stroke="#fff" stroke-linejoin="round" stroke-width="1.85" d="M4.5 10 H19.5 V18.2 A1.8 1.8 0 0 1 17.7 20 H6.3 A1.8 1.8 0 0 1 4.5 18.2 Z"/><line x1="8" x2="8" y1="4.5" y2="7.5" stroke="#fff" stroke-linecap="round" stroke-width="1.85"/><line x1="16" x2="16" y1="4.5" y2="7.5" stroke="#fff" stroke-linecap="round" stroke-width="1.85"/><rect width="14.4" height="1.8" x="4.8" y="9.15" fill="#000"/><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.85" d="M9.0 14.5 L11.0 16.5 L15.5 12.0"/></mask></defs><rect width="24" height="24" fill="currentColor" mask="url(#event_availableMask)"/></svg>
