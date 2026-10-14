@@ -1,7 +1,7 @@
 {
   "name": "ab-nextjs-icons",
-  "version": "0.2.2",
-  "description": "\u2b50\ufe0f A lightweight collection of icons for abElements created by Abraham Ukachi, and optimized for Next.js applications \ud83d\ude0e.",
+  "version": "0.2.3",
+  "description": "⭐️ A lightweight collection of icons for abElements created by Abraham Ukachi, and optimized for Next.js applications 😎.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -18,15 +18,20 @@
     "dev": "tsup --watch",
     "lint": "eslint . --fix",
     "lint:fix": "eslint . --fix",
+    "typecheck": "tsc -p tsconfig.typecheck.json",
     "format": "prettier --write .",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:file": "vitest run",
     "test:name": "vitest run -t",
-    "check:publish": "node scripts/check-publish-deps.mjs",
-    "prepublishOnly": "node scripts/check-publish-deps.mjs",
+    "check:publish": "node scripts/check-publish-deps.mjs && python3 scripts/regenerate-ab-icons-meta.py --check",
+    "prepublishOnly": "node scripts/check-publish-deps.mjs && python3 scripts/regenerate-ab-icons-meta.py --check",
     "readme:icons": "node scripts/readme-icons.mjs",
-    "readme:icons:check": "node scripts/readme-icons.mjs --check"
+    "readme:icons:check": "node scripts/readme-icons.mjs --check",
+    "icons:modules": "node scripts/icon-modules.mjs",
+    "icons:modules:check": "node scripts/icon-modules.mjs --check",
+    "icons:meta": "python3 scripts/regenerate-ab-icons-meta.py",
+    "icons:meta:check": "python3 scripts/regenerate-ab-icons-meta.py --check"
   },
   "keywords": [
     "react",
