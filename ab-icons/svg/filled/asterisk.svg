@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
-  <defs>
-    <mask id="asteriskMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-      <path d="M12 5.0 V19.0 M6.2 8.2 L17.8 15.8 M17.8 8.2 L6.2 15.8" fill="none" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
-
-    </mask>
-  </defs>
-  <rect width="24" height="24" fill="currentColor" mask="url(#asteriskMask)"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" aria-hidden="true" viewBox="0 0 24 24"><defs><mask id="asteriskMask" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse"><path fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.85" d="M12 5.0 V19.0 M6.2 8.2 L17.8 15.8 M17.8 8.2 L6.2 15.8"/></mask></defs><rect width="24" height="24" fill="currentColor" mask="url(#asteriskMask)"/></svg>
