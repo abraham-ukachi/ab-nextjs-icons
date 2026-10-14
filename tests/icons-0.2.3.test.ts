@@ -42,8 +42,7 @@ import { describe, expect, it } from 'vitest'
 import { spawnSync } from 'node:child_process'
 // 📄 fs
 import { existsSync, readFileSync } from 'node:fs'
-import { dirname, join } from 'node:path'
-import { fileURLToPath } from 'node:url'
+import { join } from 'node:path'
 // 🗺️ the full map
 import { abIconSvg, abIconNames } from '../ab-icons/icon-map'
 // 🔣 per-icon modules under test
@@ -52,7 +51,7 @@ import github from '../ab-icons/icons/github'
 import arrowBack from '../ab-icons/icons/arrow_back'
 
 // 📁 package root
-const root = join(dirname(fileURLToPath(import.meta.url)), '..')
+const root = join(__dirname, '..') // 📁 (CommonJS-safe: no import.meta, so `pnpm typecheck` passes)
 
 describe('icons 0.2.3 (Welcome v6)', () => {
   it('adds translate (8th package card: i18n) and github (s09 CTA)', () => {
@@ -91,3 +90,29 @@ describe('icons 0.2.3 (Welcome v6)', () => {
     expect(existsSync(join(root, 'ab-icons/icons/github.ts'))).toBe(true) // 📦
   })
 })
+
+describe('James review P1 🧐', () => {
+  // ©️ God's full header on the two generated files (the generator emits it too, so a regen keeps it)
+  it.each(['ab-icons/index.css', 'ab-icons/icon-map.ts'])('%s starts with the full license header', (f) => {
+    const src = readFileSync(join(root, f), 'utf8') // 📄
+    expect(src.startsWith('/* \n* @license MIT')).toBe(true) // 🔝 first thing in the file
+    expect(src).toContain('Copyright (c) 2026 Abraham Ukachi. The abElements Project.') // ©️
+    expect(src).toContain('Permission is hereby granted, free of charge') // 📜 full MIT text
+    expect(src).toContain('@authors: Abraham Ukachi <abrahamukachi@gmail.com>') // ✍️
+  })
+
+  // 🟢 Node 20: the up-to-date check must not load .ts (simulated with type stripping switched off)
+  it('icons:modules:check runs without TypeScript type stripping (Node 20 safe)', () => {
+    const flags = process.versions.node.split('.').map(Number)[0] >= 22 ? ['--no-experimental-strip-types'] : [] // 🚫 .ts loading
+    const r = spawnSync(process.execPath, ['--no-warnings', ...flags, 'scripts/icon-modules.mjs', '--check'], { cwd: root, encoding: 'utf8' }) // 🔎
+    expect(r.status, r.stderr).toBe(0) // ✅
+    expect(r.stdout).toContain('up to date (254 modules)') // 🗂️
+    expect(readFileSync(join(root, 'scripts/icon-modules.mjs'), 'utf8')).not.toMatch(/import\([^)]*icon-map\.ts/) // 🚫 no .ts import
+  })
+
+  it('has a typecheck script', () => {
+    const pkg = JSON.parse(readFileSync(join(root, 'package.json'), 'utf8')) // 📦
+    expect(pkg.scripts.typecheck).toBe('tsc -p tsconfig.typecheck.json') // 🧪
+  })
+})
+
