@@ -47,15 +47,35 @@
 // 📄 fs + paths
 import { mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync, existsSync } from 'node:fs'
 import { dirname, join } from 'node:path'
-import { fileURLToPath, pathToFileURL } from 'node:url'
+import { fileURLToPath } from 'node:url'
 
 // 📁 locations
 const root = join(dirname(fileURLToPath(import.meta.url)), '..') // 📦 package root
 const outDir = join(root, 'ab-icons', 'icons') // 📂 generated modules
 const check = process.argv.includes('--check') // 🔎 CI mode
 
-// 🗺️ single source of truth: the generated map (Node ≥ 22.6 strips the TS types)
-const { abIconSvg } = await import(pathToFileURL(join(root, 'ab-icons', 'icon-map.ts')).href)
+// 🗺️ single source of truth: the generated map. We read its JSON data block as TEXT (no .ts import),
+//    so this script (and the up-to-date test) runs on Node 20 without type stripping.
+const { abIconSvg } = readAbIconMap(readFileSync(join(root, 'ab-icons', 'icon-map.ts'), 'utf8'))
+
+/**
+ * 🔍 Pull `abIconSvg` out of icon-map.ts: the generator writes it as a JSON object literal
+ * (quoted keys + strings), so slicing `{ … }` and JSON.parse is exact. Throws loudly if the shape changes.
+ */
+export function readAbIconMap(src) {
+  const marker = 'export const abIconSvg: Record<AbIconName, AbIconSvgEntry> = ' // 🏷️
+  const start = src.indexOf(marker) // 📍
+  if (start < 0) throw new Error('icon-map.ts: abIconSvg declaration not found') // 💥
+  const open = start + marker.length // ➡️ the `{`
+  const end = /\n\}( as const)?;\n/.exec(src.slice(open)) // ⬅️ end of the literal (`};` or `} as const;`)
+  const close = end ? open + end.index : -1 // 📍
+  if (src[open] !== '{' || close < 0) throw new Error('icon-map.ts: abIconSvg is not a plain object literal') // 💥
+  const json = src.slice(open, close + 2).replace(/,(\s*)\}$/, '$1}') // ✂️ trailing comma → valid JSON
+  const abIconSvg = JSON.parse(json) // 🧾
+  // 🛡️ sanity: every entry has outlined markup
+  for (const [name, entry] of Object.entries(abIconSvg)) if (typeof entry?.outlined !== 'string') throw new Error(`icon-map.ts: ${name} has no outlined svg`) // 💥
+  return { abIconSvg } // 📦
+}
 
 // 🧾 module text for one icon (deterministic → stable diffs)
 function moduleFor(name, entry) {
