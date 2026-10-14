@@ -26,7 +26,9 @@
     "check:publish": "node scripts/check-publish-deps.mjs",
     "prepublishOnly": "node scripts/check-publish-deps.mjs",
     "readme:icons": "node scripts/readme-icons.mjs",
-    "readme:icons:check": "node scripts/readme-icons.mjs --check"
+    "readme:icons:check": "node scripts/readme-icons.mjs --check",
+    "icons:modules": "node scripts/icon-modules.mjs",
+    "icons:modules:check": "node scripts/icon-modules.mjs --check"
   },
   "keywords": [
     "react",
