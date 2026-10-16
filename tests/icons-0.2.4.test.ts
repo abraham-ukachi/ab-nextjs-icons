@@ -69,4 +69,17 @@ describe('icons 0.2.4 (docs shell, G49) 🧭', () => {
       }
     }
   })
+  it('deployed_code and package_2 are visually distinct (James review)', () => {
+    const paths = (svg: string) => [...svg.matchAll(/d="([^"]+)"/g)].map((m) => m[1]).sort().join('|') // ✏️ geometry only
+    expect(paths(abIconSvg.deployed_code.outlined)).not.toBe(paths(abIconSvg.package_2.outlined)) // 🧊 vs 📦
+    expect(paths(abIconSvg.deployed_code.filled!)).not.toBe(paths(abIconSvg.package_2.filled!)) // ⬛
+    expect(abIconSvg.deployed_code.outlined).toContain('M9.4 12.9 L7.5 14.8 L9.4 16.7') // ‹ code chevron
+  })
+  it('generated per-icon modules carry the house @authors header', async () => {
+    const { readFileSync } = await import('node:fs')
+    const { join } = await import('node:path')
+    const src = readFileSync(join(__dirname, '..', 'ab-icons/icons/deployed_code.ts'), 'utf8') // 📄
+    expect(src.split('\n')[1]).toBe('// @authors: Abraham Ukachi <abrahamukachi@gmail.com>') // ✍️
+  })
 })
+
