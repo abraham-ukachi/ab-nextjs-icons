@@ -127,3 +127,14 @@ describe('scopeAbIconSvgIds 🆔', () => {
     expect(scopeAbIconSvgIds('<svg><path d="M0 0"/></svg>', 'r1')).toBe('<svg><path d="M0 0"/></svg>') // 🙅
   })
 })
+
+// 📝 James nit: the barrel carries the house header too
+describe('ab-icons/index.ts header 📝', () => {
+  it('has the copyright and @authors lines', async () => {
+    const { readFileSync } = await import('node:fs')
+    const { join } = await import('node:path')
+    const src = readFileSync(join(__dirname, '..', 'ab-icons', 'index.ts'), 'utf8')
+    expect(src).toContain('Copyright (c) 2026 Abraham Ukachi. The abElements Project.') // ©️
+    expect(src).toContain('@authors: Abraham Ukachi <abrahamukachi@gmail.com>') // ✍️
+  })
+})
