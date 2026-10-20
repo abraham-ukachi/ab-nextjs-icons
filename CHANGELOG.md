@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.4](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/v0.2.3...v0.2.4) (2026-10-16)
+
+* ✨ **Docs shell icons (G49, G3 batch 1)**, outlined + filled, original geometry: `animation`, `article`, `dashboard_customize`, `deployed_code`, `interests`, `keyboard_double_arrow_left`, `keyboard_double_arrow_right`, `match_case`, `new_releases`, `package_2`, `school`, `webhook`, plus `toc`, `left_panel_open`, `left_panel_close` (TOC button / aside toggle) and `text_fields`, `desktop_windows`
+* ⬛ **New filled variants** for `search` (active bottom-bar tab), `arrow_forward`, `chevron_right`, `code`, `download`, `expand_more`
+* Line glyphs (chevrons, `toc`, `code`, …) are filled as a bold 2.25 stroke; shapes use the solid mask style
+* 🧊 `deployed_code` is a cube with `‹ ›` code chevrons, so it no longer reads as `package_2`
+* ✍️ Generated `ab-icons/icons/*.ts` modules carry the house `@authors` line
+* 🆔 **Unique mask ids:** filled svgs use `<name>FilledMask` (was the outlined `<name>Mask`), so outlined + filled on one page never share an id (fixes the solid-square active Home, Joseph). Test: every id is unique across all variants
+* 🔧 npm author email is abrahamukachi@gmail.com
+* Totals: **271 outlined / 247 filled**; weights 100–700, per-icon modules, metadata, README gallery and dark previews regenerated
+
 ### [0.2.3](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/v0.2.2...v0.2.3) (2026-10-14)
 
 * ✨ **`translate`** (outlined, original geometry): the i18n card on Welcome s01 ("eight packages")
