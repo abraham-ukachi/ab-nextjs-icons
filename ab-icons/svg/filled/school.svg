@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
-  <defs>
-    <mask id="schoolFilledMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-      <path d="M2.8 9.5 L12 5 L21.2 9.5 L12 14 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
-      <path d="M6.5 12.2 L12 14.9 L17.5 12.2 V15.8 C17.5 17.5 15 18.8 12 18.8 C9 18.8 6.5 17.5 6.5 15.8 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
-      <rect x="20.3" y="9.5" width="1.8" height="5.4" rx="0.6" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
-    </mask>
-  </defs>
-  <rect width="24" height="24" fill="currentColor" mask="url(#schoolFilledMask)"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" aria-hidden="true" viewBox="0 0 24 24"><defs><mask id="schoolFilledMask" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse"><path fill="#fff" stroke="#fff" stroke-linejoin="round" stroke-width="1.85" d="M2.8 9.5 L12 5 L21.2 9.5 L12 14 Z"/><path fill="#fff" stroke="#fff" stroke-linejoin="round" stroke-width="1.85" d="M6.5 12.2 L12 14.9 L17.5 12.2 V15.8 C17.5 17.5 15 18.8 12 18.8 C9 18.8 6.5 17.5 6.5 15.8 Z"/><rect width="1.8" height="5.4" x="20.3" y="9.5" fill="#fff" stroke="#fff" stroke-linejoin="round" stroke-width="1.85" rx=".6"/></mask></defs><rect width="24" height="24" fill="currentColor" mask="url(#schoolFilledMask)"/></svg>

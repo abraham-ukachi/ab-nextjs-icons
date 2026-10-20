@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
-  <defs>
-    <mask id="listFilledMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-      <line x1="7.5" y1="7.0" x2="19.0" y2="7.0" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
-      <line x1="7.5" y1="12.0" x2="19.0" y2="12.0" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
-      <line x1="7.5" y1="17.0" x2="19.0" y2="17.0" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
-      <circle cx="5.0" cy="7.0" r="1.25" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
-      <circle cx="5.0" cy="12.0" r="1.25" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
-      <circle cx="5.0" cy="17.0" r="1.25" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
-
-    </mask>
-  </defs>
-  <rect width="24" height="24" fill="#e6edf3" mask="url(#listFilledMask)"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" aria-hidden="true" viewBox="0 0 24 24"><defs><mask id="listFilledMask" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse"><line x1="7.5" x2="19" y1="7" y2="7" stroke="#fff" stroke-linecap="round" stroke-width="1.85"/><line x1="7.5" x2="19" y1="12" y2="12" stroke="#fff" stroke-linecap="round" stroke-width="1.85"/><line x1="7.5" x2="19" y1="17" y2="17" stroke="#fff" stroke-linecap="round" stroke-width="1.85"/><circle cx="5" cy="7" r="1.25" fill="#fff" stroke="#fff" stroke-linejoin="round" stroke-width="1.85"/><circle cx="5" cy="12" r="1.25" fill="#fff" stroke="#fff" stroke-linejoin="round" stroke-width="1.85"/><circle cx="5" cy="17" r="1.25" fill="#fff" stroke="#fff" stroke-linejoin="round" stroke-width="1.85"/></mask></defs><rect width="24" height="24" fill="#e6edf3" mask="url(#listFilledMask)"/></svg>
