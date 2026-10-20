@@ -96,11 +96,5 @@
     "react-dom": {
       "optional": true
     }
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild",
-      "unrs-resolver"
-    ]
   }
 }
