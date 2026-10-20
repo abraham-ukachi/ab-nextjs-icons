@@ -56,3 +56,17 @@ describe('package files ✂️', () => {
     expect(pkg.files).toContain('!pics/me-nobg.png') // 🖼️ pics/index.ts points at the .jpg
   })
 })
+
+// 🏷️ the README can't go stale: the version is an npm badge, the totals are checked against the map
+import { abIconSvg, abIconNames } from '../ab-icons/icon-map'
+describe('README release line 🏷️', () => {
+  const readme = readFileSync(join(root, 'README.md'), 'utf8')
+  it('uses the shields.io npm badge, no hard-coded version', () => {
+    expect(readme).toContain('https://img.shields.io/npm/v/ab-nextjs-icons') // 🛡️ badge
+    expect(readme).not.toMatch(/Current release: \*\*\d+\.\d+\.\d+\*\*/) // 🚫 stale number
+  })
+  it('the AbIcons totals match the icon map', () => {
+    const filled = abIconNames.filter((n) => (abIconSvg as Record<string, { filled?: string }>)[n].filled).length
+    expect(readme).toContain(`AbIcons totals **${abIconNames.length}** outlined / **${filled}** filled`) // 🔢
+  })
+})
