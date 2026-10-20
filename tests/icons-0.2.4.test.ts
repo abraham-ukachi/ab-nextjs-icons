@@ -83,3 +83,22 @@ describe('icons 0.2.4 (docs shell, G49) 🧭', () => {
   })
 })
 
+
+// 🆔 Joseph #12: every mask/clip id is unique across ALL outlined + filled svgs, so an outlined and a
+//    filled icon on the same page never resolve `url(#…)` to the other one (the "solid square" home bug)
+describe('unique svg ids across variants 🆔', () => {
+  it('no id appears in more than one icon variant', () => {
+    const seen = new Map<string, string>() // 🗺️ id → owner
+    for (const [name, entry] of Object.entries(abIconSvg)) {
+      for (const [variant, svg] of Object.entries(entry as Record<string, unknown>)) {
+        if (typeof svg !== 'string') continue
+        for (const m of svg.matchAll(/\bid="([^"]+)"/g)) {
+          const owner = `${name}/${variant}`
+          expect(seen.get(m[1]) ?? owner, `${m[1]} in ${owner}`).toBe(owner) // 💥 duplicate
+          seen.set(m[1], owner)
+        }
+      }
+    }
+    expect(seen.get('homeFilledMask')).toBe('home/filled') // 🏠
+  })
+})
