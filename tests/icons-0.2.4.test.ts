@@ -102,3 +102,28 @@ describe('unique svg ids across variants 🆔', () => {
     expect(seen.get('homeFilledMask')).toBe('home/filled') // 🏠
   })
 })
+
+// 🆔 per-instance ids (Joseph): two filled Homes on one page must not share a mask id
+import { scopeAbIconSvgIds } from '../ab-icons/scope-ids'
+describe('scopeAbIconSvgIds 🆔', () => {
+  it('suffixes the mask id and every url(#…) ref, per instance', () => {
+    const home = abIconSvg.home.filled!
+    const a = scopeAbIconSvgIds(home, ':r1:'), b = scopeAbIconSvgIds(home, '«r2»')
+    expect(a).toMatch(/id="homeFilledMask-r1"/) // 🆔 declared
+    expect(a).toMatch(/url\(#homeFilledMask-r1\)/) // 🎭 referenced
+    expect(a).not.toMatch(/url\(#homeFilledMask\)/) // 🚫 no stale ref
+    expect(b).toMatch(/id="homeFilledMask-r2"/) // 🔀 a different instance
+  })
+  it('every filled icon stays self-consistent after scoping', () => {
+    for (const name of abIconNames) {
+      const svg = (abIconSvg as Record<string, { filled?: string }>)[name].filled
+      if (!svg) continue
+      const out = scopeAbIconSvgIds(svg, 'x1')
+      const ids = new Set(Array.from(out.matchAll(/\sid="([^"]+)"/g), (m) => m[1]))
+      for (const [, ref] of out.matchAll(/url\(#([^)]+)\)/g)) expect(ids.has(ref), `${name} → ${ref}`).toBe(true) // 🔗
+    }
+  })
+  it('leaves id-free markup alone', () => {
+    expect(scopeAbIconSvgIds('<svg><path d="M0 0"/></svg>', 'r1')).toBe('<svg><path d="M0 0"/></svg>') // 🙅
+  })
+})

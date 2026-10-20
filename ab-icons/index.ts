@@ -38,3 +38,6 @@ export {
   abIconWeightStroke,
   getAbIconSvg,
 } from "./icon-map";
+
+// 🆔 0.2.4: per-instance mask ids (Joseph: two filled Homes on one page)
+export { scopeAbIconSvgIds } from "./scope-ids";
