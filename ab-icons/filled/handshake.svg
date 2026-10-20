@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
   <defs>
-    <mask id="handshakeMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+    <mask id="handshakeFilledMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
       <!-- left cuff bar (isolated) -->
       <path d="M2.5 8.5v6" stroke="#fff" stroke-width="2.1" stroke-linecap="round"/>
       <!-- right cuff bar (isolated) -->
@@ -38,5 +38,5 @@
       <path d="M9.6 9.6 L11.8 10.8 L14.5 13.2" stroke="#000" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
     </mask>
   </defs>
-  <rect width="24" height="24" fill="currentColor" mask="url(#handshakeMask)"/>
+  <rect width="24" height="24" fill="currentColor" mask="url(#handshakeFilledMask)"/>
 </svg>

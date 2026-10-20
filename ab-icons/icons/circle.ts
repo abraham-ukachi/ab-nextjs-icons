@@ -5,7 +5,7 @@ import type { AbIconSvgEntry } from '../icon-map' // 🧾 type-only (erased: no 
 /** 🔣 AbIcon `circle` (outlined + filled, default weight 200). */
 const abIcon_circle: AbIconSvgEntry = {
   outlined: "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" aria-hidden=\"true\">\n  <circle cx=\"12\" cy=\"12\" r=\"8.0\" stroke=\"currentColor\" stroke-width=\"1.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/>\n</svg>",
-  filled: "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" aria-hidden=\"true\">\n  <defs>\n    <mask id=\"circleMask\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"24\" height=\"24\">\n      <circle cx=\"12\" cy=\"12\" r=\"8.0\" fill=\"#fff\" stroke=\"#fff\" stroke-width=\"1.85\" stroke-linejoin=\"round\"/>\n      <circle cx=\"12\" cy=\"12\" r=\"5.6\" fill=\"#000\"/>\n    </mask>\n  </defs>\n  <rect width=\"24\" height=\"24\" fill=\"currentColor\" mask=\"url(#circleMask)\"/>\n</svg>",
+  filled: "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" aria-hidden=\"true\">\n  <defs>\n    <mask id=\"circleFilledMask\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"24\" height=\"24\">\n      <circle cx=\"12\" cy=\"12\" r=\"8.0\" fill=\"#fff\" stroke=\"#fff\" stroke-width=\"1.85\" stroke-linejoin=\"round\"/>\n      <circle cx=\"12\" cy=\"12\" r=\"5.6\" fill=\"#000\"/>\n    </mask>\n  </defs>\n  <rect width=\"24\" height=\"24\" fill=\"currentColor\" mask=\"url(#circleFilledMask)\"/>\n</svg>",
 }
 
 export default abIcon_circle

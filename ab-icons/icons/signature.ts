@@ -5,7 +5,7 @@ import type { AbIconSvgEntry } from '../icon-map' // 🧾 type-only (erased: no 
 /** 🔣 AbIcon `signature` (outlined + filled, default weight 200). */
 const abIcon_signature: AbIconSvgEntry = {
   outlined: "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" aria-hidden=\"true\">\n  <path d=\"M4.0 15.0 C6.0 10.0 8.0 18.0 11.0 12.0 C13.5 7.5 15.0 16.0 18.0 11.0 C19.5 8.5 20.5 12.0 20.5 12.0\" stroke=\"currentColor\" stroke-width=\"1.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/>\n</svg>",
-  filled: "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" aria-hidden=\"true\">\n  <defs>\n    <mask id=\"signatureMask\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"24\" height=\"24\">\n      <path d=\"M4.0 15.0 C6.0 10.0 8.0 18.0 11.0 12.0 C13.5 7.5 15.0 16.0 18.0 11.0 C19.5 8.5 20.5 12.0 20.5 12.0\" fill=\"none\" stroke=\"#fff\" stroke-width=\"1.85\" stroke-linecap=\"round\"/>\n\n    </mask>\n  </defs>\n  <rect width=\"24\" height=\"24\" fill=\"currentColor\" mask=\"url(#signatureMask)\"/>\n</svg>",
+  filled: "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" aria-hidden=\"true\">\n  <defs>\n    <mask id=\"signatureFilledMask\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"24\" height=\"24\">\n      <path d=\"M4.0 15.0 C6.0 10.0 8.0 18.0 11.0 12.0 C13.5 7.5 15.0 16.0 18.0 11.0 C19.5 8.5 20.5 12.0 20.5 12.0\" fill=\"none\" stroke=\"#fff\" stroke-width=\"1.85\" stroke-linecap=\"round\"/>\n\n    </mask>\n  </defs>\n  <rect width=\"24\" height=\"24\" fill=\"currentColor\" mask=\"url(#signatureFilledMask)\"/>\n</svg>",
 }
 
 export default abIcon_signature

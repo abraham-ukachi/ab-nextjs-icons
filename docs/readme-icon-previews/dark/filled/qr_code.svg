@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
   <defs>
-    <mask id="qr_codeMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+    <mask id="qr_codeFilledMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
       <!-- solid finder squares -->
       <rect x="3.5" y="3.5" width="7.0" height="7.0" rx="0.6" fill="#fff" stroke="#fff" stroke-width="1.85"/>
       <rect x="13.5" y="3.5" width="7.0" height="7.0" rx="0.6" fill="#fff" stroke="#fff" stroke-width="1.85"/>
@@ -31,5 +31,5 @@
       <rect x="5.9" y="15.9" width="2.2" height="2.2" rx="0.15" fill="#fff"/>
     </mask>
   </defs>
-  <rect width="24" height="24" fill="#e6edf3" mask="url(#qr_codeMask)"/>
+  <rect width="24" height="24" fill="#e6edf3" mask="url(#qr_codeFilledMask)"/>
 </svg>

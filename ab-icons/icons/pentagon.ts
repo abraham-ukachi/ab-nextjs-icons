@@ -5,7 +5,7 @@ import type { AbIconSvgEntry } from '../icon-map' // 🧾 type-only (erased: no 
 /** 🔣 AbIcon `pentagon` (outlined + filled, default weight 200). */
 const abIcon_pentagon: AbIconSvgEntry = {
   outlined: "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" aria-hidden=\"true\">\n  <path d=\"M12 3.8 L20.0 9.5 L17.0 19.2 H7.0 L4.0 9.5 Z\" stroke=\"currentColor\" stroke-width=\"1.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/>\n</svg>",
-  filled: "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" aria-hidden=\"true\">\n  <defs>\n    <mask id=\"pentagonMask\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"24\" height=\"24\">\n      <path d=\"M12 3.8 L20.0 9.5 L17.0 19.2 H7.0 L4.0 9.5 Z\" fill=\"#fff\" stroke=\"#fff\" stroke-width=\"1.85\" stroke-linejoin=\"round\"/>\n\n    </mask>\n  </defs>\n  <rect width=\"24\" height=\"24\" fill=\"currentColor\" mask=\"url(#pentagonMask)\"/>\n</svg>",
+  filled: "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" aria-hidden=\"true\">\n  <defs>\n    <mask id=\"pentagonFilledMask\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"24\" height=\"24\">\n      <path d=\"M12 3.8 L20.0 9.5 L17.0 19.2 H7.0 L4.0 9.5 Z\" fill=\"#fff\" stroke=\"#fff\" stroke-width=\"1.85\" stroke-linejoin=\"round\"/>\n\n    </mask>\n  </defs>\n  <rect width=\"24\" height=\"24\" fill=\"currentColor\" mask=\"url(#pentagonFilledMask)\"/>\n</svg>",
 }
 
 export default abIcon_pentagon
