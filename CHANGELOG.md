@@ -11,6 +11,7 @@ All notable changes to this project will be documented in this file. See [standa
 * ✍️ Generated `ab-icons/icons/*.ts` modules carry the house `@authors` line
 * 🆔 **Unique mask ids:** filled svgs use `<name>FilledMask` (was the outlined `<name>Mask`), so outlined + filled on one page never share an id (fixes the solid-square active Home, Joseph). Test: every id is unique across all variants
 * 🆔 **Per-instance ids:** `scopeAbIconSvgIds(svg, scope)` (from `ab-nextjs-icons/ab-icons`) suffixes every `id` and its `url(#…)` / `href="#…"` refs, so two filled Homes on one page (e.g. with React `useId()`) never share a mask. components 0.1.13 `AbIcon` does this per render
+* 📦 **Ships `dist/`:** `prepack` runs `pnpm build`, and `check:publish` / `prepublishOnly` fail when `dist/index.*` is missing (`scripts/check-dist.mjs`)
 * 🔧 npm author email is abrahamukachi@gmail.com
 * Totals: **271 outlined / 247 filled**; weights 100–700, per-icon modules, metadata, README gallery and dark previews regenerated
 

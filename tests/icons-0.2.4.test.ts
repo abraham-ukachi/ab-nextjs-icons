@@ -138,3 +138,20 @@ describe('ab-icons/index.ts header 📝', () => {
     expect(src).toContain('@authors: Abraham Ukachi <abrahamukachi@gmail.com>') // ✍️
   })
 })
+
+// 📦 James: the pack must ship dist/ (prepack builds it, check:publish guards it)
+describe('dist guard 📦', () => {
+  it('prepack builds, and check-dist fails without dist/index.*', async () => {
+    const { readFileSync, mkdtempSync, mkdirSync, copyFileSync } = await import('node:fs')
+    const { join } = await import('node:path')
+    const { tmpdir } = await import('node:os')
+    const { spawnSync } = await import('node:child_process')
+    const pkg = JSON.parse(readFileSync(join(__dirname, '..', 'package.json'), 'utf8'))
+    expect(pkg.scripts.prepack).toBe('pnpm build') // 🏗️
+    expect(pkg.scripts['check:publish']).toContain('scripts/check-dist.mjs') // 🛡️
+    const tmp = mkdtempSync(join(tmpdir(), 'abicons-dist-')) // 📁 a package without dist/
+    mkdirSync(join(tmp, 'scripts'))
+    copyFileSync(join(__dirname, '..', 'scripts', 'check-dist.mjs'), join(tmp, 'scripts', 'check-dist.mjs'))
+    expect(spawnSync(process.execPath, [join(tmp, 'scripts', 'check-dist.mjs')]).status).toBe(1) // ❌
+  })
+})
