@@ -51,8 +51,8 @@ describe("readme-icons gallery", () => {
       encoding: "utf8",
     });
     expect(result.status, result.stderr || result.stdout).toBe(0);
-    expect(result.stdout).toMatch(/254 outlined/);
-    expect(result.stdout).toMatch(/224 filled/);
+    expect(result.stdout).toMatch(/271 outlined/);
+    expect(result.stdout).toMatch(/247 filled/);
   });
 
   it("ships dark previews outside package files and matching counts", () => {
@@ -73,10 +73,10 @@ describe("readme-icons gallery", () => {
       join(root, "docs", "readme-icon-previews", "dark", "filled"),
     ).filter((f) => f.endsWith(".svg"));
 
-    expect(outlined).toHaveLength(254);
-    expect(filled).toHaveLength(224);
-    expect(darkOut).toHaveLength(254);
-    expect(darkFill).toHaveLength(224);
+    expect(outlined).toHaveLength(271);
+    expect(filled).toHaveLength(247);
+    expect(darkOut).toHaveLength(271);
+    expect(darkFill).toHaveLength(247);
     expect(existsSync(join(root, "README.md"))).toBe(true);
     const readme = readFileSync(join(root, "README.md"), "utf8");
     expect(readme).toContain("<!-- AB_ICONS:START -->");

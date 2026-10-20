@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
   <defs>
-    <mask id="fire_extinguisherMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+    <mask id="fire_extinguisherFilledMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
       <path d="M9.0 8.5 H15.0 V18.2 A2.2 2.2 0 0 1 12.8 20.4 H11.2 A2.2 2.2 0 0 1 9.0 18.2 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
       <path d="M10.6 6.5 H13.4 V8.5 H10.6 Z" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
       <path d="M10.6 7.2 L6.5 4.5" fill="none" stroke="#fff" stroke-width="1.85" stroke-linecap="round"/>
@@ -9,5 +9,5 @@
       <line x1="9.6" y1="13.5" x2="14.4" y2="13.5" stroke="#000" stroke-width="1.85" stroke-linecap="round"/>
     </mask>
   </defs>
-  <rect width="24" height="24" fill="#e6edf3" mask="url(#fire_extinguisherMask)"/>
+  <rect width="24" height="24" fill="#e6edf3" mask="url(#fire_extinguisherFilledMask)"/>
 </svg>

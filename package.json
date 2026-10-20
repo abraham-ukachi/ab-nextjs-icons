@@ -1,6 +1,6 @@
 {
   "name": "ab-nextjs-icons",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "⭐️ A lightweight collection of icons for abElements created by Abraham Ukachi, and optimized for Next.js applications 😎.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -15,6 +15,7 @@
   },
   "scripts": {
     "build": "tsup --clean",
+    "prepack": "pnpm build",
     "dev": "tsup --watch",
     "lint": "eslint . --fix",
     "lint:fix": "eslint . --fix",
@@ -24,8 +25,8 @@
     "test:watch": "vitest",
     "test:file": "vitest run",
     "test:name": "vitest run -t",
-    "check:publish": "node scripts/check-publish-deps.mjs && python3 scripts/regenerate-ab-icons-meta.py --check",
-    "prepublishOnly": "node scripts/check-publish-deps.mjs && python3 scripts/regenerate-ab-icons-meta.py --check",
+    "check:publish": "node scripts/check-publish-deps.mjs && node scripts/check-dist.mjs && python3 scripts/regenerate-ab-icons-meta.py --check",
+    "prepublishOnly": "node scripts/check-publish-deps.mjs && node scripts/check-dist.mjs && python3 scripts/regenerate-ab-icons-meta.py --check",
     "readme:icons": "node scripts/readme-icons.mjs",
     "readme:icons:check": "node scripts/readme-icons.mjs --check",
     "icons:modules": "node scripts/icon-modules.mjs",
@@ -45,7 +46,7 @@
   "author": {
     "name": "Abraham Ukachi",
     "url": "https://github.com/abraham-ukachi",
-    "email": "abraham.ukachi@laplateforme.io"
+    "email": "abrahamukachi@gmail.com"
   },
   "license": "MIT",
   "files": [
@@ -96,11 +97,5 @@
     "react-dom": {
       "optional": true
     }
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild",
-      "unrs-resolver"
-    ]
   }
 }

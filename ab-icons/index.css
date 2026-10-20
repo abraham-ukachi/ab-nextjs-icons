@@ -618,6 +618,82 @@
   mask-image: url("/ab-icons/weights/700/anchor.svg");
 }
 
+.abicon-animation {
+  -webkit-mask-image: url("/ab-icons/outlined/animation.svg");
+  mask-image: url("/ab-icons/outlined/animation.svg");
+}
+
+.abicon-filled.abicon-animation {
+  -webkit-mask-image: url("/ab-icons/filled/animation.svg");
+  mask-image: url("/ab-icons/filled/animation.svg");
+}
+
+.abicon-w100.abicon-animation:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/100/animation.svg");
+  mask-image: url("/ab-icons/weights/100/animation.svg");
+}
+
+.abicon-animation:not(.abicon-filled)[style*="--abicon-wght: 100"],
+.abicon-animation:not(.abicon-filled)[style*="--abicon-wght:100"] {
+  -webkit-mask-image: url("/ab-icons/weights/100/animation.svg");
+  mask-image: url("/ab-icons/weights/100/animation.svg");
+}
+
+.abicon-w300.abicon-animation:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/300/animation.svg");
+  mask-image: url("/ab-icons/weights/300/animation.svg");
+}
+
+.abicon-animation:not(.abicon-filled)[style*="--abicon-wght: 300"],
+.abicon-animation:not(.abicon-filled)[style*="--abicon-wght:300"] {
+  -webkit-mask-image: url("/ab-icons/weights/300/animation.svg");
+  mask-image: url("/ab-icons/weights/300/animation.svg");
+}
+
+.abicon-w400.abicon-animation:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/400/animation.svg");
+  mask-image: url("/ab-icons/weights/400/animation.svg");
+}
+
+.abicon-animation:not(.abicon-filled)[style*="--abicon-wght: 400"],
+.abicon-animation:not(.abicon-filled)[style*="--abicon-wght:400"] {
+  -webkit-mask-image: url("/ab-icons/weights/400/animation.svg");
+  mask-image: url("/ab-icons/weights/400/animation.svg");
+}
+
+.abicon-w500.abicon-animation:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/500/animation.svg");
+  mask-image: url("/ab-icons/weights/500/animation.svg");
+}
+
+.abicon-animation:not(.abicon-filled)[style*="--abicon-wght: 500"],
+.abicon-animation:not(.abicon-filled)[style*="--abicon-wght:500"] {
+  -webkit-mask-image: url("/ab-icons/weights/500/animation.svg");
+  mask-image: url("/ab-icons/weights/500/animation.svg");
+}
+
+.abicon-w600.abicon-animation:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/600/animation.svg");
+  mask-image: url("/ab-icons/weights/600/animation.svg");
+}
+
+.abicon-animation:not(.abicon-filled)[style*="--abicon-wght: 600"],
+.abicon-animation:not(.abicon-filled)[style*="--abicon-wght:600"] {
+  -webkit-mask-image: url("/ab-icons/weights/600/animation.svg");
+  mask-image: url("/ab-icons/weights/600/animation.svg");
+}
+
+.abicon-w700.abicon-animation:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/700/animation.svg");
+  mask-image: url("/ab-icons/weights/700/animation.svg");
+}
+
+.abicon-animation:not(.abicon-filled)[style*="--abicon-wght: 700"],
+.abicon-animation:not(.abicon-filled)[style*="--abicon-wght:700"] {
+  -webkit-mask-image: url("/ab-icons/weights/700/animation.svg");
+  mask-image: url("/ab-icons/weights/700/animation.svg");
+}
+
 .abicon-archive {
   -webkit-mask-image: url("/ab-icons/outlined/archive.svg");
   mask-image: url("/ab-icons/outlined/archive.svg");
@@ -846,6 +922,11 @@
   mask-image: url("/ab-icons/outlined/arrow_forward.svg");
 }
 
+.abicon-filled.abicon-arrow_forward {
+  -webkit-mask-image: url("/ab-icons/filled/arrow_forward.svg");
+  mask-image: url("/ab-icons/filled/arrow_forward.svg");
+}
+
 .abicon-w100.abicon-arrow_forward:not(.abicon-filled) {
   -webkit-mask-image: url("/ab-icons/weights/100/arrow_forward.svg");
   mask-image: url("/ab-icons/weights/100/arrow_forward.svg");
@@ -986,6 +1067,82 @@
 .abicon-arrow_upward:not(.abicon-filled)[style*="--abicon-wght:700"] {
   -webkit-mask-image: url("/ab-icons/weights/700/arrow_upward.svg");
   mask-image: url("/ab-icons/weights/700/arrow_upward.svg");
+}
+
+.abicon-article {
+  -webkit-mask-image: url("/ab-icons/outlined/article.svg");
+  mask-image: url("/ab-icons/outlined/article.svg");
+}
+
+.abicon-filled.abicon-article {
+  -webkit-mask-image: url("/ab-icons/filled/article.svg");
+  mask-image: url("/ab-icons/filled/article.svg");
+}
+
+.abicon-w100.abicon-article:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/100/article.svg");
+  mask-image: url("/ab-icons/weights/100/article.svg");
+}
+
+.abicon-article:not(.abicon-filled)[style*="--abicon-wght: 100"],
+.abicon-article:not(.abicon-filled)[style*="--abicon-wght:100"] {
+  -webkit-mask-image: url("/ab-icons/weights/100/article.svg");
+  mask-image: url("/ab-icons/weights/100/article.svg");
+}
+
+.abicon-w300.abicon-article:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/300/article.svg");
+  mask-image: url("/ab-icons/weights/300/article.svg");
+}
+
+.abicon-article:not(.abicon-filled)[style*="--abicon-wght: 300"],
+.abicon-article:not(.abicon-filled)[style*="--abicon-wght:300"] {
+  -webkit-mask-image: url("/ab-icons/weights/300/article.svg");
+  mask-image: url("/ab-icons/weights/300/article.svg");
+}
+
+.abicon-w400.abicon-article:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/400/article.svg");
+  mask-image: url("/ab-icons/weights/400/article.svg");
+}
+
+.abicon-article:not(.abicon-filled)[style*="--abicon-wght: 400"],
+.abicon-article:not(.abicon-filled)[style*="--abicon-wght:400"] {
+  -webkit-mask-image: url("/ab-icons/weights/400/article.svg");
+  mask-image: url("/ab-icons/weights/400/article.svg");
+}
+
+.abicon-w500.abicon-article:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/500/article.svg");
+  mask-image: url("/ab-icons/weights/500/article.svg");
+}
+
+.abicon-article:not(.abicon-filled)[style*="--abicon-wght: 500"],
+.abicon-article:not(.abicon-filled)[style*="--abicon-wght:500"] {
+  -webkit-mask-image: url("/ab-icons/weights/500/article.svg");
+  mask-image: url("/ab-icons/weights/500/article.svg");
+}
+
+.abicon-w600.abicon-article:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/600/article.svg");
+  mask-image: url("/ab-icons/weights/600/article.svg");
+}
+
+.abicon-article:not(.abicon-filled)[style*="--abicon-wght: 600"],
+.abicon-article:not(.abicon-filled)[style*="--abicon-wght:600"] {
+  -webkit-mask-image: url("/ab-icons/weights/600/article.svg");
+  mask-image: url("/ab-icons/weights/600/article.svg");
+}
+
+.abicon-w700.abicon-article:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/700/article.svg");
+  mask-image: url("/ab-icons/weights/700/article.svg");
+}
+
+.abicon-article:not(.abicon-filled)[style*="--abicon-wght: 700"],
+.abicon-article:not(.abicon-filled)[style*="--abicon-wght:700"] {
+  -webkit-mask-image: url("/ab-icons/weights/700/article.svg");
+  mask-image: url("/ab-icons/weights/700/article.svg");
 }
 
 .abicon-assistant_photo {
@@ -3557,6 +3714,11 @@
   mask-image: url("/ab-icons/outlined/chevron_right.svg");
 }
 
+.abicon-filled.abicon-chevron_right {
+  -webkit-mask-image: url("/ab-icons/filled/chevron_right.svg");
+  mask-image: url("/ab-icons/filled/chevron_right.svg");
+}
+
 .abicon-w100.abicon-chevron_right:not(.abicon-filled) {
   -webkit-mask-image: url("/ab-icons/weights/100/chevron_right.svg");
   mask-image: url("/ab-icons/weights/100/chevron_right.svg");
@@ -4153,6 +4315,11 @@
 .abicon-code {
   -webkit-mask-image: url("/ab-icons/outlined/code.svg");
   mask-image: url("/ab-icons/outlined/code.svg");
+}
+
+.abicon-filled.abicon-code {
+  -webkit-mask-image: url("/ab-icons/filled/code.svg");
+  mask-image: url("/ab-icons/filled/code.svg");
 }
 
 .abicon-w100.abicon-code:not(.abicon-filled) {
@@ -5285,6 +5452,82 @@
   mask-image: url("/ab-icons/weights/700/dashboard.svg");
 }
 
+.abicon-dashboard_customize {
+  -webkit-mask-image: url("/ab-icons/outlined/dashboard_customize.svg");
+  mask-image: url("/ab-icons/outlined/dashboard_customize.svg");
+}
+
+.abicon-filled.abicon-dashboard_customize {
+  -webkit-mask-image: url("/ab-icons/filled/dashboard_customize.svg");
+  mask-image: url("/ab-icons/filled/dashboard_customize.svg");
+}
+
+.abicon-w100.abicon-dashboard_customize:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/100/dashboard_customize.svg");
+  mask-image: url("/ab-icons/weights/100/dashboard_customize.svg");
+}
+
+.abicon-dashboard_customize:not(.abicon-filled)[style*="--abicon-wght: 100"],
+.abicon-dashboard_customize:not(.abicon-filled)[style*="--abicon-wght:100"] {
+  -webkit-mask-image: url("/ab-icons/weights/100/dashboard_customize.svg");
+  mask-image: url("/ab-icons/weights/100/dashboard_customize.svg");
+}
+
+.abicon-w300.abicon-dashboard_customize:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/300/dashboard_customize.svg");
+  mask-image: url("/ab-icons/weights/300/dashboard_customize.svg");
+}
+
+.abicon-dashboard_customize:not(.abicon-filled)[style*="--abicon-wght: 300"],
+.abicon-dashboard_customize:not(.abicon-filled)[style*="--abicon-wght:300"] {
+  -webkit-mask-image: url("/ab-icons/weights/300/dashboard_customize.svg");
+  mask-image: url("/ab-icons/weights/300/dashboard_customize.svg");
+}
+
+.abicon-w400.abicon-dashboard_customize:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/400/dashboard_customize.svg");
+  mask-image: url("/ab-icons/weights/400/dashboard_customize.svg");
+}
+
+.abicon-dashboard_customize:not(.abicon-filled)[style*="--abicon-wght: 400"],
+.abicon-dashboard_customize:not(.abicon-filled)[style*="--abicon-wght:400"] {
+  -webkit-mask-image: url("/ab-icons/weights/400/dashboard_customize.svg");
+  mask-image: url("/ab-icons/weights/400/dashboard_customize.svg");
+}
+
+.abicon-w500.abicon-dashboard_customize:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/500/dashboard_customize.svg");
+  mask-image: url("/ab-icons/weights/500/dashboard_customize.svg");
+}
+
+.abicon-dashboard_customize:not(.abicon-filled)[style*="--abicon-wght: 500"],
+.abicon-dashboard_customize:not(.abicon-filled)[style*="--abicon-wght:500"] {
+  -webkit-mask-image: url("/ab-icons/weights/500/dashboard_customize.svg");
+  mask-image: url("/ab-icons/weights/500/dashboard_customize.svg");
+}
+
+.abicon-w600.abicon-dashboard_customize:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/600/dashboard_customize.svg");
+  mask-image: url("/ab-icons/weights/600/dashboard_customize.svg");
+}
+
+.abicon-dashboard_customize:not(.abicon-filled)[style*="--abicon-wght: 600"],
+.abicon-dashboard_customize:not(.abicon-filled)[style*="--abicon-wght:600"] {
+  -webkit-mask-image: url("/ab-icons/weights/600/dashboard_customize.svg");
+  mask-image: url("/ab-icons/weights/600/dashboard_customize.svg");
+}
+
+.abicon-w700.abicon-dashboard_customize:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/700/dashboard_customize.svg");
+  mask-image: url("/ab-icons/weights/700/dashboard_customize.svg");
+}
+
+.abicon-dashboard_customize:not(.abicon-filled)[style*="--abicon-wght: 700"],
+.abicon-dashboard_customize:not(.abicon-filled)[style*="--abicon-wght:700"] {
+  -webkit-mask-image: url("/ab-icons/weights/700/dashboard_customize.svg");
+  mask-image: url("/ab-icons/weights/700/dashboard_customize.svg");
+}
+
 .abicon-database {
   -webkit-mask-image: url("/ab-icons/outlined/database.svg");
   mask-image: url("/ab-icons/outlined/database.svg");
@@ -5437,6 +5680,82 @@
   mask-image: url("/ab-icons/weights/700/delete.svg");
 }
 
+.abicon-deployed_code {
+  -webkit-mask-image: url("/ab-icons/outlined/deployed_code.svg");
+  mask-image: url("/ab-icons/outlined/deployed_code.svg");
+}
+
+.abicon-filled.abicon-deployed_code {
+  -webkit-mask-image: url("/ab-icons/filled/deployed_code.svg");
+  mask-image: url("/ab-icons/filled/deployed_code.svg");
+}
+
+.abicon-w100.abicon-deployed_code:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/100/deployed_code.svg");
+  mask-image: url("/ab-icons/weights/100/deployed_code.svg");
+}
+
+.abicon-deployed_code:not(.abicon-filled)[style*="--abicon-wght: 100"],
+.abicon-deployed_code:not(.abicon-filled)[style*="--abicon-wght:100"] {
+  -webkit-mask-image: url("/ab-icons/weights/100/deployed_code.svg");
+  mask-image: url("/ab-icons/weights/100/deployed_code.svg");
+}
+
+.abicon-w300.abicon-deployed_code:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/300/deployed_code.svg");
+  mask-image: url("/ab-icons/weights/300/deployed_code.svg");
+}
+
+.abicon-deployed_code:not(.abicon-filled)[style*="--abicon-wght: 300"],
+.abicon-deployed_code:not(.abicon-filled)[style*="--abicon-wght:300"] {
+  -webkit-mask-image: url("/ab-icons/weights/300/deployed_code.svg");
+  mask-image: url("/ab-icons/weights/300/deployed_code.svg");
+}
+
+.abicon-w400.abicon-deployed_code:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/400/deployed_code.svg");
+  mask-image: url("/ab-icons/weights/400/deployed_code.svg");
+}
+
+.abicon-deployed_code:not(.abicon-filled)[style*="--abicon-wght: 400"],
+.abicon-deployed_code:not(.abicon-filled)[style*="--abicon-wght:400"] {
+  -webkit-mask-image: url("/ab-icons/weights/400/deployed_code.svg");
+  mask-image: url("/ab-icons/weights/400/deployed_code.svg");
+}
+
+.abicon-w500.abicon-deployed_code:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/500/deployed_code.svg");
+  mask-image: url("/ab-icons/weights/500/deployed_code.svg");
+}
+
+.abicon-deployed_code:not(.abicon-filled)[style*="--abicon-wght: 500"],
+.abicon-deployed_code:not(.abicon-filled)[style*="--abicon-wght:500"] {
+  -webkit-mask-image: url("/ab-icons/weights/500/deployed_code.svg");
+  mask-image: url("/ab-icons/weights/500/deployed_code.svg");
+}
+
+.abicon-w600.abicon-deployed_code:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/600/deployed_code.svg");
+  mask-image: url("/ab-icons/weights/600/deployed_code.svg");
+}
+
+.abicon-deployed_code:not(.abicon-filled)[style*="--abicon-wght: 600"],
+.abicon-deployed_code:not(.abicon-filled)[style*="--abicon-wght:600"] {
+  -webkit-mask-image: url("/ab-icons/weights/600/deployed_code.svg");
+  mask-image: url("/ab-icons/weights/600/deployed_code.svg");
+}
+
+.abicon-w700.abicon-deployed_code:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/700/deployed_code.svg");
+  mask-image: url("/ab-icons/weights/700/deployed_code.svg");
+}
+
+.abicon-deployed_code:not(.abicon-filled)[style*="--abicon-wght: 700"],
+.abicon-deployed_code:not(.abicon-filled)[style*="--abicon-wght:700"] {
+  -webkit-mask-image: url("/ab-icons/weights/700/deployed_code.svg");
+  mask-image: url("/ab-icons/weights/700/deployed_code.svg");
+}
+
 .abicon-description {
   -webkit-mask-image: url("/ab-icons/outlined/description.svg");
   mask-image: url("/ab-icons/outlined/description.svg");
@@ -5511,6 +5830,82 @@
 .abicon-description:not(.abicon-filled)[style*="--abicon-wght:700"] {
   -webkit-mask-image: url("/ab-icons/weights/700/description.svg");
   mask-image: url("/ab-icons/weights/700/description.svg");
+}
+
+.abicon-desktop_windows {
+  -webkit-mask-image: url("/ab-icons/outlined/desktop_windows.svg");
+  mask-image: url("/ab-icons/outlined/desktop_windows.svg");
+}
+
+.abicon-filled.abicon-desktop_windows {
+  -webkit-mask-image: url("/ab-icons/filled/desktop_windows.svg");
+  mask-image: url("/ab-icons/filled/desktop_windows.svg");
+}
+
+.abicon-w100.abicon-desktop_windows:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/100/desktop_windows.svg");
+  mask-image: url("/ab-icons/weights/100/desktop_windows.svg");
+}
+
+.abicon-desktop_windows:not(.abicon-filled)[style*="--abicon-wght: 100"],
+.abicon-desktop_windows:not(.abicon-filled)[style*="--abicon-wght:100"] {
+  -webkit-mask-image: url("/ab-icons/weights/100/desktop_windows.svg");
+  mask-image: url("/ab-icons/weights/100/desktop_windows.svg");
+}
+
+.abicon-w300.abicon-desktop_windows:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/300/desktop_windows.svg");
+  mask-image: url("/ab-icons/weights/300/desktop_windows.svg");
+}
+
+.abicon-desktop_windows:not(.abicon-filled)[style*="--abicon-wght: 300"],
+.abicon-desktop_windows:not(.abicon-filled)[style*="--abicon-wght:300"] {
+  -webkit-mask-image: url("/ab-icons/weights/300/desktop_windows.svg");
+  mask-image: url("/ab-icons/weights/300/desktop_windows.svg");
+}
+
+.abicon-w400.abicon-desktop_windows:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/400/desktop_windows.svg");
+  mask-image: url("/ab-icons/weights/400/desktop_windows.svg");
+}
+
+.abicon-desktop_windows:not(.abicon-filled)[style*="--abicon-wght: 400"],
+.abicon-desktop_windows:not(.abicon-filled)[style*="--abicon-wght:400"] {
+  -webkit-mask-image: url("/ab-icons/weights/400/desktop_windows.svg");
+  mask-image: url("/ab-icons/weights/400/desktop_windows.svg");
+}
+
+.abicon-w500.abicon-desktop_windows:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/500/desktop_windows.svg");
+  mask-image: url("/ab-icons/weights/500/desktop_windows.svg");
+}
+
+.abicon-desktop_windows:not(.abicon-filled)[style*="--abicon-wght: 500"],
+.abicon-desktop_windows:not(.abicon-filled)[style*="--abicon-wght:500"] {
+  -webkit-mask-image: url("/ab-icons/weights/500/desktop_windows.svg");
+  mask-image: url("/ab-icons/weights/500/desktop_windows.svg");
+}
+
+.abicon-w600.abicon-desktop_windows:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/600/desktop_windows.svg");
+  mask-image: url("/ab-icons/weights/600/desktop_windows.svg");
+}
+
+.abicon-desktop_windows:not(.abicon-filled)[style*="--abicon-wght: 600"],
+.abicon-desktop_windows:not(.abicon-filled)[style*="--abicon-wght:600"] {
+  -webkit-mask-image: url("/ab-icons/weights/600/desktop_windows.svg");
+  mask-image: url("/ab-icons/weights/600/desktop_windows.svg");
+}
+
+.abicon-w700.abicon-desktop_windows:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/700/desktop_windows.svg");
+  mask-image: url("/ab-icons/weights/700/desktop_windows.svg");
+}
+
+.abicon-desktop_windows:not(.abicon-filled)[style*="--abicon-wght: 700"],
+.abicon-desktop_windows:not(.abicon-filled)[style*="--abicon-wght:700"] {
+  -webkit-mask-image: url("/ab-icons/weights/700/desktop_windows.svg");
+  mask-image: url("/ab-icons/weights/700/desktop_windows.svg");
 }
 
 .abicon-diamond {
@@ -5891,6 +6286,11 @@
 .abicon-download {
   -webkit-mask-image: url("/ab-icons/outlined/download.svg");
   mask-image: url("/ab-icons/outlined/download.svg");
+}
+
+.abicon-filled.abicon-download {
+  -webkit-mask-image: url("/ab-icons/filled/download.svg");
+  mask-image: url("/ab-icons/filled/download.svg");
 }
 
 .abicon-w100.abicon-download:not(.abicon-filled) {
@@ -6717,6 +7117,11 @@
 .abicon-expand_more {
   -webkit-mask-image: url("/ab-icons/outlined/expand_more.svg");
   mask-image: url("/ab-icons/outlined/expand_more.svg");
+}
+
+.abicon-filled.abicon-expand_more {
+  -webkit-mask-image: url("/ab-icons/filled/expand_more.svg");
+  mask-image: url("/ab-icons/filled/expand_more.svg");
 }
 
 .abicon-w100.abicon-expand_more:not(.abicon-filled) {
@@ -9592,6 +9997,82 @@
   mask-image: url("/ab-icons/weights/700/insert_photo.svg");
 }
 
+.abicon-interests {
+  -webkit-mask-image: url("/ab-icons/outlined/interests.svg");
+  mask-image: url("/ab-icons/outlined/interests.svg");
+}
+
+.abicon-filled.abicon-interests {
+  -webkit-mask-image: url("/ab-icons/filled/interests.svg");
+  mask-image: url("/ab-icons/filled/interests.svg");
+}
+
+.abicon-w100.abicon-interests:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/100/interests.svg");
+  mask-image: url("/ab-icons/weights/100/interests.svg");
+}
+
+.abicon-interests:not(.abicon-filled)[style*="--abicon-wght: 100"],
+.abicon-interests:not(.abicon-filled)[style*="--abicon-wght:100"] {
+  -webkit-mask-image: url("/ab-icons/weights/100/interests.svg");
+  mask-image: url("/ab-icons/weights/100/interests.svg");
+}
+
+.abicon-w300.abicon-interests:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/300/interests.svg");
+  mask-image: url("/ab-icons/weights/300/interests.svg");
+}
+
+.abicon-interests:not(.abicon-filled)[style*="--abicon-wght: 300"],
+.abicon-interests:not(.abicon-filled)[style*="--abicon-wght:300"] {
+  -webkit-mask-image: url("/ab-icons/weights/300/interests.svg");
+  mask-image: url("/ab-icons/weights/300/interests.svg");
+}
+
+.abicon-w400.abicon-interests:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/400/interests.svg");
+  mask-image: url("/ab-icons/weights/400/interests.svg");
+}
+
+.abicon-interests:not(.abicon-filled)[style*="--abicon-wght: 400"],
+.abicon-interests:not(.abicon-filled)[style*="--abicon-wght:400"] {
+  -webkit-mask-image: url("/ab-icons/weights/400/interests.svg");
+  mask-image: url("/ab-icons/weights/400/interests.svg");
+}
+
+.abicon-w500.abicon-interests:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/500/interests.svg");
+  mask-image: url("/ab-icons/weights/500/interests.svg");
+}
+
+.abicon-interests:not(.abicon-filled)[style*="--abicon-wght: 500"],
+.abicon-interests:not(.abicon-filled)[style*="--abicon-wght:500"] {
+  -webkit-mask-image: url("/ab-icons/weights/500/interests.svg");
+  mask-image: url("/ab-icons/weights/500/interests.svg");
+}
+
+.abicon-w600.abicon-interests:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/600/interests.svg");
+  mask-image: url("/ab-icons/weights/600/interests.svg");
+}
+
+.abicon-interests:not(.abicon-filled)[style*="--abicon-wght: 600"],
+.abicon-interests:not(.abicon-filled)[style*="--abicon-wght:600"] {
+  -webkit-mask-image: url("/ab-icons/weights/600/interests.svg");
+  mask-image: url("/ab-icons/weights/600/interests.svg");
+}
+
+.abicon-w700.abicon-interests:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/700/interests.svg");
+  mask-image: url("/ab-icons/weights/700/interests.svg");
+}
+
+.abicon-interests:not(.abicon-filled)[style*="--abicon-wght: 700"],
+.abicon-interests:not(.abicon-filled)[style*="--abicon-wght:700"] {
+  -webkit-mask-image: url("/ab-icons/weights/700/interests.svg");
+  mask-image: url("/ab-icons/weights/700/interests.svg");
+}
+
 .abicon-joystick {
   -webkit-mask-image: url("/ab-icons/outlined/joystick.svg");
   mask-image: url("/ab-icons/outlined/joystick.svg");
@@ -9820,6 +10301,158 @@
   mask-image: url("/ab-icons/weights/700/keyboard.svg");
 }
 
+.abicon-keyboard_double_arrow_left {
+  -webkit-mask-image: url("/ab-icons/outlined/keyboard_double_arrow_left.svg");
+  mask-image: url("/ab-icons/outlined/keyboard_double_arrow_left.svg");
+}
+
+.abicon-filled.abicon-keyboard_double_arrow_left {
+  -webkit-mask-image: url("/ab-icons/filled/keyboard_double_arrow_left.svg");
+  mask-image: url("/ab-icons/filled/keyboard_double_arrow_left.svg");
+}
+
+.abicon-w100.abicon-keyboard_double_arrow_left:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/100/keyboard_double_arrow_left.svg");
+  mask-image: url("/ab-icons/weights/100/keyboard_double_arrow_left.svg");
+}
+
+.abicon-keyboard_double_arrow_left:not(.abicon-filled)[style*="--abicon-wght: 100"],
+.abicon-keyboard_double_arrow_left:not(.abicon-filled)[style*="--abicon-wght:100"] {
+  -webkit-mask-image: url("/ab-icons/weights/100/keyboard_double_arrow_left.svg");
+  mask-image: url("/ab-icons/weights/100/keyboard_double_arrow_left.svg");
+}
+
+.abicon-w300.abicon-keyboard_double_arrow_left:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/300/keyboard_double_arrow_left.svg");
+  mask-image: url("/ab-icons/weights/300/keyboard_double_arrow_left.svg");
+}
+
+.abicon-keyboard_double_arrow_left:not(.abicon-filled)[style*="--abicon-wght: 300"],
+.abicon-keyboard_double_arrow_left:not(.abicon-filled)[style*="--abicon-wght:300"] {
+  -webkit-mask-image: url("/ab-icons/weights/300/keyboard_double_arrow_left.svg");
+  mask-image: url("/ab-icons/weights/300/keyboard_double_arrow_left.svg");
+}
+
+.abicon-w400.abicon-keyboard_double_arrow_left:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/400/keyboard_double_arrow_left.svg");
+  mask-image: url("/ab-icons/weights/400/keyboard_double_arrow_left.svg");
+}
+
+.abicon-keyboard_double_arrow_left:not(.abicon-filled)[style*="--abicon-wght: 400"],
+.abicon-keyboard_double_arrow_left:not(.abicon-filled)[style*="--abicon-wght:400"] {
+  -webkit-mask-image: url("/ab-icons/weights/400/keyboard_double_arrow_left.svg");
+  mask-image: url("/ab-icons/weights/400/keyboard_double_arrow_left.svg");
+}
+
+.abicon-w500.abicon-keyboard_double_arrow_left:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/500/keyboard_double_arrow_left.svg");
+  mask-image: url("/ab-icons/weights/500/keyboard_double_arrow_left.svg");
+}
+
+.abicon-keyboard_double_arrow_left:not(.abicon-filled)[style*="--abicon-wght: 500"],
+.abicon-keyboard_double_arrow_left:not(.abicon-filled)[style*="--abicon-wght:500"] {
+  -webkit-mask-image: url("/ab-icons/weights/500/keyboard_double_arrow_left.svg");
+  mask-image: url("/ab-icons/weights/500/keyboard_double_arrow_left.svg");
+}
+
+.abicon-w600.abicon-keyboard_double_arrow_left:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/600/keyboard_double_arrow_left.svg");
+  mask-image: url("/ab-icons/weights/600/keyboard_double_arrow_left.svg");
+}
+
+.abicon-keyboard_double_arrow_left:not(.abicon-filled)[style*="--abicon-wght: 600"],
+.abicon-keyboard_double_arrow_left:not(.abicon-filled)[style*="--abicon-wght:600"] {
+  -webkit-mask-image: url("/ab-icons/weights/600/keyboard_double_arrow_left.svg");
+  mask-image: url("/ab-icons/weights/600/keyboard_double_arrow_left.svg");
+}
+
+.abicon-w700.abicon-keyboard_double_arrow_left:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/700/keyboard_double_arrow_left.svg");
+  mask-image: url("/ab-icons/weights/700/keyboard_double_arrow_left.svg");
+}
+
+.abicon-keyboard_double_arrow_left:not(.abicon-filled)[style*="--abicon-wght: 700"],
+.abicon-keyboard_double_arrow_left:not(.abicon-filled)[style*="--abicon-wght:700"] {
+  -webkit-mask-image: url("/ab-icons/weights/700/keyboard_double_arrow_left.svg");
+  mask-image: url("/ab-icons/weights/700/keyboard_double_arrow_left.svg");
+}
+
+.abicon-keyboard_double_arrow_right {
+  -webkit-mask-image: url("/ab-icons/outlined/keyboard_double_arrow_right.svg");
+  mask-image: url("/ab-icons/outlined/keyboard_double_arrow_right.svg");
+}
+
+.abicon-filled.abicon-keyboard_double_arrow_right {
+  -webkit-mask-image: url("/ab-icons/filled/keyboard_double_arrow_right.svg");
+  mask-image: url("/ab-icons/filled/keyboard_double_arrow_right.svg");
+}
+
+.abicon-w100.abicon-keyboard_double_arrow_right:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/100/keyboard_double_arrow_right.svg");
+  mask-image: url("/ab-icons/weights/100/keyboard_double_arrow_right.svg");
+}
+
+.abicon-keyboard_double_arrow_right:not(.abicon-filled)[style*="--abicon-wght: 100"],
+.abicon-keyboard_double_arrow_right:not(.abicon-filled)[style*="--abicon-wght:100"] {
+  -webkit-mask-image: url("/ab-icons/weights/100/keyboard_double_arrow_right.svg");
+  mask-image: url("/ab-icons/weights/100/keyboard_double_arrow_right.svg");
+}
+
+.abicon-w300.abicon-keyboard_double_arrow_right:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/300/keyboard_double_arrow_right.svg");
+  mask-image: url("/ab-icons/weights/300/keyboard_double_arrow_right.svg");
+}
+
+.abicon-keyboard_double_arrow_right:not(.abicon-filled)[style*="--abicon-wght: 300"],
+.abicon-keyboard_double_arrow_right:not(.abicon-filled)[style*="--abicon-wght:300"] {
+  -webkit-mask-image: url("/ab-icons/weights/300/keyboard_double_arrow_right.svg");
+  mask-image: url("/ab-icons/weights/300/keyboard_double_arrow_right.svg");
+}
+
+.abicon-w400.abicon-keyboard_double_arrow_right:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/400/keyboard_double_arrow_right.svg");
+  mask-image: url("/ab-icons/weights/400/keyboard_double_arrow_right.svg");
+}
+
+.abicon-keyboard_double_arrow_right:not(.abicon-filled)[style*="--abicon-wght: 400"],
+.abicon-keyboard_double_arrow_right:not(.abicon-filled)[style*="--abicon-wght:400"] {
+  -webkit-mask-image: url("/ab-icons/weights/400/keyboard_double_arrow_right.svg");
+  mask-image: url("/ab-icons/weights/400/keyboard_double_arrow_right.svg");
+}
+
+.abicon-w500.abicon-keyboard_double_arrow_right:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/500/keyboard_double_arrow_right.svg");
+  mask-image: url("/ab-icons/weights/500/keyboard_double_arrow_right.svg");
+}
+
+.abicon-keyboard_double_arrow_right:not(.abicon-filled)[style*="--abicon-wght: 500"],
+.abicon-keyboard_double_arrow_right:not(.abicon-filled)[style*="--abicon-wght:500"] {
+  -webkit-mask-image: url("/ab-icons/weights/500/keyboard_double_arrow_right.svg");
+  mask-image: url("/ab-icons/weights/500/keyboard_double_arrow_right.svg");
+}
+
+.abicon-w600.abicon-keyboard_double_arrow_right:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/600/keyboard_double_arrow_right.svg");
+  mask-image: url("/ab-icons/weights/600/keyboard_double_arrow_right.svg");
+}
+
+.abicon-keyboard_double_arrow_right:not(.abicon-filled)[style*="--abicon-wght: 600"],
+.abicon-keyboard_double_arrow_right:not(.abicon-filled)[style*="--abicon-wght:600"] {
+  -webkit-mask-image: url("/ab-icons/weights/600/keyboard_double_arrow_right.svg");
+  mask-image: url("/ab-icons/weights/600/keyboard_double_arrow_right.svg");
+}
+
+.abicon-w700.abicon-keyboard_double_arrow_right:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/700/keyboard_double_arrow_right.svg");
+  mask-image: url("/ab-icons/weights/700/keyboard_double_arrow_right.svg");
+}
+
+.abicon-keyboard_double_arrow_right:not(.abicon-filled)[style*="--abicon-wght: 700"],
+.abicon-keyboard_double_arrow_right:not(.abicon-filled)[style*="--abicon-wght:700"] {
+  -webkit-mask-image: url("/ab-icons/weights/700/keyboard_double_arrow_right.svg");
+  mask-image: url("/ab-icons/weights/700/keyboard_double_arrow_right.svg");
+}
+
 .abicon-language {
   -webkit-mask-image: url("/ab-icons/outlined/language.svg");
   mask-image: url("/ab-icons/outlined/language.svg");
@@ -9889,6 +10522,158 @@
 .abicon-language:not(.abicon-filled)[style*="--abicon-wght:700"] {
   -webkit-mask-image: url("/ab-icons/weights/700/language.svg");
   mask-image: url("/ab-icons/weights/700/language.svg");
+}
+
+.abicon-left_panel_close {
+  -webkit-mask-image: url("/ab-icons/outlined/left_panel_close.svg");
+  mask-image: url("/ab-icons/outlined/left_panel_close.svg");
+}
+
+.abicon-filled.abicon-left_panel_close {
+  -webkit-mask-image: url("/ab-icons/filled/left_panel_close.svg");
+  mask-image: url("/ab-icons/filled/left_panel_close.svg");
+}
+
+.abicon-w100.abicon-left_panel_close:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/100/left_panel_close.svg");
+  mask-image: url("/ab-icons/weights/100/left_panel_close.svg");
+}
+
+.abicon-left_panel_close:not(.abicon-filled)[style*="--abicon-wght: 100"],
+.abicon-left_panel_close:not(.abicon-filled)[style*="--abicon-wght:100"] {
+  -webkit-mask-image: url("/ab-icons/weights/100/left_panel_close.svg");
+  mask-image: url("/ab-icons/weights/100/left_panel_close.svg");
+}
+
+.abicon-w300.abicon-left_panel_close:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/300/left_panel_close.svg");
+  mask-image: url("/ab-icons/weights/300/left_panel_close.svg");
+}
+
+.abicon-left_panel_close:not(.abicon-filled)[style*="--abicon-wght: 300"],
+.abicon-left_panel_close:not(.abicon-filled)[style*="--abicon-wght:300"] {
+  -webkit-mask-image: url("/ab-icons/weights/300/left_panel_close.svg");
+  mask-image: url("/ab-icons/weights/300/left_panel_close.svg");
+}
+
+.abicon-w400.abicon-left_panel_close:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/400/left_panel_close.svg");
+  mask-image: url("/ab-icons/weights/400/left_panel_close.svg");
+}
+
+.abicon-left_panel_close:not(.abicon-filled)[style*="--abicon-wght: 400"],
+.abicon-left_panel_close:not(.abicon-filled)[style*="--abicon-wght:400"] {
+  -webkit-mask-image: url("/ab-icons/weights/400/left_panel_close.svg");
+  mask-image: url("/ab-icons/weights/400/left_panel_close.svg");
+}
+
+.abicon-w500.abicon-left_panel_close:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/500/left_panel_close.svg");
+  mask-image: url("/ab-icons/weights/500/left_panel_close.svg");
+}
+
+.abicon-left_panel_close:not(.abicon-filled)[style*="--abicon-wght: 500"],
+.abicon-left_panel_close:not(.abicon-filled)[style*="--abicon-wght:500"] {
+  -webkit-mask-image: url("/ab-icons/weights/500/left_panel_close.svg");
+  mask-image: url("/ab-icons/weights/500/left_panel_close.svg");
+}
+
+.abicon-w600.abicon-left_panel_close:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/600/left_panel_close.svg");
+  mask-image: url("/ab-icons/weights/600/left_panel_close.svg");
+}
+
+.abicon-left_panel_close:not(.abicon-filled)[style*="--abicon-wght: 600"],
+.abicon-left_panel_close:not(.abicon-filled)[style*="--abicon-wght:600"] {
+  -webkit-mask-image: url("/ab-icons/weights/600/left_panel_close.svg");
+  mask-image: url("/ab-icons/weights/600/left_panel_close.svg");
+}
+
+.abicon-w700.abicon-left_panel_close:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/700/left_panel_close.svg");
+  mask-image: url("/ab-icons/weights/700/left_panel_close.svg");
+}
+
+.abicon-left_panel_close:not(.abicon-filled)[style*="--abicon-wght: 700"],
+.abicon-left_panel_close:not(.abicon-filled)[style*="--abicon-wght:700"] {
+  -webkit-mask-image: url("/ab-icons/weights/700/left_panel_close.svg");
+  mask-image: url("/ab-icons/weights/700/left_panel_close.svg");
+}
+
+.abicon-left_panel_open {
+  -webkit-mask-image: url("/ab-icons/outlined/left_panel_open.svg");
+  mask-image: url("/ab-icons/outlined/left_panel_open.svg");
+}
+
+.abicon-filled.abicon-left_panel_open {
+  -webkit-mask-image: url("/ab-icons/filled/left_panel_open.svg");
+  mask-image: url("/ab-icons/filled/left_panel_open.svg");
+}
+
+.abicon-w100.abicon-left_panel_open:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/100/left_panel_open.svg");
+  mask-image: url("/ab-icons/weights/100/left_panel_open.svg");
+}
+
+.abicon-left_panel_open:not(.abicon-filled)[style*="--abicon-wght: 100"],
+.abicon-left_panel_open:not(.abicon-filled)[style*="--abicon-wght:100"] {
+  -webkit-mask-image: url("/ab-icons/weights/100/left_panel_open.svg");
+  mask-image: url("/ab-icons/weights/100/left_panel_open.svg");
+}
+
+.abicon-w300.abicon-left_panel_open:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/300/left_panel_open.svg");
+  mask-image: url("/ab-icons/weights/300/left_panel_open.svg");
+}
+
+.abicon-left_panel_open:not(.abicon-filled)[style*="--abicon-wght: 300"],
+.abicon-left_panel_open:not(.abicon-filled)[style*="--abicon-wght:300"] {
+  -webkit-mask-image: url("/ab-icons/weights/300/left_panel_open.svg");
+  mask-image: url("/ab-icons/weights/300/left_panel_open.svg");
+}
+
+.abicon-w400.abicon-left_panel_open:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/400/left_panel_open.svg");
+  mask-image: url("/ab-icons/weights/400/left_panel_open.svg");
+}
+
+.abicon-left_panel_open:not(.abicon-filled)[style*="--abicon-wght: 400"],
+.abicon-left_panel_open:not(.abicon-filled)[style*="--abicon-wght:400"] {
+  -webkit-mask-image: url("/ab-icons/weights/400/left_panel_open.svg");
+  mask-image: url("/ab-icons/weights/400/left_panel_open.svg");
+}
+
+.abicon-w500.abicon-left_panel_open:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/500/left_panel_open.svg");
+  mask-image: url("/ab-icons/weights/500/left_panel_open.svg");
+}
+
+.abicon-left_panel_open:not(.abicon-filled)[style*="--abicon-wght: 500"],
+.abicon-left_panel_open:not(.abicon-filled)[style*="--abicon-wght:500"] {
+  -webkit-mask-image: url("/ab-icons/weights/500/left_panel_open.svg");
+  mask-image: url("/ab-icons/weights/500/left_panel_open.svg");
+}
+
+.abicon-w600.abicon-left_panel_open:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/600/left_panel_open.svg");
+  mask-image: url("/ab-icons/weights/600/left_panel_open.svg");
+}
+
+.abicon-left_panel_open:not(.abicon-filled)[style*="--abicon-wght: 600"],
+.abicon-left_panel_open:not(.abicon-filled)[style*="--abicon-wght:600"] {
+  -webkit-mask-image: url("/ab-icons/weights/600/left_panel_open.svg");
+  mask-image: url("/ab-icons/weights/600/left_panel_open.svg");
+}
+
+.abicon-w700.abicon-left_panel_open:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/700/left_panel_open.svg");
+  mask-image: url("/ab-icons/weights/700/left_panel_open.svg");
+}
+
+.abicon-left_panel_open:not(.abicon-filled)[style*="--abicon-wght: 700"],
+.abicon-left_panel_open:not(.abicon-filled)[style*="--abicon-wght:700"] {
+  -webkit-mask-image: url("/ab-icons/weights/700/left_panel_open.svg");
+  mask-image: url("/ab-icons/weights/700/left_panel_open.svg");
 }
 
 .abicon-light_mode {
@@ -10864,6 +11649,82 @@
   mask-image: url("/ab-icons/weights/700/map.svg");
 }
 
+.abicon-match_case {
+  -webkit-mask-image: url("/ab-icons/outlined/match_case.svg");
+  mask-image: url("/ab-icons/outlined/match_case.svg");
+}
+
+.abicon-filled.abicon-match_case {
+  -webkit-mask-image: url("/ab-icons/filled/match_case.svg");
+  mask-image: url("/ab-icons/filled/match_case.svg");
+}
+
+.abicon-w100.abicon-match_case:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/100/match_case.svg");
+  mask-image: url("/ab-icons/weights/100/match_case.svg");
+}
+
+.abicon-match_case:not(.abicon-filled)[style*="--abicon-wght: 100"],
+.abicon-match_case:not(.abicon-filled)[style*="--abicon-wght:100"] {
+  -webkit-mask-image: url("/ab-icons/weights/100/match_case.svg");
+  mask-image: url("/ab-icons/weights/100/match_case.svg");
+}
+
+.abicon-w300.abicon-match_case:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/300/match_case.svg");
+  mask-image: url("/ab-icons/weights/300/match_case.svg");
+}
+
+.abicon-match_case:not(.abicon-filled)[style*="--abicon-wght: 300"],
+.abicon-match_case:not(.abicon-filled)[style*="--abicon-wght:300"] {
+  -webkit-mask-image: url("/ab-icons/weights/300/match_case.svg");
+  mask-image: url("/ab-icons/weights/300/match_case.svg");
+}
+
+.abicon-w400.abicon-match_case:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/400/match_case.svg");
+  mask-image: url("/ab-icons/weights/400/match_case.svg");
+}
+
+.abicon-match_case:not(.abicon-filled)[style*="--abicon-wght: 400"],
+.abicon-match_case:not(.abicon-filled)[style*="--abicon-wght:400"] {
+  -webkit-mask-image: url("/ab-icons/weights/400/match_case.svg");
+  mask-image: url("/ab-icons/weights/400/match_case.svg");
+}
+
+.abicon-w500.abicon-match_case:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/500/match_case.svg");
+  mask-image: url("/ab-icons/weights/500/match_case.svg");
+}
+
+.abicon-match_case:not(.abicon-filled)[style*="--abicon-wght: 500"],
+.abicon-match_case:not(.abicon-filled)[style*="--abicon-wght:500"] {
+  -webkit-mask-image: url("/ab-icons/weights/500/match_case.svg");
+  mask-image: url("/ab-icons/weights/500/match_case.svg");
+}
+
+.abicon-w600.abicon-match_case:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/600/match_case.svg");
+  mask-image: url("/ab-icons/weights/600/match_case.svg");
+}
+
+.abicon-match_case:not(.abicon-filled)[style*="--abicon-wght: 600"],
+.abicon-match_case:not(.abicon-filled)[style*="--abicon-wght:600"] {
+  -webkit-mask-image: url("/ab-icons/weights/600/match_case.svg");
+  mask-image: url("/ab-icons/weights/600/match_case.svg");
+}
+
+.abicon-w700.abicon-match_case:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/700/match_case.svg");
+  mask-image: url("/ab-icons/weights/700/match_case.svg");
+}
+
+.abicon-match_case:not(.abicon-filled)[style*="--abicon-wght: 700"],
+.abicon-match_case:not(.abicon-filled)[style*="--abicon-wght:700"] {
+  -webkit-mask-image: url("/ab-icons/weights/700/match_case.svg");
+  mask-image: url("/ab-icons/weights/700/match_case.svg");
+}
+
 .abicon-menu {
   -webkit-mask-image: url("/ab-icons/outlined/menu.svg");
   mask-image: url("/ab-icons/outlined/menu.svg");
@@ -11619,6 +12480,82 @@
   mask-image: url("/ab-icons/weights/700/mouse.svg");
 }
 
+.abicon-new_releases {
+  -webkit-mask-image: url("/ab-icons/outlined/new_releases.svg");
+  mask-image: url("/ab-icons/outlined/new_releases.svg");
+}
+
+.abicon-filled.abicon-new_releases {
+  -webkit-mask-image: url("/ab-icons/filled/new_releases.svg");
+  mask-image: url("/ab-icons/filled/new_releases.svg");
+}
+
+.abicon-w100.abicon-new_releases:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/100/new_releases.svg");
+  mask-image: url("/ab-icons/weights/100/new_releases.svg");
+}
+
+.abicon-new_releases:not(.abicon-filled)[style*="--abicon-wght: 100"],
+.abicon-new_releases:not(.abicon-filled)[style*="--abicon-wght:100"] {
+  -webkit-mask-image: url("/ab-icons/weights/100/new_releases.svg");
+  mask-image: url("/ab-icons/weights/100/new_releases.svg");
+}
+
+.abicon-w300.abicon-new_releases:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/300/new_releases.svg");
+  mask-image: url("/ab-icons/weights/300/new_releases.svg");
+}
+
+.abicon-new_releases:not(.abicon-filled)[style*="--abicon-wght: 300"],
+.abicon-new_releases:not(.abicon-filled)[style*="--abicon-wght:300"] {
+  -webkit-mask-image: url("/ab-icons/weights/300/new_releases.svg");
+  mask-image: url("/ab-icons/weights/300/new_releases.svg");
+}
+
+.abicon-w400.abicon-new_releases:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/400/new_releases.svg");
+  mask-image: url("/ab-icons/weights/400/new_releases.svg");
+}
+
+.abicon-new_releases:not(.abicon-filled)[style*="--abicon-wght: 400"],
+.abicon-new_releases:not(.abicon-filled)[style*="--abicon-wght:400"] {
+  -webkit-mask-image: url("/ab-icons/weights/400/new_releases.svg");
+  mask-image: url("/ab-icons/weights/400/new_releases.svg");
+}
+
+.abicon-w500.abicon-new_releases:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/500/new_releases.svg");
+  mask-image: url("/ab-icons/weights/500/new_releases.svg");
+}
+
+.abicon-new_releases:not(.abicon-filled)[style*="--abicon-wght: 500"],
+.abicon-new_releases:not(.abicon-filled)[style*="--abicon-wght:500"] {
+  -webkit-mask-image: url("/ab-icons/weights/500/new_releases.svg");
+  mask-image: url("/ab-icons/weights/500/new_releases.svg");
+}
+
+.abicon-w600.abicon-new_releases:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/600/new_releases.svg");
+  mask-image: url("/ab-icons/weights/600/new_releases.svg");
+}
+
+.abicon-new_releases:not(.abicon-filled)[style*="--abicon-wght: 600"],
+.abicon-new_releases:not(.abicon-filled)[style*="--abicon-wght:600"] {
+  -webkit-mask-image: url("/ab-icons/weights/600/new_releases.svg");
+  mask-image: url("/ab-icons/weights/600/new_releases.svg");
+}
+
+.abicon-w700.abicon-new_releases:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/700/new_releases.svg");
+  mask-image: url("/ab-icons/weights/700/new_releases.svg");
+}
+
+.abicon-new_releases:not(.abicon-filled)[style*="--abicon-wght: 700"],
+.abicon-new_releases:not(.abicon-filled)[style*="--abicon-wght:700"] {
+  -webkit-mask-image: url("/ab-icons/weights/700/new_releases.svg");
+  mask-image: url("/ab-icons/weights/700/new_releases.svg");
+}
+
 .abicon-newspaper {
   -webkit-mask-image: url("/ab-icons/outlined/newspaper.svg");
   mask-image: url("/ab-icons/outlined/newspaper.svg");
@@ -12068,6 +13005,82 @@
 .abicon-package:not(.abicon-filled)[style*="--abicon-wght:700"] {
   -webkit-mask-image: url("/ab-icons/weights/700/package.svg");
   mask-image: url("/ab-icons/weights/700/package.svg");
+}
+
+.abicon-package_2 {
+  -webkit-mask-image: url("/ab-icons/outlined/package_2.svg");
+  mask-image: url("/ab-icons/outlined/package_2.svg");
+}
+
+.abicon-filled.abicon-package_2 {
+  -webkit-mask-image: url("/ab-icons/filled/package_2.svg");
+  mask-image: url("/ab-icons/filled/package_2.svg");
+}
+
+.abicon-w100.abicon-package_2:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/100/package_2.svg");
+  mask-image: url("/ab-icons/weights/100/package_2.svg");
+}
+
+.abicon-package_2:not(.abicon-filled)[style*="--abicon-wght: 100"],
+.abicon-package_2:not(.abicon-filled)[style*="--abicon-wght:100"] {
+  -webkit-mask-image: url("/ab-icons/weights/100/package_2.svg");
+  mask-image: url("/ab-icons/weights/100/package_2.svg");
+}
+
+.abicon-w300.abicon-package_2:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/300/package_2.svg");
+  mask-image: url("/ab-icons/weights/300/package_2.svg");
+}
+
+.abicon-package_2:not(.abicon-filled)[style*="--abicon-wght: 300"],
+.abicon-package_2:not(.abicon-filled)[style*="--abicon-wght:300"] {
+  -webkit-mask-image: url("/ab-icons/weights/300/package_2.svg");
+  mask-image: url("/ab-icons/weights/300/package_2.svg");
+}
+
+.abicon-w400.abicon-package_2:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/400/package_2.svg");
+  mask-image: url("/ab-icons/weights/400/package_2.svg");
+}
+
+.abicon-package_2:not(.abicon-filled)[style*="--abicon-wght: 400"],
+.abicon-package_2:not(.abicon-filled)[style*="--abicon-wght:400"] {
+  -webkit-mask-image: url("/ab-icons/weights/400/package_2.svg");
+  mask-image: url("/ab-icons/weights/400/package_2.svg");
+}
+
+.abicon-w500.abicon-package_2:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/500/package_2.svg");
+  mask-image: url("/ab-icons/weights/500/package_2.svg");
+}
+
+.abicon-package_2:not(.abicon-filled)[style*="--abicon-wght: 500"],
+.abicon-package_2:not(.abicon-filled)[style*="--abicon-wght:500"] {
+  -webkit-mask-image: url("/ab-icons/weights/500/package_2.svg");
+  mask-image: url("/ab-icons/weights/500/package_2.svg");
+}
+
+.abicon-w600.abicon-package_2:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/600/package_2.svg");
+  mask-image: url("/ab-icons/weights/600/package_2.svg");
+}
+
+.abicon-package_2:not(.abicon-filled)[style*="--abicon-wght: 600"],
+.abicon-package_2:not(.abicon-filled)[style*="--abicon-wght:600"] {
+  -webkit-mask-image: url("/ab-icons/weights/600/package_2.svg");
+  mask-image: url("/ab-icons/weights/600/package_2.svg");
+}
+
+.abicon-w700.abicon-package_2:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/700/package_2.svg");
+  mask-image: url("/ab-icons/weights/700/package_2.svg");
+}
+
+.abicon-package_2:not(.abicon-filled)[style*="--abicon-wght: 700"],
+.abicon-package_2:not(.abicon-filled)[style*="--abicon-wght:700"] {
+  -webkit-mask-image: url("/ab-icons/weights/700/package_2.svg");
+  mask-image: url("/ab-icons/weights/700/package_2.svg");
 }
 
 .abicon-palette {
@@ -14943,6 +15956,82 @@
   mask-image: url("/ab-icons/weights/700/schedule.svg");
 }
 
+.abicon-school {
+  -webkit-mask-image: url("/ab-icons/outlined/school.svg");
+  mask-image: url("/ab-icons/outlined/school.svg");
+}
+
+.abicon-filled.abicon-school {
+  -webkit-mask-image: url("/ab-icons/filled/school.svg");
+  mask-image: url("/ab-icons/filled/school.svg");
+}
+
+.abicon-w100.abicon-school:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/100/school.svg");
+  mask-image: url("/ab-icons/weights/100/school.svg");
+}
+
+.abicon-school:not(.abicon-filled)[style*="--abicon-wght: 100"],
+.abicon-school:not(.abicon-filled)[style*="--abicon-wght:100"] {
+  -webkit-mask-image: url("/ab-icons/weights/100/school.svg");
+  mask-image: url("/ab-icons/weights/100/school.svg");
+}
+
+.abicon-w300.abicon-school:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/300/school.svg");
+  mask-image: url("/ab-icons/weights/300/school.svg");
+}
+
+.abicon-school:not(.abicon-filled)[style*="--abicon-wght: 300"],
+.abicon-school:not(.abicon-filled)[style*="--abicon-wght:300"] {
+  -webkit-mask-image: url("/ab-icons/weights/300/school.svg");
+  mask-image: url("/ab-icons/weights/300/school.svg");
+}
+
+.abicon-w400.abicon-school:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/400/school.svg");
+  mask-image: url("/ab-icons/weights/400/school.svg");
+}
+
+.abicon-school:not(.abicon-filled)[style*="--abicon-wght: 400"],
+.abicon-school:not(.abicon-filled)[style*="--abicon-wght:400"] {
+  -webkit-mask-image: url("/ab-icons/weights/400/school.svg");
+  mask-image: url("/ab-icons/weights/400/school.svg");
+}
+
+.abicon-w500.abicon-school:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/500/school.svg");
+  mask-image: url("/ab-icons/weights/500/school.svg");
+}
+
+.abicon-school:not(.abicon-filled)[style*="--abicon-wght: 500"],
+.abicon-school:not(.abicon-filled)[style*="--abicon-wght:500"] {
+  -webkit-mask-image: url("/ab-icons/weights/500/school.svg");
+  mask-image: url("/ab-icons/weights/500/school.svg");
+}
+
+.abicon-w600.abicon-school:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/600/school.svg");
+  mask-image: url("/ab-icons/weights/600/school.svg");
+}
+
+.abicon-school:not(.abicon-filled)[style*="--abicon-wght: 600"],
+.abicon-school:not(.abicon-filled)[style*="--abicon-wght:600"] {
+  -webkit-mask-image: url("/ab-icons/weights/600/school.svg");
+  mask-image: url("/ab-icons/weights/600/school.svg");
+}
+
+.abicon-w700.abicon-school:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/700/school.svg");
+  mask-image: url("/ab-icons/weights/700/school.svg");
+}
+
+.abicon-school:not(.abicon-filled)[style*="--abicon-wght: 700"],
+.abicon-school:not(.abicon-filled)[style*="--abicon-wght:700"] {
+  -webkit-mask-image: url("/ab-icons/weights/700/school.svg");
+  mask-image: url("/ab-icons/weights/700/school.svg");
+}
+
 .abicon-scooter {
   -webkit-mask-image: url("/ab-icons/outlined/scooter.svg");
   mask-image: url("/ab-icons/outlined/scooter.svg");
@@ -15022,6 +16111,11 @@
 .abicon-search {
   -webkit-mask-image: url("/ab-icons/outlined/search.svg");
   mask-image: url("/ab-icons/outlined/search.svg");
+}
+
+.abicon-filled.abicon-search {
+  -webkit-mask-image: url("/ab-icons/filled/search.svg");
+  mask-image: url("/ab-icons/filled/search.svg");
 }
 
 .abicon-w100.abicon-search:not(.abicon-filled) {
@@ -17441,6 +18535,82 @@
   mask-image: url("/ab-icons/weights/700/terminal.svg");
 }
 
+.abicon-text_fields {
+  -webkit-mask-image: url("/ab-icons/outlined/text_fields.svg");
+  mask-image: url("/ab-icons/outlined/text_fields.svg");
+}
+
+.abicon-filled.abicon-text_fields {
+  -webkit-mask-image: url("/ab-icons/filled/text_fields.svg");
+  mask-image: url("/ab-icons/filled/text_fields.svg");
+}
+
+.abicon-w100.abicon-text_fields:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/100/text_fields.svg");
+  mask-image: url("/ab-icons/weights/100/text_fields.svg");
+}
+
+.abicon-text_fields:not(.abicon-filled)[style*="--abicon-wght: 100"],
+.abicon-text_fields:not(.abicon-filled)[style*="--abicon-wght:100"] {
+  -webkit-mask-image: url("/ab-icons/weights/100/text_fields.svg");
+  mask-image: url("/ab-icons/weights/100/text_fields.svg");
+}
+
+.abicon-w300.abicon-text_fields:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/300/text_fields.svg");
+  mask-image: url("/ab-icons/weights/300/text_fields.svg");
+}
+
+.abicon-text_fields:not(.abicon-filled)[style*="--abicon-wght: 300"],
+.abicon-text_fields:not(.abicon-filled)[style*="--abicon-wght:300"] {
+  -webkit-mask-image: url("/ab-icons/weights/300/text_fields.svg");
+  mask-image: url("/ab-icons/weights/300/text_fields.svg");
+}
+
+.abicon-w400.abicon-text_fields:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/400/text_fields.svg");
+  mask-image: url("/ab-icons/weights/400/text_fields.svg");
+}
+
+.abicon-text_fields:not(.abicon-filled)[style*="--abicon-wght: 400"],
+.abicon-text_fields:not(.abicon-filled)[style*="--abicon-wght:400"] {
+  -webkit-mask-image: url("/ab-icons/weights/400/text_fields.svg");
+  mask-image: url("/ab-icons/weights/400/text_fields.svg");
+}
+
+.abicon-w500.abicon-text_fields:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/500/text_fields.svg");
+  mask-image: url("/ab-icons/weights/500/text_fields.svg");
+}
+
+.abicon-text_fields:not(.abicon-filled)[style*="--abicon-wght: 500"],
+.abicon-text_fields:not(.abicon-filled)[style*="--abicon-wght:500"] {
+  -webkit-mask-image: url("/ab-icons/weights/500/text_fields.svg");
+  mask-image: url("/ab-icons/weights/500/text_fields.svg");
+}
+
+.abicon-w600.abicon-text_fields:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/600/text_fields.svg");
+  mask-image: url("/ab-icons/weights/600/text_fields.svg");
+}
+
+.abicon-text_fields:not(.abicon-filled)[style*="--abicon-wght: 600"],
+.abicon-text_fields:not(.abicon-filled)[style*="--abicon-wght:600"] {
+  -webkit-mask-image: url("/ab-icons/weights/600/text_fields.svg");
+  mask-image: url("/ab-icons/weights/600/text_fields.svg");
+}
+
+.abicon-w700.abicon-text_fields:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/700/text_fields.svg");
+  mask-image: url("/ab-icons/weights/700/text_fields.svg");
+}
+
+.abicon-text_fields:not(.abicon-filled)[style*="--abicon-wght: 700"],
+.abicon-text_fields:not(.abicon-filled)[style*="--abicon-wght:700"] {
+  -webkit-mask-image: url("/ab-icons/weights/700/text_fields.svg");
+  mask-image: url("/ab-icons/weights/700/text_fields.svg");
+}
+
 .abicon-thermometer {
   -webkit-mask-image: url("/ab-icons/outlined/thermometer.svg");
   mask-image: url("/ab-icons/outlined/thermometer.svg");
@@ -17591,6 +18761,82 @@
 .abicon-timer:not(.abicon-filled)[style*="--abicon-wght:700"] {
   -webkit-mask-image: url("/ab-icons/weights/700/timer.svg");
   mask-image: url("/ab-icons/weights/700/timer.svg");
+}
+
+.abicon-toc {
+  -webkit-mask-image: url("/ab-icons/outlined/toc.svg");
+  mask-image: url("/ab-icons/outlined/toc.svg");
+}
+
+.abicon-filled.abicon-toc {
+  -webkit-mask-image: url("/ab-icons/filled/toc.svg");
+  mask-image: url("/ab-icons/filled/toc.svg");
+}
+
+.abicon-w100.abicon-toc:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/100/toc.svg");
+  mask-image: url("/ab-icons/weights/100/toc.svg");
+}
+
+.abicon-toc:not(.abicon-filled)[style*="--abicon-wght: 100"],
+.abicon-toc:not(.abicon-filled)[style*="--abicon-wght:100"] {
+  -webkit-mask-image: url("/ab-icons/weights/100/toc.svg");
+  mask-image: url("/ab-icons/weights/100/toc.svg");
+}
+
+.abicon-w300.abicon-toc:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/300/toc.svg");
+  mask-image: url("/ab-icons/weights/300/toc.svg");
+}
+
+.abicon-toc:not(.abicon-filled)[style*="--abicon-wght: 300"],
+.abicon-toc:not(.abicon-filled)[style*="--abicon-wght:300"] {
+  -webkit-mask-image: url("/ab-icons/weights/300/toc.svg");
+  mask-image: url("/ab-icons/weights/300/toc.svg");
+}
+
+.abicon-w400.abicon-toc:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/400/toc.svg");
+  mask-image: url("/ab-icons/weights/400/toc.svg");
+}
+
+.abicon-toc:not(.abicon-filled)[style*="--abicon-wght: 400"],
+.abicon-toc:not(.abicon-filled)[style*="--abicon-wght:400"] {
+  -webkit-mask-image: url("/ab-icons/weights/400/toc.svg");
+  mask-image: url("/ab-icons/weights/400/toc.svg");
+}
+
+.abicon-w500.abicon-toc:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/500/toc.svg");
+  mask-image: url("/ab-icons/weights/500/toc.svg");
+}
+
+.abicon-toc:not(.abicon-filled)[style*="--abicon-wght: 500"],
+.abicon-toc:not(.abicon-filled)[style*="--abicon-wght:500"] {
+  -webkit-mask-image: url("/ab-icons/weights/500/toc.svg");
+  mask-image: url("/ab-icons/weights/500/toc.svg");
+}
+
+.abicon-w600.abicon-toc:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/600/toc.svg");
+  mask-image: url("/ab-icons/weights/600/toc.svg");
+}
+
+.abicon-toc:not(.abicon-filled)[style*="--abicon-wght: 600"],
+.abicon-toc:not(.abicon-filled)[style*="--abicon-wght:600"] {
+  -webkit-mask-image: url("/ab-icons/weights/600/toc.svg");
+  mask-image: url("/ab-icons/weights/600/toc.svg");
+}
+
+.abicon-w700.abicon-toc:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/700/toc.svg");
+  mask-image: url("/ab-icons/weights/700/toc.svg");
+}
+
+.abicon-toc:not(.abicon-filled)[style*="--abicon-wght: 700"],
+.abicon-toc:not(.abicon-filled)[style*="--abicon-wght:700"] {
+  -webkit-mask-image: url("/ab-icons/weights/700/toc.svg");
+  mask-image: url("/ab-icons/weights/700/toc.svg");
 }
 
 .abicon-tornado {
@@ -18863,6 +20109,82 @@
 .abicon-watch:not(.abicon-filled)[style*="--abicon-wght:700"] {
   -webkit-mask-image: url("/ab-icons/weights/700/watch.svg");
   mask-image: url("/ab-icons/weights/700/watch.svg");
+}
+
+.abicon-webhook {
+  -webkit-mask-image: url("/ab-icons/outlined/webhook.svg");
+  mask-image: url("/ab-icons/outlined/webhook.svg");
+}
+
+.abicon-filled.abicon-webhook {
+  -webkit-mask-image: url("/ab-icons/filled/webhook.svg");
+  mask-image: url("/ab-icons/filled/webhook.svg");
+}
+
+.abicon-w100.abicon-webhook:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/100/webhook.svg");
+  mask-image: url("/ab-icons/weights/100/webhook.svg");
+}
+
+.abicon-webhook:not(.abicon-filled)[style*="--abicon-wght: 100"],
+.abicon-webhook:not(.abicon-filled)[style*="--abicon-wght:100"] {
+  -webkit-mask-image: url("/ab-icons/weights/100/webhook.svg");
+  mask-image: url("/ab-icons/weights/100/webhook.svg");
+}
+
+.abicon-w300.abicon-webhook:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/300/webhook.svg");
+  mask-image: url("/ab-icons/weights/300/webhook.svg");
+}
+
+.abicon-webhook:not(.abicon-filled)[style*="--abicon-wght: 300"],
+.abicon-webhook:not(.abicon-filled)[style*="--abicon-wght:300"] {
+  -webkit-mask-image: url("/ab-icons/weights/300/webhook.svg");
+  mask-image: url("/ab-icons/weights/300/webhook.svg");
+}
+
+.abicon-w400.abicon-webhook:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/400/webhook.svg");
+  mask-image: url("/ab-icons/weights/400/webhook.svg");
+}
+
+.abicon-webhook:not(.abicon-filled)[style*="--abicon-wght: 400"],
+.abicon-webhook:not(.abicon-filled)[style*="--abicon-wght:400"] {
+  -webkit-mask-image: url("/ab-icons/weights/400/webhook.svg");
+  mask-image: url("/ab-icons/weights/400/webhook.svg");
+}
+
+.abicon-w500.abicon-webhook:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/500/webhook.svg");
+  mask-image: url("/ab-icons/weights/500/webhook.svg");
+}
+
+.abicon-webhook:not(.abicon-filled)[style*="--abicon-wght: 500"],
+.abicon-webhook:not(.abicon-filled)[style*="--abicon-wght:500"] {
+  -webkit-mask-image: url("/ab-icons/weights/500/webhook.svg");
+  mask-image: url("/ab-icons/weights/500/webhook.svg");
+}
+
+.abicon-w600.abicon-webhook:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/600/webhook.svg");
+  mask-image: url("/ab-icons/weights/600/webhook.svg");
+}
+
+.abicon-webhook:not(.abicon-filled)[style*="--abicon-wght: 600"],
+.abicon-webhook:not(.abicon-filled)[style*="--abicon-wght:600"] {
+  -webkit-mask-image: url("/ab-icons/weights/600/webhook.svg");
+  mask-image: url("/ab-icons/weights/600/webhook.svg");
+}
+
+.abicon-w700.abicon-webhook:not(.abicon-filled) {
+  -webkit-mask-image: url("/ab-icons/weights/700/webhook.svg");
+  mask-image: url("/ab-icons/weights/700/webhook.svg");
+}
+
+.abicon-webhook:not(.abicon-filled)[style*="--abicon-wght: 700"],
+.abicon-webhook:not(.abicon-filled)[style*="--abicon-wght:700"] {
+  -webkit-mask-image: url("/ab-icons/weights/700/webhook.svg");
+  mask-image: url("/ab-icons/weights/700/webhook.svg");
 }
 
 .abicon-widgets {
