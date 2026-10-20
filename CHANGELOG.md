@@ -5,6 +5,8 @@ All notable changes to this project will be documented in this file. See [standa
 ### [0.2.5](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/v0.2.4...v0.2.5) (2026-10-20)
 
 * ✂️ **Smaller tarball:** `files` no longer ships `demo-data/` (demo fixtures) or `ab-icons-legacy/` (pre-0.2 assets, nothing imports them), nor the unreferenced `pics/me-nobg.png`. 5039 → 4653 files, 1.93 → 1.63 MB packed. Every documented entry (`dist`, `css`, `material-icons`, `ab-icons`, `logos`, `pics`, `launchers`, `ant-design-icons`) still ships
+* 🏷️ **README:** the release line is a shields.io npm version badge (was a stale "0.2.2"), and a test checks the AbIcons totals against the icon map
+
 ### [0.2.4](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/v0.2.3...v0.2.4) (2026-10-16)
 
 * ✨ **Docs shell icons (G49, G3 batch 1)**, outlined + filled, original geometry: `animation`, `article`, `dashboard_customize`, `deployed_code`, `interests`, `keyboard_double_arrow_left`, `keyboard_double_arrow_right`, `match_case`, `new_releases`, `package_2`, `school`, `webhook`, plus `toc`, `left_panel_open`, `left_panel_close` (TOC button / aside toggle) and `text_fields`, `desktop_windows`
