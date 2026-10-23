@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
-  <defs>
-    <mask id="desktop_windowsFilledMask" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-      <rect x="3.5" y="4.5" width="17" height="11.5" rx="1.6" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
-      <rect x="11.1" y="15.5" width="1.8" height="4" rx="0.4" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
-      <rect x="8.4" y="18.6" width="7.2" height="1.8" rx="0.6" fill="#fff" stroke="#fff" stroke-width="1.85" stroke-linejoin="round"/>
-    </mask>
-  </defs>
-  <rect width="24" height="24" fill="currentColor" mask="url(#desktop_windowsFilledMask)"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" aria-hidden="true" viewBox="0 0 24 24"><defs><mask id="desktop_windowsFilledMask" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse"><rect width="17" height="11.5" x="3.5" y="4.5" fill="#fff" stroke="#fff" stroke-linejoin="round" stroke-width="1.85" rx="1.6"/><rect width="1.8" height="4" x="11.1" y="15.5" fill="#fff" stroke="#fff" stroke-linejoin="round" stroke-width="1.85" rx=".4"/><rect width="7.2" height="1.8" x="8.4" y="18.6" fill="#fff" stroke="#fff" stroke-linejoin="round" stroke-width="1.85" rx=".6"/></mask></defs><rect width="24" height="24" fill="currentColor" mask="url(#desktop_windowsFilledMask)"/></svg>
