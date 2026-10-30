@@ -106,7 +106,7 @@ describe('James review P1 🧐', () => {
     const flags = process.versions.node.split('.').map(Number)[0] >= 22 ? ['--no-experimental-strip-types'] : [] // 🚫 .ts loading
     const r = spawnSync(process.execPath, ['--no-warnings', ...flags, 'scripts/icon-modules.mjs', '--check'], { cwd: root, encoding: 'utf8' }) // 🔎
     expect(r.status, r.stderr).toBe(0) // ✅
-    expect(r.stdout).toContain('up to date (271 modules)') // 🗂️
+    expect(r.stdout).toContain('up to date (272 modules)') // 🗂️
     expect(readFileSync(join(root, 'scripts/icon-modules.mjs'), 'utf8')).not.toMatch(/import\([^)]*icon-map\.ts/) // 🚫 no .ts import
   })
 

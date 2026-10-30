@@ -67,7 +67,7 @@ describe('scripts/regenerate-ab-icons-meta.py (vendored from the install payload
   it('--check passes on the committed files (byte-identical regen)', () => {
     const r = run('--check') // 🔎
     expect(r.status, r.stderr).toBe(0) // ✅
-    expect(r.stdout).toContain('up to date (5 files, outlined=271 filled=247)') // 🗂️
+    expect(r.stdout).toContain('up to date (5 files, outlined=272 filled=247)') // 🗂️
   })
 
   it('--check catches a stale output and never writes', () => {
