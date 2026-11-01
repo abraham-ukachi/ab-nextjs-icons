@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true">
+  <circle cx="12" cy="12" r="4.6" stroke="currentColor" stroke-width="2.85" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M11.09 13.07 L12.00 10.82 L12.91 13.07 M11.44 12.21 H12.56" stroke="currentColor" stroke-width="2.85" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="12.00" y1="3.75" x2="12.00" y2="2.65" stroke="currentColor" stroke-width="2.85" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="17.83" y1="6.17" x2="18.36" y2="5.64" stroke="currentColor" stroke-width="2.85" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="20.25" y1="12.00" x2="21.35" y2="12.00" stroke="currentColor" stroke-width="2.85" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="17.83" y1="17.83" x2="18.36" y2="18.36" stroke="currentColor" stroke-width="2.85" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="12.00" y1="20.25" x2="12.00" y2="21.35" stroke="currentColor" stroke-width="2.85" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="6.17" y1="17.83" x2="5.64" y2="18.36" stroke="currentColor" stroke-width="2.85" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="3.75" y1="12.00" x2="2.65" y2="12.00" stroke="currentColor" stroke-width="2.85" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="6.17" y1="6.17" x2="5.64" y2="5.64" stroke="currentColor" stroke-width="2.85" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.7](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/v0.2.6...v0.2.7) (2026-11-01)
+
+* ✨ **`brightness_auto`** (outlined + filled, weights 100–700, drawn by Jeff, original geometry): the "system" theme glyph used by components' AbSettingsDrawer
+* 💄 **`link_off`:** Jeff's updated drawing, its slash now matches `visibility_off`
+* 🐢 **`prepack` works on Node 20:** it runs `tsup --clean` directly instead of `pnpm build` (pnpm 11 needs Node ≥ 22, so `npm pack` failed on Node 20, Joseph)
+* Totals: **273 outlined / 248 filled**
+
 ### [0.2.5](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/v0.2.4...v0.2.5) (2026-10-20)
 
 * ✂️ **Smaller tarball:** `files` no longer ships `demo-data/` (demo fixtures) or `ab-icons-legacy/` (pre-0.2 assets, nothing imports them), nor the unreferenced `pics/me-nobg.png`. 5039 → 4653 files, 1.93 → 1.63 MB packed. Every documented entry (`dist`, `css`, `material-icons`, `ab-icons`, `logos`, `pics`, `launchers`, `ant-design-icons`) still ships
