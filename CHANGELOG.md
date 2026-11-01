@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### Unreleased (0.2.7)
+### [0.2.7](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/v0.2.6...v0.2.7) (2026-11-01)
 
 * ✨ **`brightness_auto`** (outlined + filled, weights 100–700, drawn by Jeff, original geometry): the "system" theme glyph used by components' AbSettingsDrawer
 * 💄 **`link_off`:** Jeff's updated drawing, its slash now matches `visibility_off`
