@@ -74,6 +74,10 @@ describe('link_off 🔗🚫 (drawn by Jeff)', () => {
     expect(svg).toContain('stroke-linecap="round"') // ⭕
     expect(read('outlined/link.svg')).toContain('stroke-width="1.25"') // 🔗 sibling uses the same stroke
   })
+  it("0.2.7: Jeff's updated slash runs like visibility_off's (same diagonal, no stock paths)", () => {
+    const slash = (svg: string) => svg.match(/d="(M[\d. ]+L[\d. ]+)"/)?.[1] // ✂️ the straight M…L stroke = the slash
+    expect(slash(read('outlined/link_off.svg'))).toBe(slash(read('outlined/visibility_off.svg'))) // 🔁 one slash for every _off icon
+  })
   it('is NOT Google Material path data (original AbIcons geometry)', () => {
     expect(read('outlined/link_off.svg')).not.toMatch(/M17 7h-4v2h4c1\.65/) // 🚫 Material Symbols link_off
   })
