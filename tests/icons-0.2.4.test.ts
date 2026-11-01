@@ -147,7 +147,7 @@ describe('dist guard 📦', () => {
     const { tmpdir } = await import('node:os')
     const { spawnSync } = await import('node:child_process')
     const pkg = JSON.parse(readFileSync(join(__dirname, '..', 'package.json'), 'utf8'))
-    expect(pkg.scripts.prepack).toBe('pnpm build') // 🏗️
+    expect(pkg.scripts.prepack).toBe('tsup --clean') // 🏗️ 0.2.7: tsup directly (Node 20 safe)
     expect(pkg.scripts['check:publish']).toContain('scripts/check-dist.mjs') // 🛡️
     const tmp = mkdtempSync(join(tmpdir(), 'abicons-dist-')) // 📁 a package without dist/
     mkdirSync(join(tmp, 'scripts'))

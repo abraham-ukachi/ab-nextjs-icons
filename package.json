@@ -15,7 +15,7 @@
   },
   "scripts": {
     "build": "tsup --clean",
-    "prepack": "pnpm build",
+    "prepack": "tsup --clean",
     "dev": "tsup --watch",
     "lint": "eslint . --fix",
     "lint:fix": "eslint . --fix",
