@@ -1,33 +1,41 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file.
 
-### [0.2.7](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/v0.2.6...v0.2.7) (2026-11-01)
+## [0.2.8](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/v0.2.7...v0.2.8) (2026-11-12)
 
-* ✨ **`brightness_auto`** (outlined + filled, weights 100–700, drawn by Jeff, original geometry): the "system" theme glyph used by components' AbSettingsDrawer
-* 💄 **`link_off`:** Jeff's updated drawing, its slash now matches `visibility_off`
-* 🐢 **`prepack` works on Node 20:** it runs `tsup --clean` directly instead of `pnpm build` (pnpm 11 needs Node ≥ 22, so `npm pack` failed on Node 20, Joseph)
+* Normalize the changelog format and backfill missing entries.
+
+## [0.2.7](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/v0.2.6...v0.2.7) (2026-11-01)
+
+* ✨ **`brightness_auto`** (outlined + filled, weights 100–700, original geometry): the "system" theme glyph used by components' AbSettingsDrawer
+* 💄 **`link_off`:** Updated drawing, its slash now matches `visibility_off`
+* 🐢 **`prepack` works on Node 20:** it runs `tsup --clean` directly instead of `pnpm build` (pnpm 11 needs Node ≥ 22, so `npm pack` failed on Node 20)
 * Totals: **273 outlined / 248 filled**
 
-### [0.2.5](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/v0.2.4...v0.2.5) (2026-10-20)
+## [0.2.6](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/v0.2.5...v0.2.6) (2026-10-30)
+
+* ✨ **`link_off`** (outlined only, weights 100–700, original geometry): the 404 page glyph
+
+## [0.2.5](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/v0.2.4...v0.2.5) (2026-10-20)
 
 * ✂️ **Smaller tarball:** `files` no longer ships `demo-data/` (demo fixtures) or `ab-icons-legacy/` (pre-0.2 assets, nothing imports them), nor the unreferenced `pics/me-nobg.png`. 5039 → 4653 files, 1.93 → 1.63 MB packed. Every documented entry (`dist`, `css`, `material-icons`, `ab-icons`, `logos`, `pics`, `launchers`, `ant-design-icons`) still ships
 * 🏷️ **README:** the release line is a shields.io npm version badge (was a stale "0.2.2"), and a test checks the AbIcons totals against the icon map
 
-### [0.2.4](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/v0.2.3...v0.2.4) (2026-10-16)
+## [0.2.4](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/adcea1b4787895dcf6b596dc5a7be2285f93afb0...v0.2.4) (2026-10-20)
 
 * ✨ **Docs shell icons (G49, G3 batch 1)**, outlined + filled, original geometry: `animation`, `article`, `dashboard_customize`, `deployed_code`, `interests`, `keyboard_double_arrow_left`, `keyboard_double_arrow_right`, `match_case`, `new_releases`, `package_2`, `school`, `webhook`, plus `toc`, `left_panel_open`, `left_panel_close` (TOC button / aside toggle) and `text_fields`, `desktop_windows`
 * ⬛ **New filled variants** for `search` (active bottom-bar tab), `arrow_forward`, `chevron_right`, `code`, `download`, `expand_more`
 * Line glyphs (chevrons, `toc`, `code`, …) are filled as a bold 2.25 stroke; shapes use the solid mask style
 * 🧊 `deployed_code` is a cube with `‹ ›` code chevrons, so it no longer reads as `package_2`
 * ✍️ Generated `ab-icons/icons/*.ts` modules carry the house `@authors` line
-* 🆔 **Unique mask ids:** filled svgs use `<name>FilledMask` (was the outlined `<name>Mask`), so outlined + filled on one page never share an id (fixes the solid-square active Home, Joseph). Test: every id is unique across all variants
+* 🆔 **Unique mask ids:** filled svgs use `<name>FilledMask` (was the outlined `<name>Mask`), so outlined + filled on one page never share an id (fixes the solid-square active Home). Test: every id is unique across all variants
 * 🆔 **Per-instance ids:** `scopeAbIconSvgIds(svg, scope)` (from `ab-nextjs-icons/ab-icons`) suffixes every `id` and its `url(#…)` / `href="#…"` refs, so two filled Homes on one page (e.g. with React `useId()`) never share a mask. components 0.1.13 `AbIcon` does this per render
 * 📦 **Ships `dist/`:** `prepack` runs `pnpm build`, and `check:publish` / `prepublishOnly` fail when `dist/index.*` is missing (`scripts/check-dist.mjs`)
 * 🔧 npm author email is abrahamukachi@gmail.com
 * Totals: **271 outlined / 247 filled**; weights 100–700, per-icon modules, metadata, README gallery and dark previews regenerated
 
-### [0.2.3](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/v0.2.2...v0.2.3) (2026-10-14)
+## [0.2.3](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/a828d4c4a52c379ad43382e65654a68dc46e94c3...adcea1b4787895dcf6b596dc5a7be2285f93afb0) (2026-10-14)
 
 * ✨ **`translate`** (outlined, original geometry): the i18n card on Welcome s01 ("eight packages")
 * ✨ **`github`** (outlined + filled): GitHub's official mark from Octicons `mark-github-24` (MIT), scaled into the 2–22 box. Attribution in `ab-icons/NOTICE.md`; GitHub logo guidelines apply
@@ -38,31 +46,48 @@ All notable changes to this project will be documented in this file. See [standa
 * ©️ Full license header on `ab-icons/index.css` + `ab-icons/icon-map.ts` (emitted by the generator)
 * **Tooling:** `typecheck` script (`tsconfig.typecheck.json`)
 
-### [0.2.2](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/v0.2.1...v0.2.2) (2026-10-06)
+## [0.2.2](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/d502e398eeeea0297335133367ce36b0d89695b4...a828d4c4a52c379ad43382e65654a68dc46e94c3) (2026-10-06)
 
 * **barcode (filled):** redrawn as five solid bars (thick/medium alternating) that span the outlined icon's bounds, replacing the thin knocked-out bars that read poorly at small sizes.
 * **build:** new wrench-style glyph for outlined, filled and all weights 100–700 (replaces the previous irregular wrench outline).
 * README gallery dark-mode previews regenerated for `barcode` and `build`.
 
-### [0.2.1](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/v0.2.0...v0.2.1) (2026-10-06)
+## [0.2.1](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/095b0ef6cf726c2be8379bbee75c79d03d7bdd78...d502e398eeeea0297335133367ce36b0d89695b4) (2026-10-05)
 
 * **README AbIcons gallery:** alphabetical table of all **252** outlined icons with filled previews where available (**223**), generated by `scripts/readme-icons.mjs` (`pnpm readme:icons` / `readme:icons:check`) between `<!-- AB_ICONS:START -->` / `<!-- AB_ICONS:END -->` markers.
 * **Dark-mode previews:** README-only copies under `docs/readme-icon-previews/dark/` (outside `files`) using GitHub `#gh-light-mode-only` / `#gh-dark-mode-only` fragments so `currentColor` icons stay visible on dark backgrounds without duplicating SVGs in the published package.
 
-### [0.2.0](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/v0.1.5...v0.2.0) (2026-10-06)
+## [0.2.0](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/6d8a58e32ca9ee341d183c86ae1f5e523d7f21a8...095b0ef6cf726c2be8379bbee75c79d03d7bdd78) (2026-10-05)
 
 * **AbIcons core-gap:** 168 new concepts (336 new SVGs: outlined + filled). Package totals: **252** outlined, **223** filled (29 outlined-only UI strokes such as `add` / `close` / `search` have no filled pair).
 * **Weights 100–700** (Material Symbols–style) for outlined icons, with pre-rendered `ab-icons/weights/<w>/` and `weight.css` / `.abicon-w*`.
 * **Default weight is now 200** (stroke **1.25**), down from the previous implicit 400 / 1.85 look on older outlined art — existing apps that relied on the thicker default will look thinner until they set `--abicon-weight: 400` or `getAbIconSvg(..., { weight: 400 })`.
 * Polish: `settings` (simple gear), `qr_code`, `scooter`, `umbrella`, `shopping_bag`, `usb`, redrawn `handshake`; filled glyphs grown to outlined outer bounds where they were undersized.
 
-### [0.1.5](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/v0.1.4...v0.1.5) (2026-10-03)
+## [0.1.5](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/f58f4976e1556c7c36d4f4e3a3894dedb07ac6de...6d8a58e32ca9ee341d183c86ae1f5e523d7f21a8) (2026-10-03)
 
 * Publish to npm automatically from GitHub Actions with Trusted Publishing (OIDC + provenance, no NPM_TOKEN)
 * Ship only package files via `files`; `next` peer is now `^16.3.4`
 
-### [0.1.3](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/v0.1.2...v0.1.3) (2026-09-17)
+## [0.1.4](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/v0.1.3...f58f4976e1556c7c36d4f4e3a3894dedb07ac6de) (2026-09-23)
 
-### [0.1.2](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/v0.1.1...v0.1.2) (2025-09-17)
+* Version bump after a staged 0.1.3 publish conflict
 
-### 0.1.1 (2025-03-09)
+## [0.1.3](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/v0.1.2...v0.1.3) (2026-09-23)
+
+* Add the AbIcons set and Ant Design filled/outlined variants, including the full Ant Design icons-svg catalog
+* Theme-adaptive Ant/AbIcons and logo dark/light copper set
+* Upgrade eslint-config-next for Next.js 16.3.4
+* Copyright year → 2026
+
+## [0.1.2](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/v0.1.1...v0.1.2) (2025-09-17)
+
+* Maintenance release; see the compare link.
+
+## [0.1.1](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/a23acc08b5fc57244831ecc55d8747a4a00241c3...v0.1.1) (2025-03-09)
+
+* Maintenance release; see the compare link.
+
+## 0.1.0 (2024-06-03)
+
+* Initial release
