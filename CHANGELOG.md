@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.8](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/v0.2.7...v0.2.8) (2026-11-12)
+
+* Normalize the changelog format and backfill missing entries.
+
 ## [0.2.7](https://github.com/abraham-ukachi/ab-nextjs-icons/compare/v0.2.6...v0.2.7) (2026-11-01)
 
 * ✨ **`brightness_auto`** (outlined + filled, weights 100–700, original geometry): the "system" theme glyph used by components' AbSettingsDrawer
